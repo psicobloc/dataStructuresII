@@ -1,0 +1,13 @@
+// Created by hugo.
+
+
+#ifndef ENTREGABLE1_LISTAORDENCOMPRA_H
+#define ENTREGABLE1_LISTAORDENCOMPRA_H
+
+
+class ListaOrdenCompra {
+
+};
+
+
+#endif //ENTREGABLE1_LISTAORDENCOMPRA_H

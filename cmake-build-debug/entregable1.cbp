@@ -8,28 +8,28 @@
 		<Option virtualFolders="CMake Files\;"/>
 		<Build>
 			<Target title="all">
-				<Option working_dir="/home/hugo/Downloads/entregable4/cmake-build-debug"/>
+				<Option working_dir="/home/hugo/Documents/estructurasII/dataStructuresII/cmake-build-debug"/>
 				<Option type="4"/>
 				<MakeCommands>
-					<Build command="/usr/bin/make -j4 -f &quot;/home/hugo/Downloads/entregable4/cmake-build-debug/Makefile&quot;  VERBOSE=1 all"/>
-					<CompileFile command="/usr/bin/make -j4 -f &quot;/home/hugo/Downloads/entregable4/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
-					<Clean command="/usr/bin/make -j4 -f &quot;/home/hugo/Downloads/entregable4/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
-					<DistClean command="/usr/bin/make -j4 -f &quot;/home/hugo/Downloads/entregable4/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<Build command="/usr/bin/make -j12 -f &quot;/home/hugo/Documents/estructurasII/dataStructuresII/cmake-build-debug/Makefile&quot;  VERBOSE=1 all"/>
+					<CompileFile command="/usr/bin/make -j12 -f &quot;/home/hugo/Documents/estructurasII/dataStructuresII/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j12 -f &quot;/home/hugo/Documents/estructurasII/dataStructuresII/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j12 -f &quot;/home/hugo/Documents/estructurasII/dataStructuresII/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
 				</MakeCommands>
 			</Target>
 			<Target title="rebuild_cache">
-				<Option working_dir="/home/hugo/Downloads/entregable4/cmake-build-debug"/>
+				<Option working_dir="/home/hugo/Documents/estructurasII/dataStructuresII/cmake-build-debug"/>
 				<Option type="4"/>
 				<MakeCommands>
-					<Build command="/usr/bin/make -j4 -f &quot;/home/hugo/Downloads/entregable4/cmake-build-debug/Makefile&quot;  VERBOSE=1 rebuild_cache"/>
-					<CompileFile command="/usr/bin/make -j4 -f &quot;/home/hugo/Downloads/entregable4/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
-					<Clean command="/usr/bin/make -j4 -f &quot;/home/hugo/Downloads/entregable4/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
-					<DistClean command="/usr/bin/make -j4 -f &quot;/home/hugo/Downloads/entregable4/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<Build command="/usr/bin/make -j12 -f &quot;/home/hugo/Documents/estructurasII/dataStructuresII/cmake-build-debug/Makefile&quot;  VERBOSE=1 rebuild_cache"/>
+					<CompileFile command="/usr/bin/make -j12 -f &quot;/home/hugo/Documents/estructurasII/dataStructuresII/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j12 -f &quot;/home/hugo/Documents/estructurasII/dataStructuresII/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j12 -f &quot;/home/hugo/Documents/estructurasII/dataStructuresII/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
 				</MakeCommands>
 			</Target>
 			<Target title="entregable1">
-				<Option output="/home/hugo/Downloads/entregable4/cmake-build-debug/entregable1" prefix_auto="0" extension_auto="0"/>
-				<Option working_dir="/home/hugo/Downloads/entregable4/cmake-build-debug"/>
+				<Option output="/home/hugo/Documents/estructurasII/dataStructuresII/cmake-build-debug/entregable1" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/home/hugo/Documents/estructurasII/dataStructuresII/cmake-build-debug"/>
 				<Option object_output="./"/>
 				<Option type="1"/>
 				<Option compiler="gcc"/>
@@ -44,15 +44,15 @@
 					<Add directory="/usr/include"/>
 				</Compiler>
 				<MakeCommands>
-					<Build command="/usr/bin/make -j4 -f &quot;/home/hugo/Downloads/entregable4/cmake-build-debug/Makefile&quot;  VERBOSE=1 entregable1"/>
-					<CompileFile command="/usr/bin/make -j4 -f &quot;/home/hugo/Downloads/entregable4/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
-					<Clean command="/usr/bin/make -j4 -f &quot;/home/hugo/Downloads/entregable4/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
-					<DistClean command="/usr/bin/make -j4 -f &quot;/home/hugo/Downloads/entregable4/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<Build command="/usr/bin/make -j12 -f &quot;/home/hugo/Documents/estructurasII/dataStructuresII/cmake-build-debug/Makefile&quot;  VERBOSE=1 entregable1"/>
+					<CompileFile command="/usr/bin/make -j12 -f &quot;/home/hugo/Documents/estructurasII/dataStructuresII/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j12 -f &quot;/home/hugo/Documents/estructurasII/dataStructuresII/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j12 -f &quot;/home/hugo/Documents/estructurasII/dataStructuresII/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
 				</MakeCommands>
 			</Target>
 			<Target title="entregable1/fast">
-				<Option output="/home/hugo/Downloads/entregable4/cmake-build-debug/entregable1" prefix_auto="0" extension_auto="0"/>
-				<Option working_dir="/home/hugo/Downloads/entregable4/cmake-build-debug"/>
+				<Option output="/home/hugo/Documents/estructurasII/dataStructuresII/cmake-build-debug/entregable1" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/home/hugo/Documents/estructurasII/dataStructuresII/cmake-build-debug"/>
 				<Option object_output="./"/>
 				<Option type="1"/>
 				<Option compiler="gcc"/>
@@ -67,81 +67,93 @@
 					<Add directory="/usr/include"/>
 				</Compiler>
 				<MakeCommands>
-					<Build command="/usr/bin/make -j4 -f &quot;/home/hugo/Downloads/entregable4/cmake-build-debug/Makefile&quot;  VERBOSE=1 entregable1/fast"/>
-					<CompileFile command="/usr/bin/make -j4 -f &quot;/home/hugo/Downloads/entregable4/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
-					<Clean command="/usr/bin/make -j4 -f &quot;/home/hugo/Downloads/entregable4/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
-					<DistClean command="/usr/bin/make -j4 -f &quot;/home/hugo/Downloads/entregable4/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<Build command="/usr/bin/make -j12 -f &quot;/home/hugo/Documents/estructurasII/dataStructuresII/cmake-build-debug/Makefile&quot;  VERBOSE=1 entregable1/fast"/>
+					<CompileFile command="/usr/bin/make -j12 -f &quot;/home/hugo/Documents/estructurasII/dataStructuresII/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j12 -f &quot;/home/hugo/Documents/estructurasII/dataStructuresII/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j12 -f &quot;/home/hugo/Documents/estructurasII/dataStructuresII/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
 				</MakeCommands>
 			</Target>
 			<Target title="edit_cache">
-				<Option working_dir="/home/hugo/Downloads/entregable4/cmake-build-debug"/>
+				<Option working_dir="/home/hugo/Documents/estructurasII/dataStructuresII/cmake-build-debug"/>
 				<Option type="4"/>
 				<MakeCommands>
-					<Build command="/usr/bin/make -j4 -f &quot;/home/hugo/Downloads/entregable4/cmake-build-debug/Makefile&quot;  VERBOSE=1 edit_cache"/>
-					<CompileFile command="/usr/bin/make -j4 -f &quot;/home/hugo/Downloads/entregable4/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
-					<Clean command="/usr/bin/make -j4 -f &quot;/home/hugo/Downloads/entregable4/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
-					<DistClean command="/usr/bin/make -j4 -f &quot;/home/hugo/Downloads/entregable4/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<Build command="/usr/bin/make -j12 -f &quot;/home/hugo/Documents/estructurasII/dataStructuresII/cmake-build-debug/Makefile&quot;  VERBOSE=1 edit_cache"/>
+					<CompileFile command="/usr/bin/make -j12 -f &quot;/home/hugo/Documents/estructurasII/dataStructuresII/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j12 -f &quot;/home/hugo/Documents/estructurasII/dataStructuresII/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j12 -f &quot;/home/hugo/Documents/estructurasII/dataStructuresII/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
 				</MakeCommands>
 			</Target>
 		</Build>
-		<Unit filename="/home/hugo/Downloads/entregable4/OrdenCompra.cpp">
+		<Unit filename="/home/hugo/Documents/estructurasII/dataStructuresII/ListaOrdenCompra.cpp">
 			<Option target="entregable1"/>
 		</Unit>
-		<Unit filename="/home/hugo/Downloads/entregable4/OrdenCompra.h">
+		<Unit filename="/home/hugo/Documents/estructurasII/dataStructuresII/ListaOrdenCompra.h">
 			<Option target="entregable1"/>
 		</Unit>
-		<Unit filename="/home/hugo/Downloads/entregable4/listProd.cpp">
+		<Unit filename="/home/hugo/Documents/estructurasII/dataStructuresII/NodoOrdenCompra.cpp">
 			<Option target="entregable1"/>
 		</Unit>
-		<Unit filename="/home/hugo/Downloads/entregable4/listProd.h">
+		<Unit filename="/home/hugo/Documents/estructurasII/dataStructuresII/NodoOrdenCompra.h">
 			<Option target="entregable1"/>
 		</Unit>
-		<Unit filename="/home/hugo/Downloads/entregable4/listProv.cpp">
+		<Unit filename="/home/hugo/Documents/estructurasII/dataStructuresII/OrdenCompra.cpp">
 			<Option target="entregable1"/>
 		</Unit>
-		<Unit filename="/home/hugo/Downloads/entregable4/listProv.h">
+		<Unit filename="/home/hugo/Documents/estructurasII/dataStructuresII/OrdenCompra.h">
 			<Option target="entregable1"/>
 		</Unit>
-		<Unit filename="/home/hugo/Downloads/entregable4/main.cpp">
+		<Unit filename="/home/hugo/Documents/estructurasII/dataStructuresII/listProd.cpp">
 			<Option target="entregable1"/>
 		</Unit>
-		<Unit filename="/home/hugo/Downloads/entregable4/menuProd.cpp">
+		<Unit filename="/home/hugo/Documents/estructurasII/dataStructuresII/listProd.h">
 			<Option target="entregable1"/>
 		</Unit>
-		<Unit filename="/home/hugo/Downloads/entregable4/menuProd.h">
+		<Unit filename="/home/hugo/Documents/estructurasII/dataStructuresII/listProv.cpp">
 			<Option target="entregable1"/>
 		</Unit>
-		<Unit filename="/home/hugo/Downloads/entregable4/menuProv.cpp">
+		<Unit filename="/home/hugo/Documents/estructurasII/dataStructuresII/listProv.h">
 			<Option target="entregable1"/>
 		</Unit>
-		<Unit filename="/home/hugo/Downloads/entregable4/menuProv.h">
+		<Unit filename="/home/hugo/Documents/estructurasII/dataStructuresII/main.cpp">
 			<Option target="entregable1"/>
 		</Unit>
-		<Unit filename="/home/hugo/Downloads/entregable4/nodeProd.cpp">
+		<Unit filename="/home/hugo/Documents/estructurasII/dataStructuresII/menuProd.cpp">
 			<Option target="entregable1"/>
 		</Unit>
-		<Unit filename="/home/hugo/Downloads/entregable4/nodeProd.h">
+		<Unit filename="/home/hugo/Documents/estructurasII/dataStructuresII/menuProd.h">
 			<Option target="entregable1"/>
 		</Unit>
-		<Unit filename="/home/hugo/Downloads/entregable4/nodoProv.cpp">
+		<Unit filename="/home/hugo/Documents/estructurasII/dataStructuresII/menuProv.cpp">
 			<Option target="entregable1"/>
 		</Unit>
-		<Unit filename="/home/hugo/Downloads/entregable4/nodoProv.h">
+		<Unit filename="/home/hugo/Documents/estructurasII/dataStructuresII/menuProv.h">
 			<Option target="entregable1"/>
 		</Unit>
-		<Unit filename="/home/hugo/Downloads/entregable4/producto.cpp">
+		<Unit filename="/home/hugo/Documents/estructurasII/dataStructuresII/nodeProd.cpp">
 			<Option target="entregable1"/>
 		</Unit>
-		<Unit filename="/home/hugo/Downloads/entregable4/producto.h">
+		<Unit filename="/home/hugo/Documents/estructurasII/dataStructuresII/nodeProd.h">
 			<Option target="entregable1"/>
 		</Unit>
-		<Unit filename="/home/hugo/Downloads/entregable4/proveedores.cpp">
+		<Unit filename="/home/hugo/Documents/estructurasII/dataStructuresII/nodoProv.cpp">
 			<Option target="entregable1"/>
 		</Unit>
-		<Unit filename="/home/hugo/Downloads/entregable4/proveedores.h">
+		<Unit filename="/home/hugo/Documents/estructurasII/dataStructuresII/nodoProv.h">
 			<Option target="entregable1"/>
 		</Unit>
-		<Unit filename="/home/hugo/Downloads/entregable4/CMakeLists.txt">
+		<Unit filename="/home/hugo/Documents/estructurasII/dataStructuresII/producto.cpp">
+			<Option target="entregable1"/>
+		</Unit>
+		<Unit filename="/home/hugo/Documents/estructurasII/dataStructuresII/producto.h">
+			<Option target="entregable1"/>
+		</Unit>
+		<Unit filename="/home/hugo/Documents/estructurasII/dataStructuresII/proveedores.cpp">
+			<Option target="entregable1"/>
+		</Unit>
+		<Unit filename="/home/hugo/Documents/estructurasII/dataStructuresII/proveedores.h">
+			<Option target="entregable1"/>
+		</Unit>
+		<Unit filename="/home/hugo/Documents/estructurasII/dataStructuresII/CMakeLists.txt">
 			<Option virtualFolder="CMake Files\"/>
 		</Unit>
 	</Project>

@@ -4,16 +4,18 @@ set(CMAKE_DEPENDS_LANGUAGES
   )
 # The set of files for implicit dependencies of each language:
 set(CMAKE_DEPENDS_CHECK_CXX
-  "/home/hugo/Downloads/entregable4/OrdenCompra.cpp" "/home/hugo/Downloads/entregable4/cmake-build-debug/CMakeFiles/entregable1.dir/OrdenCompra.cpp.o"
-  "/home/hugo/Downloads/entregable4/listProd.cpp" "/home/hugo/Downloads/entregable4/cmake-build-debug/CMakeFiles/entregable1.dir/listProd.cpp.o"
-  "/home/hugo/Downloads/entregable4/listProv.cpp" "/home/hugo/Downloads/entregable4/cmake-build-debug/CMakeFiles/entregable1.dir/listProv.cpp.o"
-  "/home/hugo/Downloads/entregable4/main.cpp" "/home/hugo/Downloads/entregable4/cmake-build-debug/CMakeFiles/entregable1.dir/main.cpp.o"
-  "/home/hugo/Downloads/entregable4/menuProd.cpp" "/home/hugo/Downloads/entregable4/cmake-build-debug/CMakeFiles/entregable1.dir/menuProd.cpp.o"
-  "/home/hugo/Downloads/entregable4/menuProv.cpp" "/home/hugo/Downloads/entregable4/cmake-build-debug/CMakeFiles/entregable1.dir/menuProv.cpp.o"
-  "/home/hugo/Downloads/entregable4/nodeProd.cpp" "/home/hugo/Downloads/entregable4/cmake-build-debug/CMakeFiles/entregable1.dir/nodeProd.cpp.o"
-  "/home/hugo/Downloads/entregable4/nodoProv.cpp" "/home/hugo/Downloads/entregable4/cmake-build-debug/CMakeFiles/entregable1.dir/nodoProv.cpp.o"
-  "/home/hugo/Downloads/entregable4/producto.cpp" "/home/hugo/Downloads/entregable4/cmake-build-debug/CMakeFiles/entregable1.dir/producto.cpp.o"
-  "/home/hugo/Downloads/entregable4/proveedores.cpp" "/home/hugo/Downloads/entregable4/cmake-build-debug/CMakeFiles/entregable1.dir/proveedores.cpp.o"
+  "/home/hugo/Documents/estructurasII/dataStructuresII/ListaOrdenCompra.cpp" "/home/hugo/Documents/estructurasII/dataStructuresII/cmake-build-debug/CMakeFiles/entregable1.dir/ListaOrdenCompra.cpp.o"
+  "/home/hugo/Documents/estructurasII/dataStructuresII/NodoOrdenCompra.cpp" "/home/hugo/Documents/estructurasII/dataStructuresII/cmake-build-debug/CMakeFiles/entregable1.dir/NodoOrdenCompra.cpp.o"
+  "/home/hugo/Documents/estructurasII/dataStructuresII/OrdenCompra.cpp" "/home/hugo/Documents/estructurasII/dataStructuresII/cmake-build-debug/CMakeFiles/entregable1.dir/OrdenCompra.cpp.o"
+  "/home/hugo/Documents/estructurasII/dataStructuresII/listProd.cpp" "/home/hugo/Documents/estructurasII/dataStructuresII/cmake-build-debug/CMakeFiles/entregable1.dir/listProd.cpp.o"
+  "/home/hugo/Documents/estructurasII/dataStructuresII/listProv.cpp" "/home/hugo/Documents/estructurasII/dataStructuresII/cmake-build-debug/CMakeFiles/entregable1.dir/listProv.cpp.o"
+  "/home/hugo/Documents/estructurasII/dataStructuresII/main.cpp" "/home/hugo/Documents/estructurasII/dataStructuresII/cmake-build-debug/CMakeFiles/entregable1.dir/main.cpp.o"
+  "/home/hugo/Documents/estructurasII/dataStructuresII/menuProd.cpp" "/home/hugo/Documents/estructurasII/dataStructuresII/cmake-build-debug/CMakeFiles/entregable1.dir/menuProd.cpp.o"
+  "/home/hugo/Documents/estructurasII/dataStructuresII/menuProv.cpp" "/home/hugo/Documents/estructurasII/dataStructuresII/cmake-build-debug/CMakeFiles/entregable1.dir/menuProv.cpp.o"
+  "/home/hugo/Documents/estructurasII/dataStructuresII/nodeProd.cpp" "/home/hugo/Documents/estructurasII/dataStructuresII/cmake-build-debug/CMakeFiles/entregable1.dir/nodeProd.cpp.o"
+  "/home/hugo/Documents/estructurasII/dataStructuresII/nodoProv.cpp" "/home/hugo/Documents/estructurasII/dataStructuresII/cmake-build-debug/CMakeFiles/entregable1.dir/nodoProv.cpp.o"
+  "/home/hugo/Documents/estructurasII/dataStructuresII/producto.cpp" "/home/hugo/Documents/estructurasII/dataStructuresII/cmake-build-debug/CMakeFiles/entregable1.dir/producto.cpp.o"
+  "/home/hugo/Documents/estructurasII/dataStructuresII/proveedores.cpp" "/home/hugo/Documents/estructurasII/dataStructuresII/cmake-build-debug/CMakeFiles/entregable1.dir/proveedores.cpp.o"
   )
 set(CMAKE_CXX_COMPILER_ID "GNU")
 

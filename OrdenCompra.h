@@ -24,13 +24,13 @@ public:
     OrdenCompra();
     OrdenCompra(OrdenCompra& pedido);
 
-    OrdenCompra(const ListProd &listaProdOrdenCompra);
+    OrdenCompra( ListProd& lista);
 
-    void setCode();
-    void setUserCode();
-    void setCodigoProveedor();      /// se busca en menu de pedidos buscando en la lista de proveedores y se asigna a esta variable
-    void setListaProdOrdenCompra(); /// la lista se escoge y se crea en menu de pedidos y cuando esta lista se asiga a la orden de compra.
-    void setTotalPedido();
+    void setCode(std::string);
+    void setUserCode(std::string);
+    void setCodigoProveedor(std::string);      /// se busca en menu de pedidos buscando en la lista de proveedores y se asigna a esta variable
+    void setListaProdOrdenCompra(ListProd& lista); /// la lista se escoge y se crea en menu de pedidos y cuando esta lista se asiga a la orden de compra.
+    void setTotalPedido(float);
 
     std::string getCode();
     std::string getUserCode();

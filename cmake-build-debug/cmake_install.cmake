@@ -1,4 +1,4 @@
-# Install script for directory: /home/hugo/Downloads/entregable4
+# Install script for directory: /home/hugo/Documents/estructurasII/dataStructuresII
 
 # Set the install prefix
 if(NOT DEFINED CMAKE_INSTALL_PREFIX)
@@ -45,5 +45,5 @@ endif()
 
 string(REPLACE ";" "\n" CMAKE_INSTALL_MANIFEST_CONTENT
        "${CMAKE_INSTALL_MANIFEST_FILES}")
-file(WRITE "/home/hugo/Downloads/entregable4/cmake-build-debug/${CMAKE_INSTALL_MANIFEST}"
+file(WRITE "/home/hugo/Documents/estructurasII/dataStructuresII/cmake-build-debug/${CMAKE_INSTALL_MANIFEST}"
      "${CMAKE_INSTALL_MANIFEST_CONTENT}")
