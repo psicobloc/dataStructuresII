@@ -4,6 +4,7 @@ set(CMAKE_DEPENDS_LANGUAGES
   )
 # The set of files for implicit dependencies of each language:
 set(CMAKE_DEPENDS_CHECK_CXX
+  "/home/hugo/Downloads/entregable4/OrdenCompra.cpp" "/home/hugo/Downloads/entregable4/cmake-build-debug/CMakeFiles/entregable1.dir/OrdenCompra.cpp.o"
   "/home/hugo/Downloads/entregable4/listProd.cpp" "/home/hugo/Downloads/entregable4/cmake-build-debug/CMakeFiles/entregable1.dir/listProd.cpp.o"
   "/home/hugo/Downloads/entregable4/listProv.cpp" "/home/hugo/Downloads/entregable4/cmake-build-debug/CMakeFiles/entregable1.dir/listProv.cpp.o"
   "/home/hugo/Downloads/entregable4/main.cpp" "/home/hugo/Downloads/entregable4/cmake-build-debug/CMakeFiles/entregable1.dir/main.cpp.o"

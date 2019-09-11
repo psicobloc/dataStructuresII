@@ -13,8 +13,6 @@ class ListProd {
 private:
     NodeProd* header;
 
-    void copyAll(ListProd& lista);
-
     void swapPtr(NodeProd* node1, NodeProd* node2);
 
 public:
@@ -28,6 +26,7 @@ public:
     void deleteData(NodeProd* node);
     void deleteAll();
     bool isValidPos(NodeProd* node);
+    void copyAll(ListProd& lista);
 
     NodeProd* getFirstPos();
     NodeProd* getLastPos();

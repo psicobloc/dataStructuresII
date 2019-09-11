@@ -123,6 +123,33 @@ entregable1/fast:
 	$(MAKE) -f CMakeFiles/entregable1.dir/build.make CMakeFiles/entregable1.dir/build
 .PHONY : entregable1/fast
 
+OrdenCompra.o: OrdenCompra.cpp.o
+
+.PHONY : OrdenCompra.o
+
+# target to build an object file
+OrdenCompra.cpp.o:
+	$(MAKE) -f CMakeFiles/entregable1.dir/build.make CMakeFiles/entregable1.dir/OrdenCompra.cpp.o
+.PHONY : OrdenCompra.cpp.o
+
+OrdenCompra.i: OrdenCompra.cpp.i
+
+.PHONY : OrdenCompra.i
+
+# target to preprocess a source file
+OrdenCompra.cpp.i:
+	$(MAKE) -f CMakeFiles/entregable1.dir/build.make CMakeFiles/entregable1.dir/OrdenCompra.cpp.i
+.PHONY : OrdenCompra.cpp.i
+
+OrdenCompra.s: OrdenCompra.cpp.s
+
+.PHONY : OrdenCompra.s
+
+# target to generate assembly for a file
+OrdenCompra.cpp.s:
+	$(MAKE) -f CMakeFiles/entregable1.dir/build.make CMakeFiles/entregable1.dir/OrdenCompra.cpp.s
+.PHONY : OrdenCompra.cpp.s
+
 listProd.o: listProd.cpp.o
 
 .PHONY : listProd.o
@@ -375,6 +402,9 @@ help:
 	@echo "... rebuild_cache"
 	@echo "... entregable1"
 	@echo "... edit_cache"
+	@echo "... OrdenCompra.o"
+	@echo "... OrdenCompra.i"
+	@echo "... OrdenCompra.s"
 	@echo "... listProd.o"
 	@echo "... listProd.i"
 	@echo "... listProd.s"

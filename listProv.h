@@ -11,9 +11,6 @@
 class ListaProv{
 private:
     NodoProv* header;
-    
-    void copyAll(ListaProv& lista);
-
     void swapPtr(NodoProv* node1, NodoProv* node2);
 
 public:
@@ -27,6 +24,8 @@ public:
     void deleteData(NodoProv* node);
     void deleteAll();
     bool isValidPos(NodoProv* node);
+    void copyAll(ListaProv& lista);
+
 
     NodoProv* getFirstPos();
     NodoProv* getLastPos();

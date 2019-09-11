@@ -84,6 +84,12 @@
 				</MakeCommands>
 			</Target>
 		</Build>
+		<Unit filename="/home/hugo/Downloads/entregable4/OrdenCompra.cpp">
+			<Option target="entregable1"/>
+		</Unit>
+		<Unit filename="/home/hugo/Downloads/entregable4/OrdenCompra.h">
+			<Option target="entregable1"/>
+		</Unit>
 		<Unit filename="/home/hugo/Downloads/entregable4/listProd.cpp">
 			<Option target="entregable1"/>
 		</Unit>

@@ -1,0 +1,3 @@
+/home/hugo/Downloads/entregable4/cmake-build-debug/CMakeFiles/rebuild_cache.dir
+/home/hugo/Downloads/entregable4/cmake-build-debug/CMakeFiles/entregable1.dir
+/home/hugo/Downloads/entregable4/cmake-build-debug/CMakeFiles/edit_cache.dir

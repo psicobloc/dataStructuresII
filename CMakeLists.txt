@@ -1,0 +1,6 @@
+cmake_minimum_required(VERSION 3.14)
+project(entregable1)
+
+set(CMAKE_CXX_STANDARD 17)
+
+add_executable(entregable1 main.cpp proveedores.h proveedores.cpp nodoProv.h nodoProv.cpp listProv.h listProv.cpp menuProv.h menuProv.cpp producto.cpp producto.h nodeProd.cpp nodeProd.h listProd.cpp listProd.h menuProd.cpp menuProd.h OrdenCompra.cpp OrdenCompra.h)
