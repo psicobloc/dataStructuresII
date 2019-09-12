@@ -13,7 +13,7 @@ class ListProd {
 private:
     NodeProd* header;
 
-    void swapPtr(NodeProd* node1, NodeProd* node2);
+    void swapPtr(NodeProd* node1, NodeProd* node2); //no se usa
 
 public:
 

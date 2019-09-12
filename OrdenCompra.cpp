@@ -60,24 +60,20 @@ float OrdenCompra::getTotalPedido() {
     return totalPedido;
 }
 
-void OrdenCompra::read() {
+void OrdenCompra::read(std::string filename) {
 
+    listaProdOrdenCompra.read(filename);
 
-
-
-}
-
-void OrdenCompra::write() {
-
-
-
-
+    cout << "Se leyo la lista de productos de la orden de compra: " << code << endl;
 
 }
 
-//string code, userCode, codigoPproveedor
-//ListProd listaProdOrdenCompra
-//float totalPedido
+void OrdenCompra::write(std::string filename) { //filename = code
+
+    listaProdOrdenCompra.write(filename);
+
+    cout << "Se escribio la lista de productos de la orden de compra: " << code << endl;
+}
 
 std::string OrdenCompra::toString() {
 
@@ -96,4 +92,16 @@ std::string OrdenCompra::toString() {
     ordenString += " $\n";
 
     return  ordenString;
+}
+
+OrdenCompra &OrdenCompra::operator=(OrdenCompra &pedido) {
+    code = pedido.code;
+    codigoProveedor = pedido.codigoProveedor;
+    listaProdOrdenCompra = pedido.listaProdOrdenCompra;
+    userCode = pedido.userCode;
+    totalPedido = pedido.totalPedido;
+}
+
+bool OrdenCompra::operator==(OrdenCompra &pedido) {
+    return pedido.code == code;
 }

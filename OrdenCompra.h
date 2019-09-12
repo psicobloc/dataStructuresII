@@ -11,13 +11,13 @@ class OrdenCompra /// Pedidos a Proveedores
 {
 private:
 
-    std::string code;               //** se guarda en pedido'code'.txt
-    std::string userCode;           //** se guarda en pedido'code'.txt
-    std::string codigoProveedor;    //** se guarda en pedido'code'.txt
+    std::string code;               //** se guarda en listaPedidos.txt
+    std::string userCode;           //** se guarda en listaPedidos.txt
+    std::string codigoProveedor;    //** se guarda en listaPedidos.txt
    /// en menu de pedidos mejor //ListProd listaCompletaProductos; //cargar del disco la lista completa de productos
    /// en menu de pedidos mejor //ListaProv listaProveedoresCompleta; // no se guarda, solo se lee.
     ListProd listaProdOrdenCompra;   // productos específicos a esta orden de compra (pedido a proveedores), nombre del archivo es el codigo de la orden de compra
-    float totalPedido;              //** se guarda en pedido'code'.txt
+    float totalPedido;              //** se guarda en listaPedidos.txt
 
 public:
 
@@ -38,10 +38,13 @@ public:
     ListProd getListaProdOrdenCompra();
     float getTotalPedido();
 
-    void read();
-    void write();
+    void read(std::string filename);
+    void write(std::string filename); //solamente escribe la lista de productos, la orden se escribe en listaOrdenCompra
 
     std::string toString();
+
+    OrdenCompra& operator = (OrdenCompra& pedido);
+    bool operator == (OrdenCompra& pedido);
 
     // operators?
 
