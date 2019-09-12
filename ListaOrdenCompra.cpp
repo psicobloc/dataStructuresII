@@ -195,16 +195,104 @@ ListaOrdenCompra &ListaOrdenCompra::operator=(ListaOrdenCompra& Lst) {
 
 void ListaOrdenCompra::write(const std::string &filename = "listaPedidos.txt") {
 
+//guardar cada variable de la orden de compra con \0
 
+char codigo[15];
+char codigoUsuario[15];
+char codigoProv[15];
+float total;
 
+int tamno(15);
 
+ofstream escribir(filename, ios::trunc);
+NodoOrdenCompra* aux(header->getNext());
+
+while (aux != header)
+{
+    //dimensiones
+    int l1 = size(aux->getData().getCode());
+    int l2 = size(aux->getData().getUserCode());
+    int l3 = size(aux->getData().getProvCode());
+
+    //convertir a chars
+    strncpy(codigo, aux->getData().getCode().c_str(), l1);
+    strncpy(codigoUsuario, aux->getData().getUserCode().c_str(), l2);
+    strncpy(codigoProv, aux->getData().getProvCode().c_str(), l3);
+
+    // agregar '\0' al final todo checar si es en l1 o l1+1
+    codigo[l1] = '\0';
+    codigoUsuario[l2] = '\0';
+    codigoProv[l3] = '\0';
+
+    // escribir en el disco
+    escribir.write((char*)& codigo, tamno);
+    escribir.write((char*)& codigoUsuario, tamno);
+    escribir.write((char*)& codigoProv, tamno);
+    total = aux->getData().getTotalPedido();
+    escribir.write((char*)& total, sizeof(float));
+
+    // escribir lista de productos en el disco (otro archivo)
+    aux->getData().write(aux->getData().getCode());
+
+    aux = aux->getNext();
+}
+
+escribir.close();
 
 }
 
 void ListaOrdenCompra::read(const std::string &filename = "listaPedidos.txt") {
 
+    deleteAll();
 
+    char codigo[15];
+    char codigoUsuario[15];
+    char codigoProv[15];
+    float total;
+    string lastCode("X");
 
+    int tamno(15);
 
+    OrdenCompra auxOrden;
+    ListProd listaProductosAux;
 
+    ifstream read(filename, ios::in);
+
+    while(!read.eof())
+    {
+        //leer codigo
+        read.read((char*)& codigo, tamno);
+
+        string cod(codigo);
+
+        // validar leectura de nuevo registro
+        if (lastCode == cod)
+        {
+            break;
+        }
+
+        //leer resto de variables
+        read.read((char*)& codigoUsuario, tamno);
+        read.read((char*)& codigoProv, tamno);
+        read.read((char*)& total, sizeof(float));
+        listaProductosAux.read(cod);
+
+        //convertir a string
+        string codeUsuarioAux(codigoUsuario);
+        string codeProveedorAux(codigoProv);
+
+        // asignar valores
+        auxOrden.setCode(cod);
+        auxOrden.setUserCode(codigoUsuario);
+        auxOrden.setCodigoProveedor(codigoProv);
+        auxOrden.setTotalPedido(total);
+        auxOrden.setListaProdOrdenCompra(listaProductosAux);
+
+        //agregar a la lista
+        insertData(getLastPos(), auxOrden);
+
+        lastCode = cod;
+    }
+
+    read.close();
 }
