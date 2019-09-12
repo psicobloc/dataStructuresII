@@ -7,6 +7,7 @@
 #include "listProd.h"
 #include "listProv.h"
 
+///tal vez seria mejor manejar codigo de empleado, no de usuario.
 
 class MenuOrdenCompra {
 private:

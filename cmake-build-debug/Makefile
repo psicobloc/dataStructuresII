@@ -123,6 +123,60 @@ entregable1/fast:
 	$(MAKE) -f CMakeFiles/entregable1.dir/build.make CMakeFiles/entregable1.dir/build
 .PHONY : entregable1/fast
 
+Empleado.o: Empleado.cpp.o
+
+.PHONY : Empleado.o
+
+# target to build an object file
+Empleado.cpp.o:
+	$(MAKE) -f CMakeFiles/entregable1.dir/build.make CMakeFiles/entregable1.dir/Empleado.cpp.o
+.PHONY : Empleado.cpp.o
+
+Empleado.i: Empleado.cpp.i
+
+.PHONY : Empleado.i
+
+# target to preprocess a source file
+Empleado.cpp.i:
+	$(MAKE) -f CMakeFiles/entregable1.dir/build.make CMakeFiles/entregable1.dir/Empleado.cpp.i
+.PHONY : Empleado.cpp.i
+
+Empleado.s: Empleado.cpp.s
+
+.PHONY : Empleado.s
+
+# target to generate assembly for a file
+Empleado.cpp.s:
+	$(MAKE) -f CMakeFiles/entregable1.dir/build.make CMakeFiles/entregable1.dir/Empleado.cpp.s
+.PHONY : Empleado.cpp.s
+
+ListaEmpleados.o: ListaEmpleados.cpp.o
+
+.PHONY : ListaEmpleados.o
+
+# target to build an object file
+ListaEmpleados.cpp.o:
+	$(MAKE) -f CMakeFiles/entregable1.dir/build.make CMakeFiles/entregable1.dir/ListaEmpleados.cpp.o
+.PHONY : ListaEmpleados.cpp.o
+
+ListaEmpleados.i: ListaEmpleados.cpp.i
+
+.PHONY : ListaEmpleados.i
+
+# target to preprocess a source file
+ListaEmpleados.cpp.i:
+	$(MAKE) -f CMakeFiles/entregable1.dir/build.make CMakeFiles/entregable1.dir/ListaEmpleados.cpp.i
+.PHONY : ListaEmpleados.cpp.i
+
+ListaEmpleados.s: ListaEmpleados.cpp.s
+
+.PHONY : ListaEmpleados.s
+
+# target to generate assembly for a file
+ListaEmpleados.cpp.s:
+	$(MAKE) -f CMakeFiles/entregable1.dir/build.make CMakeFiles/entregable1.dir/ListaEmpleados.cpp.s
+.PHONY : ListaEmpleados.cpp.s
+
 ListaOrdenCompra.o: ListaOrdenCompra.cpp.o
 
 .PHONY : ListaOrdenCompra.o
@@ -176,6 +230,33 @@ MenuOrdenCompra.s: MenuOrdenCompra.cpp.s
 MenuOrdenCompra.cpp.s:
 	$(MAKE) -f CMakeFiles/entregable1.dir/build.make CMakeFiles/entregable1.dir/MenuOrdenCompra.cpp.s
 .PHONY : MenuOrdenCompra.cpp.s
+
+NodoEmpleados.o: NodoEmpleados.cpp.o
+
+.PHONY : NodoEmpleados.o
+
+# target to build an object file
+NodoEmpleados.cpp.o:
+	$(MAKE) -f CMakeFiles/entregable1.dir/build.make CMakeFiles/entregable1.dir/NodoEmpleados.cpp.o
+.PHONY : NodoEmpleados.cpp.o
+
+NodoEmpleados.i: NodoEmpleados.cpp.i
+
+.PHONY : NodoEmpleados.i
+
+# target to preprocess a source file
+NodoEmpleados.cpp.i:
+	$(MAKE) -f CMakeFiles/entregable1.dir/build.make CMakeFiles/entregable1.dir/NodoEmpleados.cpp.i
+.PHONY : NodoEmpleados.cpp.i
+
+NodoEmpleados.s: NodoEmpleados.cpp.s
+
+.PHONY : NodoEmpleados.s
+
+# target to generate assembly for a file
+NodoEmpleados.cpp.s:
+	$(MAKE) -f CMakeFiles/entregable1.dir/build.make CMakeFiles/entregable1.dir/NodoEmpleados.cpp.s
+.PHONY : NodoEmpleados.cpp.s
 
 NodoOrdenCompra.o: NodoOrdenCompra.cpp.o
 
@@ -483,12 +564,21 @@ help:
 	@echo "... rebuild_cache"
 	@echo "... entregable1"
 	@echo "... edit_cache"
+	@echo "... Empleado.o"
+	@echo "... Empleado.i"
+	@echo "... Empleado.s"
+	@echo "... ListaEmpleados.o"
+	@echo "... ListaEmpleados.i"
+	@echo "... ListaEmpleados.s"
 	@echo "... ListaOrdenCompra.o"
 	@echo "... ListaOrdenCompra.i"
 	@echo "... ListaOrdenCompra.s"
 	@echo "... MenuOrdenCompra.o"
 	@echo "... MenuOrdenCompra.i"
 	@echo "... MenuOrdenCompra.s"
+	@echo "... NodoEmpleados.o"
+	@echo "... NodoEmpleados.i"
+	@echo "... NodoEmpleados.s"
 	@echo "... NodoOrdenCompra.o"
 	@echo "... NodoOrdenCompra.i"
 	@echo "... NodoOrdenCompra.s"
