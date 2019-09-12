@@ -7,9 +7,11 @@ using namespace std;
 void MenuOrdenCompra::addOrden() { // todo validar que todos los codigo existan
 
     string codigo, codigoUsuario, codigoProv;
-    string codigoProducto;
-    float total;
+    string codigoProducto, amount;
+    float cantidadProd(0.0);
+    float total(0.0), precio(0.0), totalOrden(0.0);
     char ContinnuarEligiendo('s');
+    char data[10];
 
     OrdenCompra nuevaOrden;
     Producto nuevoProducto;
@@ -19,7 +21,7 @@ void MenuOrdenCompra::addOrden() { // todo validar que todos los codigo existan
     cout << "Escribe el Codigo de la orden de compra:" << endl;
     fflush(stdin);
     getline(cin, codigo);
-    //getline(cin, codigo);
+    getline(cin, codigo);
     nuevaOrden.setCode(codigo);
 
     cout << "Escribe el codigo del Usuario:" << endl;
@@ -28,6 +30,7 @@ void MenuOrdenCompra::addOrden() { // todo validar que todos los codigo existan
     nuevaOrden.setUserCode(codigoUsuario);
 
     cout << "Escribe el codigo del proveedor" << endl;
+    cout << "lista de proveedores:" << endl << listaProvedores.toString() << endl;
     fflush(stdin);
     getline(cin, codigoProv);
     nuevaOrden.setCodigoProveedor(codigoProv);
@@ -48,18 +51,32 @@ void MenuOrdenCompra::addOrden() { // todo validar que todos los codigo existan
         else
         {
             nuevoProducto = listaProductos.findData(nuevoProducto)->getData();
+            //sumar precio del producto al total
+            cout << "Cantidad de producto: " << endl;
+            cin >> cantidadProd;
+            precio = stof(nuevoProducto.getPrice());
+            cout << "Precio: " << precio << endl;
+            total = precio*cantidadProd;
+            cout << " total " << total << endl;
+            totalOrden += total;
+            sprintf(data, "%f", cantidadProd);
+            amount += data;
+            nuevoProducto.setAmount(amount);
             cout << "agregando nuevo producto:\n" << nuevoProducto.toString() << endl;
             nuevaListaProductos.insertData(nuevaListaProductos.getLastPos(),nuevoProducto);
-            //sumar precio del producto al total
-            total += stof(nuevoProducto.getPrice());
+
+
         }
 
         cout << "Seguir eligiendo productos? [s->si] [n->no]" << endl;
         fflush(stdin);
         cin >> ContinnuarEligiendo;
+        amount = "";
     }
     nuevaOrden.setListaProdOrdenCompra(nuevaListaProductos);
-    nuevaOrden.setTotalPedido(total);
+    cout << "Total orden: " << totalOrden << " $" << endl;
+    nuevaOrden.setTotalPedido(totalOrden);
+    listaRam.insertData(listaRam.getLastPos(),nuevaOrden);
 }
 
 void MenuOrdenCompra::modifyOrden() {
@@ -177,14 +194,18 @@ listaRam.read("listaOrdenesCompra.txt");
 
 MenuOrdenCompra::MenuOrdenCompra() {
     listaProductos.read("Productos.txt");
-    listaProvedores.read("proveedores.txt");
+    cout << "leida lista productos" << endl;
+    listaProvedores.read("proveedores.txt"); ///not working
+    cout << "leida lista proveedores" << endl;
 
-    //mainMenu();
+   // mainMenu();
 }
 
 void MenuOrdenCompra::mainMenu() {
 
     char opc('x');
+
+    //cout << "Menu orden compra" << endl;
 
     while (opc != 's')
     {

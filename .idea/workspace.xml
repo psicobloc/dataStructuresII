@@ -12,25 +12,23 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="34c1dca7-c2b7-4837-897f-da90ba37ea08" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/MenuOrdenCompra.cpp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/MenuOrdenCompra.h" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/CMakeLists.txt" beforeDir="false" afterPath="$PROJECT_DIR$/CMakeLists.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/Makefile2" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/Makefile2" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/entregable1.dir/CXX.includecache" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/entregable1.dir/CXX.includecache" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/entregable1.dir/DependInfo.cmake" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/entregable1.dir/DependInfo.cmake" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/entregable1.dir/build.make" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/entregable1.dir/build.make" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/entregable1.dir/cmake_clean.cmake" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/entregable1.dir/cmake_clean.cmake" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/MenuOrdenCompra.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/MenuOrdenCompra.cpp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/OrdenCompra.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/OrdenCompra.cpp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/entregable1.dir/MenuOrdenCompra.cpp.o" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/entregable1.dir/MenuOrdenCompra.cpp.o" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/entregable1.dir/OrdenCompra.cpp.o" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/entregable1.dir/OrdenCompra.cpp.o" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/entregable1.dir/depend.internal" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/entregable1.dir/depend.internal" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/entregable1.dir/depend.make" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/entregable1.dir/depend.make" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/entregable1.dir/link.txt" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/entregable1.dir/link.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/entregable1.dir/progress.make" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/entregable1.dir/progress.make" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/progress.marks" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/progress.marks" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/Makefile" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/Makefile" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/entregable1.dir/listProv.cpp.o" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/entregable1.dir/listProv.cpp.o" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/entregable1.dir/main.cpp.o" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/entregable1.dir/main.cpp.o" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/entregable1.dir/menuProd.cpp.o" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/entregable1.dir/menuProd.cpp.o" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/entregable1.dir/menuProv.cpp.o" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/entregable1.dir/menuProv.cpp.o" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/Productos.txt" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/Productos.txt" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/cmake-build-debug/entregable1" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/entregable1" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/entregable1.cbp" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/entregable1.cbp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/menuProd.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/menuProd.cpp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/menuProd.h" beforeDir="false" afterPath="$PROJECT_DIR$/menuProd.h" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/proveedores.txt" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/proveedores.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/listProv.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/listProv.cpp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/main.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/main.cpp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/menuProv.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/menuProv.cpp" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -94,7 +92,8 @@
       <workItem from="1567212260650" duration="3539000" />
       <workItem from="1567442890790" duration="1713000" />
       <workItem from="1568219571859" duration="2503000" />
-      <workItem from="1568234644367" duration="16022000" />
+      <workItem from="1568234644367" duration="16626000" />
+      <workItem from="1568299523582" duration="3493000" />
     </task>
     <servers />
   </component>
@@ -106,10 +105,23 @@
       <map>
         <entry key="MAIN">
           <value>
-            <State />
+            <State>
+              <option name="COLUMN_ORDER" />
+            </State>
           </value>
         </entry>
       </map>
     </option>
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <line-breakpoint enabled="true" type="com.jetbrains.cidr.execution.debugger.OCBreakpointType">
+          <url>file://$PROJECT_DIR$/listProv.cpp</url>
+          <line>246</line>
+          <option name="timeStamp" value="4" />
+        </line-breakpoint>
+      </breakpoints>
+    </breakpoint-manager>
   </component>
 </project>

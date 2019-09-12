@@ -239,9 +239,10 @@ void ListaProv::read(const std::string &filename) { // todo /// al leer se lee d
 
     ifstream read(filename, ios::in);
     Proveedor newProv;
-    //deleteAll();
+    deleteAll();
 
     string name, code,  addrs, phone;
+    string lastcode("x");
 
     while (!read.eof())
     {
@@ -250,22 +251,18 @@ void ListaProv::read(const std::string &filename) { // todo /// al leer se lee d
         getline(read,code,',');
         getline(read,addrs,',');
 
+        if (lastcode == code)
+        {
+            break;
+        }
+
         newProv.setName(name);
         newProv.setPhone(phone);
         newProv.setCode(code);
         newProv.setAddrs(addrs);
 
-        if (read.eof())
-        {
-            break;
-        }
-
-        if (getLastPos()->getData().getCode() == code)
-        {
-            break;
-        }
-
         insertData(getLastPos(),newProv);
+        lastcode = code;
     }
 
 cout << "se leyo del disco la lista: " << endl << toString() << endl;

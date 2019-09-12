@@ -77,6 +77,9 @@ void OrdenCompra::write(std::string filename) { //filename = code
 
 std::string OrdenCompra::toString() {
 
+    char data[10];
+    sprintf(data, "%f", totalPedido);
+
     string ordenString("");
 
     ordenString += "\nCodigo de orden de pago:  ";
@@ -88,7 +91,7 @@ std::string OrdenCompra::toString() {
     ordenString += "\nLista de productos en la orden:\n\n";
     ordenString += listaProdOrdenCompra.toString();
     ordenString += "\n\n\t\tTOTAL:  ";
-    ordenString += totalPedido;
+    ordenString += data;
     ordenString += " $\n";
 
     return  ordenString;

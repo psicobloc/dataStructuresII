@@ -11,9 +11,8 @@ void MenuProv::addProv() {
     cout << "Agregar Proveedor" << endl;
     //fflush(stdin);
     cout << "Escribe el nombre del proveedor:\t";
-    //cin >> x;
     fflush(stdin);
-    fflush(stdin);
+    getline(cin,name);
     getline(cin,name);
     cout << endl << "Escribe el telefono del proveedor:\t";
     fflush(stdin);
@@ -176,7 +175,7 @@ void MenuProv::showAllProv() {
 }
 
 MenuProv::MenuProv() {
-mainMenu();
+//mainMenu();
 }
 
 void MenuProv::mainMenu() {
