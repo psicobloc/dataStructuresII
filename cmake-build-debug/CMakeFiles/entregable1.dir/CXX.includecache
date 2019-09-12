@@ -6,13 +6,21 @@
 
 #IncludeRegexTransform: 
 
-/home/hugo/Documents/estructurasII/dataStructuresII/ListaOrdenCompra.cpp
-ListaOrdenCompra.h
-/home/hugo/Documents/estructurasII/dataStructuresII/ListaOrdenCompra.h
-
 /home/hugo/Documents/estructurasII/dataStructuresII/ListaOrdenCompra.h
 NodoOrdenCompra.h
 /home/hugo/Documents/estructurasII/dataStructuresII/NodoOrdenCompra.h
+
+/home/hugo/Documents/estructurasII/dataStructuresII/MenuOrdenCompra.cpp
+MenuOrdenCompra.h
+/home/hugo/Documents/estructurasII/dataStructuresII/MenuOrdenCompra.h
+
+/home/hugo/Documents/estructurasII/dataStructuresII/MenuOrdenCompra.h
+ListaOrdenCompra.h
+/home/hugo/Documents/estructurasII/dataStructuresII/ListaOrdenCompra.h
+listProd.h
+/home/hugo/Documents/estructurasII/dataStructuresII/listProd.h
+listProv.h
+/home/hugo/Documents/estructurasII/dataStructuresII/listProv.h
 
 /home/hugo/Documents/estructurasII/dataStructuresII/NodoOrdenCompra.h
 OrdenCompra.h

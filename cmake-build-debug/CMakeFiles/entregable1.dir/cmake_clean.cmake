@@ -11,6 +11,7 @@ file(REMOVE_RECURSE
   "CMakeFiles/entregable1.dir/OrdenCompra.cpp.o"
   "CMakeFiles/entregable1.dir/NodoOrdenCompra.cpp.o"
   "CMakeFiles/entregable1.dir/ListaOrdenCompra.cpp.o"
+  "CMakeFiles/entregable1.dir/MenuOrdenCompra.cpp.o"
   "entregable1.pdb"
   "entregable1"
 )

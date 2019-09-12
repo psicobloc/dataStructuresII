@@ -150,6 +150,33 @@ ListaOrdenCompra.cpp.s:
 	$(MAKE) -f CMakeFiles/entregable1.dir/build.make CMakeFiles/entregable1.dir/ListaOrdenCompra.cpp.s
 .PHONY : ListaOrdenCompra.cpp.s
 
+MenuOrdenCompra.o: MenuOrdenCompra.cpp.o
+
+.PHONY : MenuOrdenCompra.o
+
+# target to build an object file
+MenuOrdenCompra.cpp.o:
+	$(MAKE) -f CMakeFiles/entregable1.dir/build.make CMakeFiles/entregable1.dir/MenuOrdenCompra.cpp.o
+.PHONY : MenuOrdenCompra.cpp.o
+
+MenuOrdenCompra.i: MenuOrdenCompra.cpp.i
+
+.PHONY : MenuOrdenCompra.i
+
+# target to preprocess a source file
+MenuOrdenCompra.cpp.i:
+	$(MAKE) -f CMakeFiles/entregable1.dir/build.make CMakeFiles/entregable1.dir/MenuOrdenCompra.cpp.i
+.PHONY : MenuOrdenCompra.cpp.i
+
+MenuOrdenCompra.s: MenuOrdenCompra.cpp.s
+
+.PHONY : MenuOrdenCompra.s
+
+# target to generate assembly for a file
+MenuOrdenCompra.cpp.s:
+	$(MAKE) -f CMakeFiles/entregable1.dir/build.make CMakeFiles/entregable1.dir/MenuOrdenCompra.cpp.s
+.PHONY : MenuOrdenCompra.cpp.s
+
 NodoOrdenCompra.o: NodoOrdenCompra.cpp.o
 
 .PHONY : NodoOrdenCompra.o
@@ -459,6 +486,9 @@ help:
 	@echo "... ListaOrdenCompra.o"
 	@echo "... ListaOrdenCompra.i"
 	@echo "... ListaOrdenCompra.s"
+	@echo "... MenuOrdenCompra.o"
+	@echo "... MenuOrdenCompra.i"
+	@echo "... MenuOrdenCompra.s"
 	@echo "... NodoOrdenCompra.o"
 	@echo "... NodoOrdenCompra.i"
 	@echo "... NodoOrdenCompra.s"

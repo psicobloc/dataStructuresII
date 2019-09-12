@@ -90,6 +90,12 @@
 		<Unit filename="/home/hugo/Documents/estructurasII/dataStructuresII/ListaOrdenCompra.h">
 			<Option target="entregable1"/>
 		</Unit>
+		<Unit filename="/home/hugo/Documents/estructurasII/dataStructuresII/MenuOrdenCompra.cpp">
+			<Option target="entregable1"/>
+		</Unit>
+		<Unit filename="/home/hugo/Documents/estructurasII/dataStructuresII/MenuOrdenCompra.h">
+			<Option target="entregable1"/>
+		</Unit>
 		<Unit filename="/home/hugo/Documents/estructurasII/dataStructuresII/NodoOrdenCompra.cpp">
 			<Option target="entregable1"/>
 		</Unit>

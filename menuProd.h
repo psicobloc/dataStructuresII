@@ -10,10 +10,10 @@ private:
     ListProd listaRAM;
 
     void addProd();
-    void modifyProd();
+
     void deleteProd();
     void searchProd();
-    void showAllProd();
+
     void write();
     void read();
 
@@ -21,6 +21,9 @@ public:
 
     MenuProd();
     void mainMenu();
+    void setList(ListProd& lista);
+    void modifyProd();
+    void showAllProd();
 
 };
 

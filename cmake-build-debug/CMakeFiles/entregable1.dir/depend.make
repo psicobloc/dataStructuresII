@@ -14,6 +14,20 @@ CMakeFiles/entregable1.dir/ListaOrdenCompra.cpp.o: ../nodoProv.h
 CMakeFiles/entregable1.dir/ListaOrdenCompra.cpp.o: ../producto.h
 CMakeFiles/entregable1.dir/ListaOrdenCompra.cpp.o: ../proveedores.h
 
+CMakeFiles/entregable1.dir/MenuOrdenCompra.cpp.o: ../ListaOrdenCompra.h
+CMakeFiles/entregable1.dir/MenuOrdenCompra.cpp.o: ../MenuOrdenCompra.cpp
+CMakeFiles/entregable1.dir/MenuOrdenCompra.cpp.o: ../MenuOrdenCompra.h
+CMakeFiles/entregable1.dir/MenuOrdenCompra.cpp.o: ../NodoOrdenCompra.h
+CMakeFiles/entregable1.dir/MenuOrdenCompra.cpp.o: ../OrdenCompra.h
+CMakeFiles/entregable1.dir/MenuOrdenCompra.cpp.o: ../listProd.h
+CMakeFiles/entregable1.dir/MenuOrdenCompra.cpp.o: ../listProv.h
+CMakeFiles/entregable1.dir/MenuOrdenCompra.cpp.o: ../menuProd.h
+CMakeFiles/entregable1.dir/MenuOrdenCompra.cpp.o: ../menuProv.h
+CMakeFiles/entregable1.dir/MenuOrdenCompra.cpp.o: ../nodeProd.h
+CMakeFiles/entregable1.dir/MenuOrdenCompra.cpp.o: ../nodoProv.h
+CMakeFiles/entregable1.dir/MenuOrdenCompra.cpp.o: ../producto.h
+CMakeFiles/entregable1.dir/MenuOrdenCompra.cpp.o: ../proveedores.h
+
 CMakeFiles/entregable1.dir/NodoOrdenCompra.cpp.o: ../NodoOrdenCompra.cpp
 CMakeFiles/entregable1.dir/NodoOrdenCompra.cpp.o: ../NodoOrdenCompra.h
 CMakeFiles/entregable1.dir/NodoOrdenCompra.cpp.o: ../OrdenCompra.h

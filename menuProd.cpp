@@ -180,7 +180,7 @@ void MenuProd::showAllProd() {
 }
 
 MenuProd::MenuProd() {
-    mainMenu();
+    //mainMenu();
 }
 
 void MenuProd::mainMenu() {
@@ -245,3 +245,6 @@ void MenuProd::read() {
 
 }
 
+void MenuProd::setList(ListProd &lista) {
+listaRAM = lista;
+}
