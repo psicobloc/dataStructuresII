@@ -16,7 +16,7 @@ private:
     void mostrarEmpleado(std::string codigoEmpleado);
     void mostrarTodos();
     void eliminarEmpleado(std::string codigoEmpleado);
-    void modificarEmpleado();
+    void modificarEmpleado(std::string codigoEmpleado);
 
 public:
     MenuEmpleados();

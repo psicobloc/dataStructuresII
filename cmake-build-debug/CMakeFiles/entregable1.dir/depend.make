@@ -125,7 +125,9 @@ CMakeFiles/entregable1.dir/listProv.cpp.o: ../listProv.h
 CMakeFiles/entregable1.dir/listProv.cpp.o: ../nodoProv.h
 CMakeFiles/entregable1.dir/listProv.cpp.o: ../proveedores.h
 
+CMakeFiles/entregable1.dir/main.cpp.o: ../Empleado.h
 CMakeFiles/entregable1.dir/main.cpp.o: ../ListaOrdenCompra.h
+CMakeFiles/entregable1.dir/main.cpp.o: ../MenuEmpleados.h
 CMakeFiles/entregable1.dir/main.cpp.o: ../MenuOrdenCompra.h
 CMakeFiles/entregable1.dir/main.cpp.o: ../NodoOrdenCompra.h
 CMakeFiles/entregable1.dir/main.cpp.o: ../OrdenCompra.h
