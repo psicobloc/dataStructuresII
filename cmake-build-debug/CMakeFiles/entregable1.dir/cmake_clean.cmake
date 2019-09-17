@@ -15,6 +15,7 @@ file(REMOVE_RECURSE
   "CMakeFiles/entregable1.dir/Empleado.cpp.o"
   "CMakeFiles/entregable1.dir/NodoEmpleados.cpp.o"
   "CMakeFiles/entregable1.dir/ListaEmpleados.cpp.o"
+  "CMakeFiles/entregable1.dir/MenuEmpleados.cpp.o"
   "entregable1.pdb"
   "entregable1"
 )

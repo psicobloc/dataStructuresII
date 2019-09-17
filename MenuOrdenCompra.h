@@ -7,7 +7,7 @@
 #include "listProd.h"
 #include "listProv.h"
 
-///tal vez seria mejor manejar codigo de empleado, no de usuario.
+///codigo de usuario debe ser codigo de empleado, dejar el nombre user code para login solamente
 
 class MenuOrdenCompra {
 private:

@@ -193,8 +193,39 @@ ListaEmpleados &ListaEmpleados::operator=(ListaEmpleados &list) {
 
 void ListaEmpleados::write(const std::string &filename) {
 
+    /*
+     * Escritura con indices
+     * el archivo de indices se escribe con campos de longitud fija
+     * se escribe en indice  el codigo del empleado
+     * se escribe en indice el lugar donde empieza el registro en el archivo de datos
+     * en el archivo de datos se escribe la informacion (cualquier metodo)
+     * ante Cualquier modificación, es necesario reescribir y recalcular el archivo de indices
+     * y el archivo de datos, por lo menos desde el registro modificado en adelante
+     * el indice se utiliza en el menu para poder acceder a los registros y modificarlos
+     * /// esta lista ya no es necesaria ///
+     * /// no es necesario cargar en la ram el archivo, con indices accedemos directamente a los datos
+     *
+     */
+
+
+
+
+
 }
 
 void ListaEmpleados::read(const std::string &filename) {
+    /*
+     * Lectura de indices
+     * se busca secuencialmente en archivo indices el codigo
+     * y el espacio donde se encuentra el registro en el archivo de datos
+     * se ubica el puntero en ese punto del archivo de datos
+     * se lee el registro
+     * esta lista lee
+     */
+
+
+
+
+
 
 }

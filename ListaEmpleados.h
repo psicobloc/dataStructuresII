@@ -4,7 +4,7 @@
 #define ENTREGABLE1_LISTAEMPLEADOS_H
 
 #include "NodoEmpleados.h"
-
+/* Escritura y lectura con INDICES */
 class ListaEmpleados {
 private:
 NodoEmpleados* header;
