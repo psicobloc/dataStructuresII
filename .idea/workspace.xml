@@ -13,14 +13,6 @@
   <component name="ChangeListManager">
     <list default="true" id="34c1dca7-c2b7-4837-897f-da90ba37ea08" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/MenuEmpleados.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/MenuEmpleados.cpp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/MenuEmpleados.h" beforeDir="false" afterPath="$PROJECT_DIR$/MenuEmpleados.h" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/entregable1.dir/MenuEmpleados.cpp.o" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/entregable1.dir/MenuEmpleados.cpp.o" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/entregable1.dir/depend.internal" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/entregable1.dir/depend.internal" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/entregable1.dir/depend.make" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/entregable1.dir/depend.make" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/entregable1.dir/main.cpp.o" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/entregable1.dir/main.cpp.o" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/entregable1" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/entregable1" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/main.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/main.cpp" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -86,7 +78,8 @@
       <workItem from="1568219571859" duration="2503000" />
       <workItem from="1568234644367" duration="16626000" />
       <workItem from="1568299523582" duration="8326000" />
-      <workItem from="1568658431629" duration="15485000" />
+      <workItem from="1568658431629" duration="16141000" />
+      <workItem from="1569635407095" duration="599000" />
     </task>
     <servers />
   </component>
