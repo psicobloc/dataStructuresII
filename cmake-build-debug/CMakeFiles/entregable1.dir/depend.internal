@@ -31,6 +31,23 @@ CMakeFiles/entregable1.dir/Empleado.cpp.o
  /home/hugo/Documents/estructurasII/dataStructuresII/nodoProv.h
  /home/hugo/Documents/estructurasII/dataStructuresII/producto.h
  /home/hugo/Documents/estructurasII/dataStructuresII/proveedores.h
+CMakeFiles/entregable1.dir/ListaClientes.cpp.o
+ /home/hugo/Documents/estructurasII/dataStructuresII/Cliente.h
+ /home/hugo/Documents/estructurasII/dataStructuresII/ListaClientes.cpp
+ /home/hugo/Documents/estructurasII/dataStructuresII/ListaClientes.h
+ /home/hugo/Documents/estructurasII/dataStructuresII/ListaOrdenCompra.h
+ /home/hugo/Documents/estructurasII/dataStructuresII/MenuOrdenCompra.h
+ /home/hugo/Documents/estructurasII/dataStructuresII/NodoCliente.h
+ /home/hugo/Documents/estructurasII/dataStructuresII/NodoOrdenCompra.h
+ /home/hugo/Documents/estructurasII/dataStructuresII/OrdenCompra.h
+ /home/hugo/Documents/estructurasII/dataStructuresII/listProd.h
+ /home/hugo/Documents/estructurasII/dataStructuresII/listProv.h
+ /home/hugo/Documents/estructurasII/dataStructuresII/menuProd.h
+ /home/hugo/Documents/estructurasII/dataStructuresII/menuProv.h
+ /home/hugo/Documents/estructurasII/dataStructuresII/nodeProd.h
+ /home/hugo/Documents/estructurasII/dataStructuresII/nodoProv.h
+ /home/hugo/Documents/estructurasII/dataStructuresII/producto.h
+ /home/hugo/Documents/estructurasII/dataStructuresII/proveedores.h
 CMakeFiles/entregable1.dir/ListaEmpleados.cpp.o
  /home/hugo/Documents/estructurasII/dataStructuresII/Empleado.h
  /home/hugo/Documents/estructurasII/dataStructuresII/ListaEmpleados.cpp
@@ -38,6 +55,23 @@ CMakeFiles/entregable1.dir/ListaEmpleados.cpp.o
  /home/hugo/Documents/estructurasII/dataStructuresII/ListaOrdenCompra.h
  /home/hugo/Documents/estructurasII/dataStructuresII/MenuOrdenCompra.h
  /home/hugo/Documents/estructurasII/dataStructuresII/NodoEmpleados.h
+ /home/hugo/Documents/estructurasII/dataStructuresII/NodoOrdenCompra.h
+ /home/hugo/Documents/estructurasII/dataStructuresII/OrdenCompra.h
+ /home/hugo/Documents/estructurasII/dataStructuresII/listProd.h
+ /home/hugo/Documents/estructurasII/dataStructuresII/listProv.h
+ /home/hugo/Documents/estructurasII/dataStructuresII/menuProd.h
+ /home/hugo/Documents/estructurasII/dataStructuresII/menuProv.h
+ /home/hugo/Documents/estructurasII/dataStructuresII/nodeProd.h
+ /home/hugo/Documents/estructurasII/dataStructuresII/nodoProv.h
+ /home/hugo/Documents/estructurasII/dataStructuresII/producto.h
+ /home/hugo/Documents/estructurasII/dataStructuresII/proveedores.h
+CMakeFiles/entregable1.dir/ListaInvertida.cpp.o
+ /home/hugo/Documents/estructurasII/dataStructuresII/Cliente.h
+ /home/hugo/Documents/estructurasII/dataStructuresII/ListaInvertida.cpp
+ /home/hugo/Documents/estructurasII/dataStructuresII/ListaInvertida.h
+ /home/hugo/Documents/estructurasII/dataStructuresII/ListaOrdenCompra.h
+ /home/hugo/Documents/estructurasII/dataStructuresII/MenuOrdenCompra.h
+ /home/hugo/Documents/estructurasII/dataStructuresII/NodoInv.h
  /home/hugo/Documents/estructurasII/dataStructuresII/NodoOrdenCompra.h
  /home/hugo/Documents/estructurasII/dataStructuresII/OrdenCompra.h
  /home/hugo/Documents/estructurasII/dataStructuresII/listProd.h
@@ -81,6 +115,22 @@ CMakeFiles/entregable1.dir/MenuOrdenCompra.cpp.o
  /home/hugo/Documents/estructurasII/dataStructuresII/ListaOrdenCompra.h
  /home/hugo/Documents/estructurasII/dataStructuresII/MenuOrdenCompra.cpp
  /home/hugo/Documents/estructurasII/dataStructuresII/MenuOrdenCompra.h
+ /home/hugo/Documents/estructurasII/dataStructuresII/NodoOrdenCompra.h
+ /home/hugo/Documents/estructurasII/dataStructuresII/OrdenCompra.h
+ /home/hugo/Documents/estructurasII/dataStructuresII/listProd.h
+ /home/hugo/Documents/estructurasII/dataStructuresII/listProv.h
+ /home/hugo/Documents/estructurasII/dataStructuresII/menuProd.h
+ /home/hugo/Documents/estructurasII/dataStructuresII/menuProv.h
+ /home/hugo/Documents/estructurasII/dataStructuresII/nodeProd.h
+ /home/hugo/Documents/estructurasII/dataStructuresII/nodoProv.h
+ /home/hugo/Documents/estructurasII/dataStructuresII/producto.h
+ /home/hugo/Documents/estructurasII/dataStructuresII/proveedores.h
+CMakeFiles/entregable1.dir/NodoCliente.cpp.o
+ /home/hugo/Documents/estructurasII/dataStructuresII/Cliente.h
+ /home/hugo/Documents/estructurasII/dataStructuresII/ListaOrdenCompra.h
+ /home/hugo/Documents/estructurasII/dataStructuresII/MenuOrdenCompra.h
+ /home/hugo/Documents/estructurasII/dataStructuresII/NodoCliente.cpp
+ /home/hugo/Documents/estructurasII/dataStructuresII/NodoCliente.h
  /home/hugo/Documents/estructurasII/dataStructuresII/NodoOrdenCompra.h
  /home/hugo/Documents/estructurasII/dataStructuresII/OrdenCompra.h
  /home/hugo/Documents/estructurasII/dataStructuresII/listProd.h

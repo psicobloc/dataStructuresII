@@ -55,6 +55,28 @@ void Cliente::setTipoCliente(const string &tipoCliente) {
     Cliente::tipoCliente = tipoCliente;
 }
 
+
+std::string Cliente::toString()
+{
+    string cliente;
+
+    cliente += "Nombre:\t";
+    cliente += name;
+    cliente += "  Direccion:\t";
+    cliente += direccion;
+    cliente += "  Estado:\t";
+    cliente += estado;
+    cliente += "  Codigo de cliente:\t";
+    cliente += codigoCliente;
+    cliente += "  RFC:\t";
+    cliente += RFC;
+    cliente += "  Tipo de cliente\t";
+    cliente += tipoCliente;
+
+    return cliente;
+}
+
+
 bool Cliente::operator==(const Cliente &rhs) const {
     return codigoCliente == rhs.codigoCliente;
 }

@@ -177,6 +177,33 @@ Empleado.cpp.s:
 	$(MAKE) -f CMakeFiles/entregable1.dir/build.make CMakeFiles/entregable1.dir/Empleado.cpp.s
 .PHONY : Empleado.cpp.s
 
+ListaClientes.o: ListaClientes.cpp.o
+
+.PHONY : ListaClientes.o
+
+# target to build an object file
+ListaClientes.cpp.o:
+	$(MAKE) -f CMakeFiles/entregable1.dir/build.make CMakeFiles/entregable1.dir/ListaClientes.cpp.o
+.PHONY : ListaClientes.cpp.o
+
+ListaClientes.i: ListaClientes.cpp.i
+
+.PHONY : ListaClientes.i
+
+# target to preprocess a source file
+ListaClientes.cpp.i:
+	$(MAKE) -f CMakeFiles/entregable1.dir/build.make CMakeFiles/entregable1.dir/ListaClientes.cpp.i
+.PHONY : ListaClientes.cpp.i
+
+ListaClientes.s: ListaClientes.cpp.s
+
+.PHONY : ListaClientes.s
+
+# target to generate assembly for a file
+ListaClientes.cpp.s:
+	$(MAKE) -f CMakeFiles/entregable1.dir/build.make CMakeFiles/entregable1.dir/ListaClientes.cpp.s
+.PHONY : ListaClientes.cpp.s
+
 ListaEmpleados.o: ListaEmpleados.cpp.o
 
 .PHONY : ListaEmpleados.o
@@ -311,6 +338,33 @@ MenuOrdenCompra.s: MenuOrdenCompra.cpp.s
 MenuOrdenCompra.cpp.s:
 	$(MAKE) -f CMakeFiles/entregable1.dir/build.make CMakeFiles/entregable1.dir/MenuOrdenCompra.cpp.s
 .PHONY : MenuOrdenCompra.cpp.s
+
+NodoCliente.o: NodoCliente.cpp.o
+
+.PHONY : NodoCliente.o
+
+# target to build an object file
+NodoCliente.cpp.o:
+	$(MAKE) -f CMakeFiles/entregable1.dir/build.make CMakeFiles/entregable1.dir/NodoCliente.cpp.o
+.PHONY : NodoCliente.cpp.o
+
+NodoCliente.i: NodoCliente.cpp.i
+
+.PHONY : NodoCliente.i
+
+# target to preprocess a source file
+NodoCliente.cpp.i:
+	$(MAKE) -f CMakeFiles/entregable1.dir/build.make CMakeFiles/entregable1.dir/NodoCliente.cpp.i
+.PHONY : NodoCliente.cpp.i
+
+NodoCliente.s: NodoCliente.cpp.s
+
+.PHONY : NodoCliente.s
+
+# target to generate assembly for a file
+NodoCliente.cpp.s:
+	$(MAKE) -f CMakeFiles/entregable1.dir/build.make CMakeFiles/entregable1.dir/NodoCliente.cpp.s
+.PHONY : NodoCliente.cpp.s
 
 NodoEmpleados.o: NodoEmpleados.cpp.o
 
@@ -678,6 +732,9 @@ help:
 	@echo "... Empleado.o"
 	@echo "... Empleado.i"
 	@echo "... Empleado.s"
+	@echo "... ListaClientes.o"
+	@echo "... ListaClientes.i"
+	@echo "... ListaClientes.s"
 	@echo "... ListaEmpleados.o"
 	@echo "... ListaEmpleados.i"
 	@echo "... ListaEmpleados.s"
@@ -693,6 +750,9 @@ help:
 	@echo "... MenuOrdenCompra.o"
 	@echo "... MenuOrdenCompra.i"
 	@echo "... MenuOrdenCompra.s"
+	@echo "... NodoCliente.o"
+	@echo "... NodoCliente.i"
+	@echo "... NodoCliente.s"
 	@echo "... NodoEmpleados.o"
 	@echo "... NodoEmpleados.i"
 	@echo "... NodoEmpleados.s"

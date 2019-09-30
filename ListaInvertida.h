@@ -17,7 +17,7 @@ public:
     bool estadoExist(std::string edo);
     void crearEstado(std::string edo);
 
-
+// todo falta hacer la lista completa de clientes. como munilist.
 };
 
 

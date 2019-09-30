@@ -14,23 +14,25 @@ Cliente.h
 MenuOrdenCompra.h
 /home/hugo/Documents/estructurasII/dataStructuresII/MenuOrdenCompra.h
 
-/home/hugo/Documents/estructurasII/dataStructuresII/Empleado.h
-MenuOrdenCompra.h
-/home/hugo/Documents/estructurasII/dataStructuresII/MenuOrdenCompra.h
+/home/hugo/Documents/estructurasII/dataStructuresII/ListaClientes.cpp
+ListaClientes.h
+/home/hugo/Documents/estructurasII/dataStructuresII/ListaClientes.h
+
+/home/hugo/Documents/estructurasII/dataStructuresII/ListaClientes.h
+NodoCliente.h
+/home/hugo/Documents/estructurasII/dataStructuresII/NodoCliente.h
+
+/home/hugo/Documents/estructurasII/dataStructuresII/ListaInvertida.cpp
+ListaInvertida.h
+/home/hugo/Documents/estructurasII/dataStructuresII/ListaInvertida.h
+
+/home/hugo/Documents/estructurasII/dataStructuresII/ListaInvertida.h
+NodoInv.h
+/home/hugo/Documents/estructurasII/dataStructuresII/NodoInv.h
 
 /home/hugo/Documents/estructurasII/dataStructuresII/ListaOrdenCompra.h
 NodoOrdenCompra.h
 /home/hugo/Documents/estructurasII/dataStructuresII/NodoOrdenCompra.h
-
-/home/hugo/Documents/estructurasII/dataStructuresII/MenuEmpleados.cpp
-MenuEmpleados.h
-/home/hugo/Documents/estructurasII/dataStructuresII/MenuEmpleados.h
-
-/home/hugo/Documents/estructurasII/dataStructuresII/MenuEmpleados.h
-Empleado.h
-/home/hugo/Documents/estructurasII/dataStructuresII/Empleado.h
-MenuOrdenCompra.h
-/home/hugo/Documents/estructurasII/dataStructuresII/MenuOrdenCompra.h
 
 /home/hugo/Documents/estructurasII/dataStructuresII/MenuOrdenCompra.h
 ListaOrdenCompra.h
@@ -39,6 +41,14 @@ listProd.h
 /home/hugo/Documents/estructurasII/dataStructuresII/listProd.h
 listProv.h
 /home/hugo/Documents/estructurasII/dataStructuresII/listProv.h
+
+/home/hugo/Documents/estructurasII/dataStructuresII/NodoCliente.cpp
+NodoCliente.h
+/home/hugo/Documents/estructurasII/dataStructuresII/NodoCliente.h
+
+/home/hugo/Documents/estructurasII/dataStructuresII/NodoCliente.h
+Cliente.h
+/home/hugo/Documents/estructurasII/dataStructuresII/Cliente.h
 
 /home/hugo/Documents/estructurasII/dataStructuresII/NodoInv.cpp
 NodoInv.h

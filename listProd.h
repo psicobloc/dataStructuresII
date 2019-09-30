@@ -7,7 +7,7 @@
 #include <iostream>
 #include "producto.h"
 #include "nodeProd.h"
-#include "cstring"
+#include "cstring" /// si se usa esta librería? todo!
 
 class ListProd {
 private:
