@@ -84,6 +84,12 @@
 				</MakeCommands>
 			</Target>
 		</Build>
+		<Unit filename="/home/hugo/Documents/estructurasII/dataStructuresII/Cliente.cpp">
+			<Option target="entregable1"/>
+		</Unit>
+		<Unit filename="/home/hugo/Documents/estructurasII/dataStructuresII/Cliente.h">
+			<Option target="entregable1"/>
+		</Unit>
 		<Unit filename="/home/hugo/Documents/estructurasII/dataStructuresII/Empleado.cpp">
 			<Option target="entregable1"/>
 		</Unit>
@@ -94,6 +100,12 @@
 			<Option target="entregable1"/>
 		</Unit>
 		<Unit filename="/home/hugo/Documents/estructurasII/dataStructuresII/ListaEmpleados.h">
+			<Option target="entregable1"/>
+		</Unit>
+		<Unit filename="/home/hugo/Documents/estructurasII/dataStructuresII/ListaInvertida.cpp">
+			<Option target="entregable1"/>
+		</Unit>
+		<Unit filename="/home/hugo/Documents/estructurasII/dataStructuresII/ListaInvertida.h">
 			<Option target="entregable1"/>
 		</Unit>
 		<Unit filename="/home/hugo/Documents/estructurasII/dataStructuresII/ListaOrdenCompra.cpp">
@@ -118,6 +130,12 @@
 			<Option target="entregable1"/>
 		</Unit>
 		<Unit filename="/home/hugo/Documents/estructurasII/dataStructuresII/NodoEmpleados.h">
+			<Option target="entregable1"/>
+		</Unit>
+		<Unit filename="/home/hugo/Documents/estructurasII/dataStructuresII/NodoInv.cpp">
+			<Option target="entregable1"/>
+		</Unit>
+		<Unit filename="/home/hugo/Documents/estructurasII/dataStructuresII/NodoInv.h">
 			<Option target="entregable1"/>
 		</Unit>
 		<Unit filename="/home/hugo/Documents/estructurasII/dataStructuresII/NodoOrdenCompra.cpp">

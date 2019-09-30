@@ -278,6 +278,45 @@ CMakeFiles/entregable1.dir/MenuEmpleados.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/entregable1.dir/MenuEmpleados.cpp.s"
 	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/hugo/Documents/estructurasII/dataStructuresII/MenuEmpleados.cpp -o CMakeFiles/entregable1.dir/MenuEmpleados.cpp.s
 
+CMakeFiles/entregable1.dir/Cliente.cpp.o: CMakeFiles/entregable1.dir/flags.make
+CMakeFiles/entregable1.dir/Cliente.cpp.o: ../Cliente.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/hugo/Documents/estructurasII/dataStructuresII/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_18) "Building CXX object CMakeFiles/entregable1.dir/Cliente.cpp.o"
+	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/entregable1.dir/Cliente.cpp.o -c /home/hugo/Documents/estructurasII/dataStructuresII/Cliente.cpp
+
+CMakeFiles/entregable1.dir/Cliente.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/entregable1.dir/Cliente.cpp.i"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/hugo/Documents/estructurasII/dataStructuresII/Cliente.cpp > CMakeFiles/entregable1.dir/Cliente.cpp.i
+
+CMakeFiles/entregable1.dir/Cliente.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/entregable1.dir/Cliente.cpp.s"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/hugo/Documents/estructurasII/dataStructuresII/Cliente.cpp -o CMakeFiles/entregable1.dir/Cliente.cpp.s
+
+CMakeFiles/entregable1.dir/NodoInv.cpp.o: CMakeFiles/entregable1.dir/flags.make
+CMakeFiles/entregable1.dir/NodoInv.cpp.o: ../NodoInv.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/hugo/Documents/estructurasII/dataStructuresII/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_19) "Building CXX object CMakeFiles/entregable1.dir/NodoInv.cpp.o"
+	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/entregable1.dir/NodoInv.cpp.o -c /home/hugo/Documents/estructurasII/dataStructuresII/NodoInv.cpp
+
+CMakeFiles/entregable1.dir/NodoInv.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/entregable1.dir/NodoInv.cpp.i"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/hugo/Documents/estructurasII/dataStructuresII/NodoInv.cpp > CMakeFiles/entregable1.dir/NodoInv.cpp.i
+
+CMakeFiles/entregable1.dir/NodoInv.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/entregable1.dir/NodoInv.cpp.s"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/hugo/Documents/estructurasII/dataStructuresII/NodoInv.cpp -o CMakeFiles/entregable1.dir/NodoInv.cpp.s
+
+CMakeFiles/entregable1.dir/ListaInvertida.cpp.o: CMakeFiles/entregable1.dir/flags.make
+CMakeFiles/entregable1.dir/ListaInvertida.cpp.o: ../ListaInvertida.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/hugo/Documents/estructurasII/dataStructuresII/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_20) "Building CXX object CMakeFiles/entregable1.dir/ListaInvertida.cpp.o"
+	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/entregable1.dir/ListaInvertida.cpp.o -c /home/hugo/Documents/estructurasII/dataStructuresII/ListaInvertida.cpp
+
+CMakeFiles/entregable1.dir/ListaInvertida.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/entregable1.dir/ListaInvertida.cpp.i"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/hugo/Documents/estructurasII/dataStructuresII/ListaInvertida.cpp > CMakeFiles/entregable1.dir/ListaInvertida.cpp.i
+
+CMakeFiles/entregable1.dir/ListaInvertida.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/entregable1.dir/ListaInvertida.cpp.s"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/hugo/Documents/estructurasII/dataStructuresII/ListaInvertida.cpp -o CMakeFiles/entregable1.dir/ListaInvertida.cpp.s
+
 # Object files for target entregable1
 entregable1_OBJECTS = \
 "CMakeFiles/entregable1.dir/main.cpp.o" \
@@ -296,7 +335,10 @@ entregable1_OBJECTS = \
 "CMakeFiles/entregable1.dir/Empleado.cpp.o" \
 "CMakeFiles/entregable1.dir/NodoEmpleados.cpp.o" \
 "CMakeFiles/entregable1.dir/ListaEmpleados.cpp.o" \
-"CMakeFiles/entregable1.dir/MenuEmpleados.cpp.o"
+"CMakeFiles/entregable1.dir/MenuEmpleados.cpp.o" \
+"CMakeFiles/entregable1.dir/Cliente.cpp.o" \
+"CMakeFiles/entregable1.dir/NodoInv.cpp.o" \
+"CMakeFiles/entregable1.dir/ListaInvertida.cpp.o"
 
 # External object files for target entregable1
 entregable1_EXTERNAL_OBJECTS =
@@ -318,9 +360,12 @@ entregable1: CMakeFiles/entregable1.dir/Empleado.cpp.o
 entregable1: CMakeFiles/entregable1.dir/NodoEmpleados.cpp.o
 entregable1: CMakeFiles/entregable1.dir/ListaEmpleados.cpp.o
 entregable1: CMakeFiles/entregable1.dir/MenuEmpleados.cpp.o
+entregable1: CMakeFiles/entregable1.dir/Cliente.cpp.o
+entregable1: CMakeFiles/entregable1.dir/NodoInv.cpp.o
+entregable1: CMakeFiles/entregable1.dir/ListaInvertida.cpp.o
 entregable1: CMakeFiles/entregable1.dir/build.make
 entregable1: CMakeFiles/entregable1.dir/link.txt
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/home/hugo/Documents/estructurasII/dataStructuresII/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_18) "Linking CXX executable entregable1"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/home/hugo/Documents/estructurasII/dataStructuresII/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_21) "Linking CXX executable entregable1"
 	$(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/entregable1.dir/link.txt --verbose=$(VERBOSE)
 
 # Rule to build all files generated by this target.

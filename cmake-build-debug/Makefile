@@ -123,6 +123,33 @@ entregable1/fast:
 	$(MAKE) -f CMakeFiles/entregable1.dir/build.make CMakeFiles/entregable1.dir/build
 .PHONY : entregable1/fast
 
+Cliente.o: Cliente.cpp.o
+
+.PHONY : Cliente.o
+
+# target to build an object file
+Cliente.cpp.o:
+	$(MAKE) -f CMakeFiles/entregable1.dir/build.make CMakeFiles/entregable1.dir/Cliente.cpp.o
+.PHONY : Cliente.cpp.o
+
+Cliente.i: Cliente.cpp.i
+
+.PHONY : Cliente.i
+
+# target to preprocess a source file
+Cliente.cpp.i:
+	$(MAKE) -f CMakeFiles/entregable1.dir/build.make CMakeFiles/entregable1.dir/Cliente.cpp.i
+.PHONY : Cliente.cpp.i
+
+Cliente.s: Cliente.cpp.s
+
+.PHONY : Cliente.s
+
+# target to generate assembly for a file
+Cliente.cpp.s:
+	$(MAKE) -f CMakeFiles/entregable1.dir/build.make CMakeFiles/entregable1.dir/Cliente.cpp.s
+.PHONY : Cliente.cpp.s
+
 Empleado.o: Empleado.cpp.o
 
 .PHONY : Empleado.o
@@ -176,6 +203,33 @@ ListaEmpleados.s: ListaEmpleados.cpp.s
 ListaEmpleados.cpp.s:
 	$(MAKE) -f CMakeFiles/entregable1.dir/build.make CMakeFiles/entregable1.dir/ListaEmpleados.cpp.s
 .PHONY : ListaEmpleados.cpp.s
+
+ListaInvertida.o: ListaInvertida.cpp.o
+
+.PHONY : ListaInvertida.o
+
+# target to build an object file
+ListaInvertida.cpp.o:
+	$(MAKE) -f CMakeFiles/entregable1.dir/build.make CMakeFiles/entregable1.dir/ListaInvertida.cpp.o
+.PHONY : ListaInvertida.cpp.o
+
+ListaInvertida.i: ListaInvertida.cpp.i
+
+.PHONY : ListaInvertida.i
+
+# target to preprocess a source file
+ListaInvertida.cpp.i:
+	$(MAKE) -f CMakeFiles/entregable1.dir/build.make CMakeFiles/entregable1.dir/ListaInvertida.cpp.i
+.PHONY : ListaInvertida.cpp.i
+
+ListaInvertida.s: ListaInvertida.cpp.s
+
+.PHONY : ListaInvertida.s
+
+# target to generate assembly for a file
+ListaInvertida.cpp.s:
+	$(MAKE) -f CMakeFiles/entregable1.dir/build.make CMakeFiles/entregable1.dir/ListaInvertida.cpp.s
+.PHONY : ListaInvertida.cpp.s
 
 ListaOrdenCompra.o: ListaOrdenCompra.cpp.o
 
@@ -284,6 +338,33 @@ NodoEmpleados.s: NodoEmpleados.cpp.s
 NodoEmpleados.cpp.s:
 	$(MAKE) -f CMakeFiles/entregable1.dir/build.make CMakeFiles/entregable1.dir/NodoEmpleados.cpp.s
 .PHONY : NodoEmpleados.cpp.s
+
+NodoInv.o: NodoInv.cpp.o
+
+.PHONY : NodoInv.o
+
+# target to build an object file
+NodoInv.cpp.o:
+	$(MAKE) -f CMakeFiles/entregable1.dir/build.make CMakeFiles/entregable1.dir/NodoInv.cpp.o
+.PHONY : NodoInv.cpp.o
+
+NodoInv.i: NodoInv.cpp.i
+
+.PHONY : NodoInv.i
+
+# target to preprocess a source file
+NodoInv.cpp.i:
+	$(MAKE) -f CMakeFiles/entregable1.dir/build.make CMakeFiles/entregable1.dir/NodoInv.cpp.i
+.PHONY : NodoInv.cpp.i
+
+NodoInv.s: NodoInv.cpp.s
+
+.PHONY : NodoInv.s
+
+# target to generate assembly for a file
+NodoInv.cpp.s:
+	$(MAKE) -f CMakeFiles/entregable1.dir/build.make CMakeFiles/entregable1.dir/NodoInv.cpp.s
+.PHONY : NodoInv.cpp.s
 
 NodoOrdenCompra.o: NodoOrdenCompra.cpp.o
 
@@ -591,12 +672,18 @@ help:
 	@echo "... rebuild_cache"
 	@echo "... entregable1"
 	@echo "... edit_cache"
+	@echo "... Cliente.o"
+	@echo "... Cliente.i"
+	@echo "... Cliente.s"
 	@echo "... Empleado.o"
 	@echo "... Empleado.i"
 	@echo "... Empleado.s"
 	@echo "... ListaEmpleados.o"
 	@echo "... ListaEmpleados.i"
 	@echo "... ListaEmpleados.s"
+	@echo "... ListaInvertida.o"
+	@echo "... ListaInvertida.i"
+	@echo "... ListaInvertida.s"
 	@echo "... ListaOrdenCompra.o"
 	@echo "... ListaOrdenCompra.i"
 	@echo "... ListaOrdenCompra.s"
@@ -609,6 +696,9 @@ help:
 	@echo "... NodoEmpleados.o"
 	@echo "... NodoEmpleados.i"
 	@echo "... NodoEmpleados.s"
+	@echo "... NodoInv.o"
+	@echo "... NodoInv.i"
+	@echo "... NodoInv.s"
 	@echo "... NodoOrdenCompra.o"
 	@echo "... NodoOrdenCompra.i"
 	@echo "... NodoOrdenCompra.s"
