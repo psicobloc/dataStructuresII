@@ -158,7 +158,6 @@ void MenuOrdenCompra::searchOrden() {
 
     string codigo;
     OrdenCompra ordenBuscar, ordenEncontrada;
-    char opc('x');
 
     cout << "Buscar Orden de Compra" << endl;
     cout << "Escribe el codigo de la orden de compra que deseas buscar" << endl;

@@ -2,7 +2,6 @@
 
 #include "listProd.h"
 #include <string.h>
-#include <stdio.h>
 
 using namespace std;
 

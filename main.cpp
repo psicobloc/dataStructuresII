@@ -3,6 +3,7 @@
 #include "menuProd.h"
 #include "MenuOrdenCompra.h"
 #include "MenuEmpleados.h"
+#include "MenuClientes.h"
 
 int main() {
     //std::cout << "Hello, World!" << std::endl;
@@ -16,8 +17,11 @@ int main() {
 
 //    MenuOrdenCompra mo;
 //    mo.mainMenu();
+//
+//        MenuEmpleados me;
+//        me.mainMenu();
 
-        MenuEmpleados me;
-        me.mainMenu();
+MenuClientes mc;
+mc.mainMenu();
 
 }

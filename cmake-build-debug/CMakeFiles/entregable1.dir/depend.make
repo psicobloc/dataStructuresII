@@ -95,6 +95,26 @@ CMakeFiles/entregable1.dir/ListaOrdenCompra.cpp.o: ../nodoProv.h
 CMakeFiles/entregable1.dir/ListaOrdenCompra.cpp.o: ../producto.h
 CMakeFiles/entregable1.dir/ListaOrdenCompra.cpp.o: ../proveedores.h
 
+CMakeFiles/entregable1.dir/MenuClientes.cpp.o: ../Cliente.h
+CMakeFiles/entregable1.dir/MenuClientes.cpp.o: ../ListaClientes.h
+CMakeFiles/entregable1.dir/MenuClientes.cpp.o: ../ListaInvertida.h
+CMakeFiles/entregable1.dir/MenuClientes.cpp.o: ../ListaOrdenCompra.h
+CMakeFiles/entregable1.dir/MenuClientes.cpp.o: ../MenuClientes.cpp
+CMakeFiles/entregable1.dir/MenuClientes.cpp.o: ../MenuClientes.h
+CMakeFiles/entregable1.dir/MenuClientes.cpp.o: ../MenuOrdenCompra.h
+CMakeFiles/entregable1.dir/MenuClientes.cpp.o: ../NodoCliente.h
+CMakeFiles/entregable1.dir/MenuClientes.cpp.o: ../NodoInv.h
+CMakeFiles/entregable1.dir/MenuClientes.cpp.o: ../NodoOrdenCompra.h
+CMakeFiles/entregable1.dir/MenuClientes.cpp.o: ../OrdenCompra.h
+CMakeFiles/entregable1.dir/MenuClientes.cpp.o: ../listProd.h
+CMakeFiles/entregable1.dir/MenuClientes.cpp.o: ../listProv.h
+CMakeFiles/entregable1.dir/MenuClientes.cpp.o: ../menuProd.h
+CMakeFiles/entregable1.dir/MenuClientes.cpp.o: ../menuProv.h
+CMakeFiles/entregable1.dir/MenuClientes.cpp.o: ../nodeProd.h
+CMakeFiles/entregable1.dir/MenuClientes.cpp.o: ../nodoProv.h
+CMakeFiles/entregable1.dir/MenuClientes.cpp.o: ../producto.h
+CMakeFiles/entregable1.dir/MenuClientes.cpp.o: ../proveedores.h
+
 CMakeFiles/entregable1.dir/MenuEmpleados.cpp.o: ../Empleado.h
 CMakeFiles/entregable1.dir/MenuEmpleados.cpp.o: ../ListaOrdenCompra.h
 CMakeFiles/entregable1.dir/MenuEmpleados.cpp.o: ../MenuEmpleados.cpp
@@ -206,10 +226,16 @@ CMakeFiles/entregable1.dir/listProv.cpp.o: ../listProv.h
 CMakeFiles/entregable1.dir/listProv.cpp.o: ../nodoProv.h
 CMakeFiles/entregable1.dir/listProv.cpp.o: ../proveedores.h
 
+CMakeFiles/entregable1.dir/main.cpp.o: ../Cliente.h
 CMakeFiles/entregable1.dir/main.cpp.o: ../Empleado.h
+CMakeFiles/entregable1.dir/main.cpp.o: ../ListaClientes.h
+CMakeFiles/entregable1.dir/main.cpp.o: ../ListaInvertida.h
 CMakeFiles/entregable1.dir/main.cpp.o: ../ListaOrdenCompra.h
+CMakeFiles/entregable1.dir/main.cpp.o: ../MenuClientes.h
 CMakeFiles/entregable1.dir/main.cpp.o: ../MenuEmpleados.h
 CMakeFiles/entregable1.dir/main.cpp.o: ../MenuOrdenCompra.h
+CMakeFiles/entregable1.dir/main.cpp.o: ../NodoCliente.h
+CMakeFiles/entregable1.dir/main.cpp.o: ../NodoInv.h
 CMakeFiles/entregable1.dir/main.cpp.o: ../NodoOrdenCompra.h
 CMakeFiles/entregable1.dir/main.cpp.o: ../OrdenCompra.h
 CMakeFiles/entregable1.dir/main.cpp.o: ../listProd.h

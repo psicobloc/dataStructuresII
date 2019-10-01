@@ -50,7 +50,7 @@ std::string *NodoInv::getLlavePtr() {
     return llavePtr;
 }
 
-NodoInv *NodoInv::getPriMario() {
+NodoInv *NodoInv::getPrimario() {
     return primario;
 }
 

@@ -7,7 +7,7 @@
 
 class ListaInvertida {
 private:
-    NodoInv* anclaNombre; //secundaria
+    NodoInv* anclaCodigo; //secundaria
     NodoInv* anclaEstado; //primaria
 
 public:
@@ -15,10 +15,19 @@ public:
     ~ListaInvertida();
 
     bool estadoExist(std::string edo);
-    void crearEstado(std::string edo);
+    void crearEstado(std::string edo, std::string codigo);
+    void crearCliente(std::string edo, std::string codigo); // solo se va aguardar su codigo
+    bool isListaEdosEmpty();
+    bool isListaClientesEmpty();
+    bool isListaClnt_EdoEmpty(std::string edo);
 
-// todo falta hacer la lista completa de clientes. como munilist.
+    NodoInv* findEdo(std::string edo);
+
+    void deleteAll();
+    NodoInv* getAnclaEstados();
+    NodoInv* getAnclaClientes();
+    std::string estadosToString();
+    std::string clientesToString(std::string edo); //imprimir los municipios por estado
+
 };
-
-
 #endif //ENTREGABLE1_LISTAINVERTIDA_H

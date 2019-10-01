@@ -4,6 +4,7 @@
 #define ENTREGABLE1_CLIENTE_H
 
 #include "MenuOrdenCompra.h"
+#include <fstream>
 
 class Cliente {
 private:

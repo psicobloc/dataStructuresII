@@ -24,7 +24,7 @@ public:
 
     std::string& getLLave();
     std::string * getLlavePtr();
-    NodoInv* getPriMario();
+    NodoInv* getPrimario();
     NodoInv* getSecundario();
 
 };
