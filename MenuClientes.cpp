@@ -175,7 +175,194 @@ void MenuClientes::show()
 
 void MenuClientes::update()
 {
+    char codigo[50], nombre[50], estado[50], direccion[50], rfc[13], tipoC[10];
+    string nameStr, stateStr, addStr, rfcStr, typeStr;
+    long int start, posInicial;
+    Cliente auxCliente, clienteModificar;
+    auxCliente.setCodigoCliente("");
+    string codigoModificar;
+    bool bandera(false);
+    string archivoInd("indexInv.txt");
+    string archivoClientes("clientes.txt");
+    string indTemporal("tempi.txt");
+    string clienteTemp("tempclnt.txt");
 
+    cout << "Ingrese el codigo del cliente que desea modificar" << endl;
+    fflush(stdin);
+    getline(cin, codigoModificar);
+    getline(cin, codigoModificar);
+
+
+    ifstream leerIndex(archivoInd, ios::in);
+
+    while (!leerIndex.eof())
+    {
+        leerIndex.read((char*)& codigo, sizeof codigo);
+        leerIndex.read((char*)& start, sizeof start);
+
+        string codigoLeido(codigo);
+
+        if (codigoLeido == codigoModificar)
+        {
+            bandera = true;
+            break;
+        }
+
+    }
+
+    leerIndex.close();
+
+    if(!bandera)
+    {
+        cout<<"No se encontro el codigo en la lista..."<<endl;
+        return;
+    }
+    string codigoMod(codigo);
+    clienteModificar.setCodigoCliente(codigoMod);
+
+    //estaria bien imprimir el cliente
+    cout << "Escribe el nuevo nombre del cliente:\t" << endl;
+    fflush(stdin);
+    getline(cin, nameStr);
+    clienteModificar.setName(nameStr);
+
+    cout << "Escribe el nombre del nuevo estado" << endl;
+    fflush(stdin);
+    getline(cin,stateStr);
+    clienteModificar.setEstado(stateStr);
+
+    cout << "Escribe el resto de la direccion del cliente" << endl;
+    fflush(stdin);
+    getline(cin,addStr);
+    clienteModificar.setDireccion(addStr);
+
+    cout << "Escribe el nuevo RFC del cliente" << endl;
+    fflush(stdin);
+    getline(cin,rfcStr);
+    clienteModificar.setRfc(rfcStr);
+
+    cout << "Escribe el nuevo tipo de cliente " << auxCliente.getName()<< " (Mayoreo/Menudeo)" << endl;
+    fflush(stdin);
+    getline(cin,typeStr);
+    clienteModificar.setTipoCliente(typeStr);
+
+    //modificacion
+    ifstream leerInd(archivoInd, ios::in);
+    ifstream leerClientes(archivoClientes, ios::in);
+    ofstream escrindexTemp(indTemporal, ios::app);
+    ofstream escribirClientesTemp(clienteTemp, ios::app);
+
+    while (!leerInd.eof())
+    {
+        //leer indice
+        leerIndex.read((char*)& codigo, sizeof codigo);
+        leerIndex.read((char*)& start, sizeof start);
+
+        //leer de clientes.txt
+        leerClientes.seekg(start);
+        leerClientes.read((char*)& codigo, sizeof codigo);
+        string codigoStr(codigo);
+
+        if (auxCliente.getCodigoCliente() == codigoStr) //criterio de paro
+        {
+            break;
+        }
+
+        auxCliente.setCodigoCliente(codigoStr);
+
+        leerClientes.read((char*)&nombre, sizeof nombre);
+        string nombreStr(nombre);
+        auxCliente.setName(nombreStr);
+
+        leerClientes.read((char*)& estado, sizeof estado);
+        string estadoStr(estado);
+        auxCliente.setEstado(estadoStr);
+
+        leerClientes.read((char*)&direccion, sizeof direccion);
+        string direccionStr(direccion);
+        auxCliente.setDireccion(direccionStr);
+
+        leerClientes.read((char*)&rfc, sizeof rfc);
+        string rfcString(rfc);
+        auxCliente.setRfc(rfcString);
+
+        leerClientes.read((char*)&tipoC, sizeof tipoC);
+        string tipoCStr(tipoC);
+        auxCliente.setTipoCliente(tipoCStr);
+
+        //crear nuevo indice
+
+        posInicial = escribirClientesTemp.tellp();
+        escrindexTemp.write((char*)& codigo, sizeof codigo);
+        escrindexTemp.write((char*)& posInicial, sizeof posInicial);
+
+        if (codigoModificar != codigo) //copiar del archivo
+        {
+            escribirClientesTemp.write((char*)&codigo, sizeof codigo);
+
+            char nam[50];
+            strcpy(nam,auxCliente.getName().c_str());
+            escribirClientesTemp.write((char*)&nam,sizeof nam);
+
+            char estado[50];
+            strcpy(estado, auxCliente.getEstado().c_str());
+            escribirClientesTemp.write((char*)& estado, sizeof estado);
+
+            char direccion[50];
+            strcpy(direccion, auxCliente.getDireccion().c_str());
+            escribirClientesTemp.write((char*)& direccion, sizeof direccion);
+
+            char rfc[13];
+            strcpy(rfc, auxCliente.getRfc().c_str());
+            escribirClientesTemp.write((char*)& rfc, sizeof rfc);
+
+            char tipoC[10];
+            strcpy(tipoC, auxCliente.getTipoCliente().c_str());
+            escribirClientesTemp.write((char*)& tipoC, sizeof tipoC);
+
+        }
+        else //escribir nuevo registro
+        {
+            escribirClientesTemp.write((char*)&codigo, sizeof codigo);
+
+            char namMod[50];
+            strcpy(namMod,clienteModificar.getName().c_str());
+            escribirClientesTemp.write((char*)&namMod,sizeof namMod);
+
+            char estadoMod[50];
+            strcpy(estadoMod, clienteModificar.getEstado().c_str());
+            escribirClientesTemp.write((char*)& estadoMod, sizeof estadoMod);
+
+            char direccionMod[50];
+            strcpy(direccionMod, clienteModificar.getDireccion().c_str());
+            escribirClientesTemp.write((char*)& direccionMod, sizeof direccionMod);
+
+            char rfcMod[13];
+            strcpy(rfcMod, clienteModificar.getRfc().c_str());
+            escribirClientesTemp.write((char*)& rfcMod, sizeof rfcMod);
+
+            char tipoCMod[10];
+            strcpy(tipoCMod, clienteModificar.getTipoCliente().c_str());
+            escribirClientesTemp.write((char*)& tipoCMod, sizeof tipoCMod);
+
+        }
+    }
+    string archivoInd("indexInv.txt");
+    string archivoClientes("clientes.txt");
+    string indTemporal("tempi.txt");
+    string clienteTemp("tempclnt.txt");
+
+    leerClientes.close();
+    leerInd.close();
+    escribirClientesTemp.close();
+    escrindexTemp.close();
+
+    remove("clientes.txt");
+    rename("tempclnt.txt", "clientes.txt");
+    remove("indexInv.txt");
+    rename("tempi.txt", "indexInv.txt");
+
+    cargarLista();
 }
 
 void MenuClientes::deleteC()
@@ -193,7 +380,7 @@ void MenuClientes::mainMenu()
     while (opc != 's')
     {
         system("cls");
-        cout << endl  << "menu principal" << endl << "1)agregar cliente\n2)mostrar clientes\n3)mostrar clientes por estado\n4)cargar lista" << endl;
+        cout << endl  << "menu principal" << endl << "1)agregar cliente\n2)mostrar clientes\n3)mostrar clientes por estado\n4)cargar lista\n5)Mostrar lista invertida" << endl;
         fflush(stdin);
         cin >> opc;
         //cin >> opc;
@@ -230,7 +417,7 @@ void MenuClientes::mainMenu()
 
             case '5':
             {
-
+                mostrarLlistaInvertida();
                 break;
             }
 
@@ -320,8 +507,7 @@ void MenuClientes::mostrarLista()
 cout << endl << endl << endl << ListaClientesRAM.toString() << endl;
 }
 
-void MenuClientes::mostrarClientesPorEdo(std::string edo)///@escritura codigo[50], nombre[50], estado[50], direccion[50], RFC[13], tipoC[10]
-
+void MenuClientes::mostrarClientesPorEdo(std::string edo)
 {
     string ind("indexInv.txt"), clnt("clientes.txt");
     string codigoStr(""), codigoAnt("");
@@ -395,5 +581,37 @@ void MenuClientes::mostrarClientesPorEdo(std::string edo)///@escritura codigo[50
 
 void MenuClientes::mostrarLlistaInvertida()
 {
+    string llave("");
 
+    NodoInv* auxEdo(invertidaRAM.getAnclaEstados());
+    NodoInv* sec(nullptr);
+    NodoInv* prim(nullptr);
+
+    cout << "Estados" << endl;
+
+    while (auxEdo != nullptr)
+    {
+        auto a = auxEdo;
+        auto sigSec = auxEdo->getSecundario();
+        auto sigPrim = auxEdo->getPrimario();
+        llave = auxEdo->getLLave();
+
+        cout << "Nombre de estado:  " << llave <<   "   Direccion:  " << a << "  Sig. Edo.  " << sigPrim << " Primer cliente: " << sigSec << endl;
+        auxEdo = auxEdo->getPrimario();
+    }
+
+    cout << endl << endl;
+
+    NodoInv* auxCliente(invertidaRAM.getAnclaClientes());
+
+    while (auxCliente != nullptr)
+    {
+        auto actual = auxCliente;
+        auto sigSecClt = auxCliente->getSecundario();
+        auto sigPrimClt = auxCliente->getPrimario();
+        llave = auxCliente->getLLave();
+
+        cout << "Clave de cliente:  " << llave <<   "   Direccion:  " << actual << "  Sig. Cliente del estado  " << sigSecClt << " Siguiente cliente de la lista: " << sigPrimClt << endl;
+        auxCliente = auxCliente->getPrimario();
+    }
 }
