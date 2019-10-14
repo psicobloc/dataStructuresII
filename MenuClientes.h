@@ -21,6 +21,8 @@ public:
     void setClienteRam(Cliente);
     Cliente getClienteRam();
 
+    ListaClientes getListaClientesRam();
+
     void create(); /// escribir index.txt y clientes.txt
     void show();   /// leer index, despues leer clientes
     void update(); /// modificar index y clientes ----.txt

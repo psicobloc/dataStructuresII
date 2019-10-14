@@ -6,6 +6,20 @@ using namespace std;
 
 Cliente::Cliente() {}
 
+Cliente::Cliente(Cliente &clnt)
+{
+codigoCliente = clnt.codigoCliente;
+name = clnt.name;
+direccion = clnt.direccion;
+estado = clnt.estado;
+RFC = clnt.RFC;
+tipoCliente = clnt.tipoCliente;
+}
+
+Cliente::Cliente(std::string codCliente, std::string rfcCliente) : codigoCliente(codCliente), RFC(rfcCliente)
+{
+
+}
 
 const string &Cliente::getName() const {
     return name;

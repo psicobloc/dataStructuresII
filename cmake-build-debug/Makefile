@@ -177,6 +177,33 @@ Empleado.cpp.s:
 	$(MAKE) -f CMakeFiles/entregable1.dir/build.make CMakeFiles/entregable1.dir/Empleado.cpp.s
 .PHONY : Empleado.cpp.s
 
+Factura.o: Factura.cpp.o
+
+.PHONY : Factura.o
+
+# target to build an object file
+Factura.cpp.o:
+	$(MAKE) -f CMakeFiles/entregable1.dir/build.make CMakeFiles/entregable1.dir/Factura.cpp.o
+.PHONY : Factura.cpp.o
+
+Factura.i: Factura.cpp.i
+
+.PHONY : Factura.i
+
+# target to preprocess a source file
+Factura.cpp.i:
+	$(MAKE) -f CMakeFiles/entregable1.dir/build.make CMakeFiles/entregable1.dir/Factura.cpp.i
+.PHONY : Factura.cpp.i
+
+Factura.s: Factura.cpp.s
+
+.PHONY : Factura.s
+
+# target to generate assembly for a file
+Factura.cpp.s:
+	$(MAKE) -f CMakeFiles/entregable1.dir/build.make CMakeFiles/entregable1.dir/Factura.cpp.s
+.PHONY : Factura.cpp.s
+
 ListaClientes.o: ListaClientes.cpp.o
 
 .PHONY : ListaClientes.o
@@ -419,6 +446,33 @@ NodoEmpleados.s: NodoEmpleados.cpp.s
 NodoEmpleados.cpp.s:
 	$(MAKE) -f CMakeFiles/entregable1.dir/build.make CMakeFiles/entregable1.dir/NodoEmpleados.cpp.s
 .PHONY : NodoEmpleados.cpp.s
+
+NodoFactura.o: NodoFactura.cpp.o
+
+.PHONY : NodoFactura.o
+
+# target to build an object file
+NodoFactura.cpp.o:
+	$(MAKE) -f CMakeFiles/entregable1.dir/build.make CMakeFiles/entregable1.dir/NodoFactura.cpp.o
+.PHONY : NodoFactura.cpp.o
+
+NodoFactura.i: NodoFactura.cpp.i
+
+.PHONY : NodoFactura.i
+
+# target to preprocess a source file
+NodoFactura.cpp.i:
+	$(MAKE) -f CMakeFiles/entregable1.dir/build.make CMakeFiles/entregable1.dir/NodoFactura.cpp.i
+.PHONY : NodoFactura.cpp.i
+
+NodoFactura.s: NodoFactura.cpp.s
+
+.PHONY : NodoFactura.s
+
+# target to generate assembly for a file
+NodoFactura.cpp.s:
+	$(MAKE) -f CMakeFiles/entregable1.dir/build.make CMakeFiles/entregable1.dir/NodoFactura.cpp.s
+.PHONY : NodoFactura.cpp.s
 
 NodoInv.o: NodoInv.cpp.o
 
@@ -759,6 +813,9 @@ help:
 	@echo "... Empleado.o"
 	@echo "... Empleado.i"
 	@echo "... Empleado.s"
+	@echo "... Factura.o"
+	@echo "... Factura.i"
+	@echo "... Factura.s"
 	@echo "... ListaClientes.o"
 	@echo "... ListaClientes.i"
 	@echo "... ListaClientes.s"
@@ -786,6 +843,9 @@ help:
 	@echo "... NodoEmpleados.o"
 	@echo "... NodoEmpleados.i"
 	@echo "... NodoEmpleados.s"
+	@echo "... NodoFactura.o"
+	@echo "... NodoFactura.i"
+	@echo "... NodoFactura.s"
 	@echo "... NodoInv.o"
 	@echo "... NodoInv.i"
 	@echo "... NodoInv.s"

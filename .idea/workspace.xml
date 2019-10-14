@@ -12,10 +12,34 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="34c1dca7-c2b7-4837-897f-da90ba37ea08" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/Factura.cpp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Factura.h" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/NodoFactura.cpp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/NodoFactura.h" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/CMakeLists.txt" beforeDir="false" afterPath="$PROJECT_DIR$/CMakeLists.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Cliente.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/Cliente.cpp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Cliente.h" beforeDir="false" afterPath="$PROJECT_DIR$/Cliente.h" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/MenuClientes.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/MenuClientes.cpp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/MenuClientes.h" beforeDir="false" afterPath="$PROJECT_DIR$/MenuClientes.h" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/Makefile2" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/Makefile2" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/entregable1.dir/CXX.includecache" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/entregable1.dir/CXX.includecache" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/entregable1.dir/Cliente.cpp.o" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/entregable1.dir/Cliente.cpp.o" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/entregable1.dir/DependInfo.cmake" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/entregable1.dir/DependInfo.cmake" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/entregable1.dir/ListaClientes.cpp.o" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/entregable1.dir/ListaClientes.cpp.o" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/entregable1.dir/MenuClientes.cpp.o" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/entregable1.dir/MenuClientes.cpp.o" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/entregable1.dir/NodoCliente.cpp.o" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/entregable1.dir/NodoCliente.cpp.o" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/entregable1.dir/build.make" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/entregable1.dir/build.make" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/entregable1.dir/cmake_clean.cmake" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/entregable1.dir/cmake_clean.cmake" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/entregable1.dir/depend.internal" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/entregable1.dir/depend.internal" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/entregable1.dir/depend.make" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/entregable1.dir/depend.make" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/entregable1.dir/link.txt" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/entregable1.dir/link.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/entregable1.dir/main.cpp.o" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/entregable1.dir/main.cpp.o" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/entregable1.dir/progress.make" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/entregable1.dir/progress.make" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/progress.marks" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/progress.marks" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/Makefile" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/Makefile" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/cmake-build-debug/entregable1" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/entregable1" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/entregable1.cbp" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/entregable1.cbp" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -92,7 +116,9 @@
       <workItem from="1569869977954" duration="21853000" />
       <workItem from="1569950343714" duration="1504000" />
       <workItem from="1569984634153" duration="1341000" />
-      <workItem from="1570500558620" duration="5145000" />
+      <workItem from="1570500558620" duration="5761000" />
+      <workItem from="1571071087104" duration="3246000" />
+      <workItem from="1571085527047" duration="1007000" />
     </task>
     <servers />
   </component>

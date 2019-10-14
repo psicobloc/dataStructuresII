@@ -96,6 +96,12 @@
 		<Unit filename="/home/hugo/Documents/estructurasII/dataStructuresII/Empleado.h">
 			<Option target="entregable1"/>
 		</Unit>
+		<Unit filename="/home/hugo/Documents/estructurasII/dataStructuresII/Factura.cpp">
+			<Option target="entregable1"/>
+		</Unit>
+		<Unit filename="/home/hugo/Documents/estructurasII/dataStructuresII/Factura.h">
+			<Option target="entregable1"/>
+		</Unit>
 		<Unit filename="/home/hugo/Documents/estructurasII/dataStructuresII/ListaClientes.cpp">
 			<Option target="entregable1"/>
 		</Unit>
@@ -148,6 +154,12 @@
 			<Option target="entregable1"/>
 		</Unit>
 		<Unit filename="/home/hugo/Documents/estructurasII/dataStructuresII/NodoEmpleados.h">
+			<Option target="entregable1"/>
+		</Unit>
+		<Unit filename="/home/hugo/Documents/estructurasII/dataStructuresII/NodoFactura.cpp">
+			<Option target="entregable1"/>
+		</Unit>
+		<Unit filename="/home/hugo/Documents/estructurasII/dataStructuresII/NodoFactura.h">
 			<Option target="entregable1"/>
 		</Unit>
 		<Unit filename="/home/hugo/Documents/estructurasII/dataStructuresII/NodoInv.cpp">

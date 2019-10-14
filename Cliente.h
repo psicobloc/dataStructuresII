@@ -18,6 +18,8 @@ private:
 public:
 
     Cliente();
+    Cliente(Cliente& clnt);
+    Cliente(std::string codCliente, std::string rfcCliente);
 
     const std::string &getName() const;
     void setName(const std::string &name);

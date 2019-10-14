@@ -754,3 +754,8 @@ void MenuClientes::mostrarLlistaInvertida()
         auxCliente = auxCliente->getPrimario();
     }
 }
+
+ListaClientes MenuClientes::getListaClientesRam()
+{
+    return ListaClientesRAM;
+}

@@ -31,6 +31,27 @@ CMakeFiles/entregable1.dir/Empleado.cpp.o: ../nodoProv.h
 CMakeFiles/entregable1.dir/Empleado.cpp.o: ../producto.h
 CMakeFiles/entregable1.dir/Empleado.cpp.o: ../proveedores.h
 
+CMakeFiles/entregable1.dir/Factura.cpp.o: ../Cliente.h
+CMakeFiles/entregable1.dir/Factura.cpp.o: ../Factura.cpp
+CMakeFiles/entregable1.dir/Factura.cpp.o: ../Factura.h
+CMakeFiles/entregable1.dir/Factura.cpp.o: ../ListaClientes.h
+CMakeFiles/entregable1.dir/Factura.cpp.o: ../ListaInvertida.h
+CMakeFiles/entregable1.dir/Factura.cpp.o: ../ListaOrdenCompra.h
+CMakeFiles/entregable1.dir/Factura.cpp.o: ../MenuClientes.h
+CMakeFiles/entregable1.dir/Factura.cpp.o: ../MenuOrdenCompra.h
+CMakeFiles/entregable1.dir/Factura.cpp.o: ../NodoCliente.h
+CMakeFiles/entregable1.dir/Factura.cpp.o: ../NodoInv.h
+CMakeFiles/entregable1.dir/Factura.cpp.o: ../NodoOrdenCompra.h
+CMakeFiles/entregable1.dir/Factura.cpp.o: ../OrdenCompra.h
+CMakeFiles/entregable1.dir/Factura.cpp.o: ../listProd.h
+CMakeFiles/entregable1.dir/Factura.cpp.o: ../listProv.h
+CMakeFiles/entregable1.dir/Factura.cpp.o: ../menuProd.h
+CMakeFiles/entregable1.dir/Factura.cpp.o: ../menuProv.h
+CMakeFiles/entregable1.dir/Factura.cpp.o: ../nodeProd.h
+CMakeFiles/entregable1.dir/Factura.cpp.o: ../nodoProv.h
+CMakeFiles/entregable1.dir/Factura.cpp.o: ../producto.h
+CMakeFiles/entregable1.dir/Factura.cpp.o: ../proveedores.h
+
 CMakeFiles/entregable1.dir/ListaClientes.cpp.o: ../Cliente.h
 CMakeFiles/entregable1.dir/ListaClientes.cpp.o: ../ListaClientes.cpp
 CMakeFiles/entregable1.dir/ListaClientes.cpp.o: ../ListaClientes.h

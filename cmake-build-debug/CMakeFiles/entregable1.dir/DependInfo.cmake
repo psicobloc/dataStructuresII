@@ -6,6 +6,7 @@ set(CMAKE_DEPENDS_LANGUAGES
 set(CMAKE_DEPENDS_CHECK_CXX
   "/home/hugo/Documents/estructurasII/dataStructuresII/Cliente.cpp" "/home/hugo/Documents/estructurasII/dataStructuresII/cmake-build-debug/CMakeFiles/entregable1.dir/Cliente.cpp.o"
   "/home/hugo/Documents/estructurasII/dataStructuresII/Empleado.cpp" "/home/hugo/Documents/estructurasII/dataStructuresII/cmake-build-debug/CMakeFiles/entregable1.dir/Empleado.cpp.o"
+  "/home/hugo/Documents/estructurasII/dataStructuresII/Factura.cpp" "/home/hugo/Documents/estructurasII/dataStructuresII/cmake-build-debug/CMakeFiles/entregable1.dir/Factura.cpp.o"
   "/home/hugo/Documents/estructurasII/dataStructuresII/ListaClientes.cpp" "/home/hugo/Documents/estructurasII/dataStructuresII/cmake-build-debug/CMakeFiles/entregable1.dir/ListaClientes.cpp.o"
   "/home/hugo/Documents/estructurasII/dataStructuresII/ListaEmpleados.cpp" "/home/hugo/Documents/estructurasII/dataStructuresII/cmake-build-debug/CMakeFiles/entregable1.dir/ListaEmpleados.cpp.o"
   "/home/hugo/Documents/estructurasII/dataStructuresII/ListaInvertida.cpp" "/home/hugo/Documents/estructurasII/dataStructuresII/cmake-build-debug/CMakeFiles/entregable1.dir/ListaInvertida.cpp.o"
@@ -15,6 +16,7 @@ set(CMAKE_DEPENDS_CHECK_CXX
   "/home/hugo/Documents/estructurasII/dataStructuresII/MenuOrdenCompra.cpp" "/home/hugo/Documents/estructurasII/dataStructuresII/cmake-build-debug/CMakeFiles/entregable1.dir/MenuOrdenCompra.cpp.o"
   "/home/hugo/Documents/estructurasII/dataStructuresII/NodoCliente.cpp" "/home/hugo/Documents/estructurasII/dataStructuresII/cmake-build-debug/CMakeFiles/entregable1.dir/NodoCliente.cpp.o"
   "/home/hugo/Documents/estructurasII/dataStructuresII/NodoEmpleados.cpp" "/home/hugo/Documents/estructurasII/dataStructuresII/cmake-build-debug/CMakeFiles/entregable1.dir/NodoEmpleados.cpp.o"
+  "/home/hugo/Documents/estructurasII/dataStructuresII/NodoFactura.cpp" "/home/hugo/Documents/estructurasII/dataStructuresII/cmake-build-debug/CMakeFiles/entregable1.dir/NodoFactura.cpp.o"
   "/home/hugo/Documents/estructurasII/dataStructuresII/NodoInv.cpp" "/home/hugo/Documents/estructurasII/dataStructuresII/cmake-build-debug/CMakeFiles/entregable1.dir/NodoInv.cpp.o"
   "/home/hugo/Documents/estructurasII/dataStructuresII/NodoOrdenCompra.cpp" "/home/hugo/Documents/estructurasII/dataStructuresII/cmake-build-debug/CMakeFiles/entregable1.dir/NodoOrdenCompra.cpp.o"
   "/home/hugo/Documents/estructurasII/dataStructuresII/OrdenCompra.cpp" "/home/hugo/Documents/estructurasII/dataStructuresII/cmake-build-debug/CMakeFiles/entregable1.dir/OrdenCompra.cpp.o"
