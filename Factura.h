@@ -12,7 +12,7 @@
 class Factura ///@nombre del archivo = "factura" + codigoFactura + ".txt"
 {
 private:
-    std::string codigoFactura;
+    std::string codigoFactura; ///maximo 15chars todos los codigos
     std::string codigoCliente; // de aquí se obtiene al informacion del cliente.
     std::string rfcCliente;
     std::string codigoVenta; //aun no se crea el objeto venta...
@@ -43,8 +43,8 @@ public:
 
     std::string toString();
 
-    void read();        //se lee y escribe solamente la lista de productos
-    void write();       //la factura se escribe en la lista de facturas
+    void read(std::string);        //se lee y escribe solamente la lista de productos
+    void write(std::string);       //la factura se escribe en la lista de facturas
 
     Factura& operator = (Factura& fac);
     bool operator == (Factura& fac);

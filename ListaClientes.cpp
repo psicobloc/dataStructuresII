@@ -14,7 +14,7 @@ ListaClientes::ListaClientes()
     header->setNext(header);
 }
 
-ListaClientes::ListaClientes(ListaClientes &lista)
+ListaClientes::ListaClientes(ListaClientes &lista) : ListaClientes()
 {
     copyAll(lista);
 }
@@ -47,7 +47,13 @@ bool ListaClientes::isValidPos(NodoCliente *nodo)
 
 void ListaClientes::insertData(NodoCliente *prevNode, Cliente &clnt)
 {
-    NodoCliente *aux(nullptr);
+    if (prevNode != nullptr and !isValidPos(prevNode))
+    {
+        cout << "posicion invalida, insert clientes" << endl;
+    }
+
+
+    NodoCliente* aux(nullptr);
     aux = new NodoCliente(clnt);
 
     if (prevNode == nullptr)
@@ -61,6 +67,8 @@ void ListaClientes::insertData(NodoCliente *prevNode, Cliente &clnt)
     aux->setNext(prevNode->getNext());
     prevNode->getNext()->setPrev(aux);
     prevNode->setNext(aux);
+
+
 }
 
 void ListaClientes::copyAll(ListaClientes &lst)

@@ -258,6 +258,33 @@ ListaEmpleados.cpp.s:
 	$(MAKE) -f CMakeFiles/entregable1.dir/build.make CMakeFiles/entregable1.dir/ListaEmpleados.cpp.s
 .PHONY : ListaEmpleados.cpp.s
 
+ListaFacturas.o: ListaFacturas.cpp.o
+
+.PHONY : ListaFacturas.o
+
+# target to build an object file
+ListaFacturas.cpp.o:
+	$(MAKE) -f CMakeFiles/entregable1.dir/build.make CMakeFiles/entregable1.dir/ListaFacturas.cpp.o
+.PHONY : ListaFacturas.cpp.o
+
+ListaFacturas.i: ListaFacturas.cpp.i
+
+.PHONY : ListaFacturas.i
+
+# target to preprocess a source file
+ListaFacturas.cpp.i:
+	$(MAKE) -f CMakeFiles/entregable1.dir/build.make CMakeFiles/entregable1.dir/ListaFacturas.cpp.i
+.PHONY : ListaFacturas.cpp.i
+
+ListaFacturas.s: ListaFacturas.cpp.s
+
+.PHONY : ListaFacturas.s
+
+# target to generate assembly for a file
+ListaFacturas.cpp.s:
+	$(MAKE) -f CMakeFiles/entregable1.dir/build.make CMakeFiles/entregable1.dir/ListaFacturas.cpp.s
+.PHONY : ListaFacturas.cpp.s
+
 ListaInvertida.o: ListaInvertida.cpp.o
 
 .PHONY : ListaInvertida.o
@@ -365,6 +392,33 @@ MenuEmpleados.s: MenuEmpleados.cpp.s
 MenuEmpleados.cpp.s:
 	$(MAKE) -f CMakeFiles/entregable1.dir/build.make CMakeFiles/entregable1.dir/MenuEmpleados.cpp.s
 .PHONY : MenuEmpleados.cpp.s
+
+MenuFacturas.o: MenuFacturas.cpp.o
+
+.PHONY : MenuFacturas.o
+
+# target to build an object file
+MenuFacturas.cpp.o:
+	$(MAKE) -f CMakeFiles/entregable1.dir/build.make CMakeFiles/entregable1.dir/MenuFacturas.cpp.o
+.PHONY : MenuFacturas.cpp.o
+
+MenuFacturas.i: MenuFacturas.cpp.i
+
+.PHONY : MenuFacturas.i
+
+# target to preprocess a source file
+MenuFacturas.cpp.i:
+	$(MAKE) -f CMakeFiles/entregable1.dir/build.make CMakeFiles/entregable1.dir/MenuFacturas.cpp.i
+.PHONY : MenuFacturas.cpp.i
+
+MenuFacturas.s: MenuFacturas.cpp.s
+
+.PHONY : MenuFacturas.s
+
+# target to generate assembly for a file
+MenuFacturas.cpp.s:
+	$(MAKE) -f CMakeFiles/entregable1.dir/build.make CMakeFiles/entregable1.dir/MenuFacturas.cpp.s
+.PHONY : MenuFacturas.cpp.s
 
 MenuOrdenCompra.o: MenuOrdenCompra.cpp.o
 
@@ -822,6 +876,9 @@ help:
 	@echo "... ListaEmpleados.o"
 	@echo "... ListaEmpleados.i"
 	@echo "... ListaEmpleados.s"
+	@echo "... ListaFacturas.o"
+	@echo "... ListaFacturas.i"
+	@echo "... ListaFacturas.s"
 	@echo "... ListaInvertida.o"
 	@echo "... ListaInvertida.i"
 	@echo "... ListaInvertida.s"
@@ -834,6 +891,9 @@ help:
 	@echo "... MenuEmpleados.o"
 	@echo "... MenuEmpleados.i"
 	@echo "... MenuEmpleados.s"
+	@echo "... MenuFacturas.o"
+	@echo "... MenuFacturas.i"
+	@echo "... MenuFacturas.s"
 	@echo "... MenuOrdenCompra.o"
 	@echo "... MenuOrdenCompra.i"
 	@echo "... MenuOrdenCompra.s"

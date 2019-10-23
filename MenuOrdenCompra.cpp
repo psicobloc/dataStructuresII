@@ -108,10 +108,13 @@ void MenuOrdenCompra::modifyOrden() {
     cout << "Escribe el nuevo codigo de proveedor" << endl;
     fflush(stdin);
     getline(cin, codigoProv);
+    //nuevaOrden = listaRam.findData(ordenModificada)->getData().setCodigoProveedor(codigoProv);
 
-    cout << "Desea modificar la lista de productos? [s->si][n->no]" << endl;
-    fflush(stdin);
-    cin >> modListaProd;
+//    cout << "Desea modificar la lista de productos? [s->si][n->no]" << endl; //todo!!! modificar el total de la orden
+//    fflush(stdin);
+//    cin >> modListaProd;
+
+    //todo  modificar!!
 
     if (modListaProd == 's')
     {

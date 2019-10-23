@@ -6,45 +6,15 @@
 
 #IncludeRegexTransform: 
 
-/home/hugo/Documents/estructurasII/dataStructuresII/Cliente.cpp
-Cliente.h
-/home/hugo/Documents/estructurasII/dataStructuresII/Cliente.h
-
 /home/hugo/Documents/estructurasII/dataStructuresII/Cliente.h
 MenuOrdenCompra.h
 /home/hugo/Documents/estructurasII/dataStructuresII/MenuOrdenCompra.h
 fstream
 -
 
-/home/hugo/Documents/estructurasII/dataStructuresII/Empleado.h
-MenuOrdenCompra.h
-/home/hugo/Documents/estructurasII/dataStructuresII/MenuOrdenCompra.h
-
-/home/hugo/Documents/estructurasII/dataStructuresII/Factura.cpp
-Factura.h
-/home/hugo/Documents/estructurasII/dataStructuresII/Factura.h
-
-/home/hugo/Documents/estructurasII/dataStructuresII/Factura.h
-listProd.h
-/home/hugo/Documents/estructurasII/dataStructuresII/listProd.h
-menuProd.h
-/home/hugo/Documents/estructurasII/dataStructuresII/menuProd.h
-ListaClientes.h
-/home/hugo/Documents/estructurasII/dataStructuresII/ListaClientes.h
-MenuClientes.h
-/home/hugo/Documents/estructurasII/dataStructuresII/MenuClientes.h
-
-/home/hugo/Documents/estructurasII/dataStructuresII/ListaClientes.cpp
-ListaClientes.h
-/home/hugo/Documents/estructurasII/dataStructuresII/ListaClientes.h
-
 /home/hugo/Documents/estructurasII/dataStructuresII/ListaClientes.h
 NodoCliente.h
 /home/hugo/Documents/estructurasII/dataStructuresII/NodoCliente.h
-
-/home/hugo/Documents/estructurasII/dataStructuresII/ListaInvertida.cpp
-ListaInvertida.h
-/home/hugo/Documents/estructurasII/dataStructuresII/ListaInvertida.h
 
 /home/hugo/Documents/estructurasII/dataStructuresII/ListaInvertida.h
 NodoInv.h
@@ -68,12 +38,6 @@ NodoCliente.h
 ListaInvertida.h
 /home/hugo/Documents/estructurasII/dataStructuresII/ListaInvertida.h
 
-/home/hugo/Documents/estructurasII/dataStructuresII/MenuEmpleados.h
-Empleado.h
-/home/hugo/Documents/estructurasII/dataStructuresII/Empleado.h
-MenuOrdenCompra.h
-/home/hugo/Documents/estructurasII/dataStructuresII/MenuOrdenCompra.h
-
 /home/hugo/Documents/estructurasII/dataStructuresII/MenuOrdenCompra.h
 ListaOrdenCompra.h
 /home/hugo/Documents/estructurasII/dataStructuresII/ListaOrdenCompra.h
@@ -82,17 +46,9 @@ listProd.h
 listProv.h
 /home/hugo/Documents/estructurasII/dataStructuresII/listProv.h
 
-/home/hugo/Documents/estructurasII/dataStructuresII/NodoCliente.cpp
-NodoCliente.h
-/home/hugo/Documents/estructurasII/dataStructuresII/NodoCliente.h
-
 /home/hugo/Documents/estructurasII/dataStructuresII/NodoCliente.h
 Cliente.h
 /home/hugo/Documents/estructurasII/dataStructuresII/Cliente.h
-
-/home/hugo/Documents/estructurasII/dataStructuresII/NodoInv.cpp
-NodoInv.h
-/home/hugo/Documents/estructurasII/dataStructuresII/NodoInv.h
 
 /home/hugo/Documents/estructurasII/dataStructuresII/NodoInv.h
 Cliente.h
@@ -135,20 +91,6 @@ nodoProv.h
 /home/hugo/Documents/estructurasII/dataStructuresII/nodoProv.h
 proveedores.h
 /home/hugo/Documents/estructurasII/dataStructuresII/proveedores.h
-
-/home/hugo/Documents/estructurasII/dataStructuresII/main.cpp
-iostream
--
-menuProv.h
-/home/hugo/Documents/estructurasII/dataStructuresII/menuProv.h
-menuProd.h
-/home/hugo/Documents/estructurasII/dataStructuresII/menuProd.h
-MenuOrdenCompra.h
-/home/hugo/Documents/estructurasII/dataStructuresII/MenuOrdenCompra.h
-MenuEmpleados.h
-/home/hugo/Documents/estructurasII/dataStructuresII/MenuEmpleados.h
-MenuClientes.h
-/home/hugo/Documents/estructurasII/dataStructuresII/MenuClientes.h
 
 /home/hugo/Documents/estructurasII/dataStructuresII/menuProd.h
 listProd.h

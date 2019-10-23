@@ -6,8 +6,14 @@ using namespace std;
 
 ///@escritura codigo[50], nombre[50], estado[50], direccion[50], RFC[13], tipoC[10]
 
-MenuClientes::MenuClientes()
-{}
+MenuClientes::MenuClientes() : ListaClientesRAM()
+{
+    //ListaClientesRAM.deleteAll();
+    if (ListaClientesRAM.isEmpty())
+    {
+        cout << "constructor menu clientes lista empty" << endl;
+    }
+}
 
 void MenuClientes::setClienteRam(Cliente clnt)
 {
@@ -25,7 +31,7 @@ void MenuClientes::create()
     string myStr("");
     string codCliente("");
     string nomEdo("");
-    string archivoClientes("clientes.txt");  //municipios.txt
+    string archivoClientes("clientes.txt");
     string inde("indexInv.txt");             //index.txt
 
 //posición inicial para escribir en clientes.txt
@@ -83,6 +89,8 @@ void MenuClientes::create()
     }
     invertidaRAM.crearEstado(nomEdo, codCliente);
 
+    ///insertar a listaClientesRam
+
     ///escribir indice
     ofstream escrIndex(inde, ios::app);
     escrIndex.write((char *) &auxChar, sizeof auxChar); //escribir el codigo
@@ -123,7 +131,8 @@ void MenuClientes::show()
     char codigo[50], nombre[50], estado[50], direccion[50], rfc[13], tipoC[10];
     long int start;
     Cliente auxCliente;
-    auxCliente.setCodigoCliente("");
+    string a("");
+    auxCliente.setCodigoCliente(a);
 
     string archivoInd("indexInv.txt");
     string archivoClientes("clientes.txt");
@@ -181,7 +190,8 @@ void MenuClientes::update()
     string nameStr, stateStr, addStr, rfcStr, typeStr;
     long int start, posInicial;
     Cliente auxCliente, clienteModificar;
-    auxCliente.setCodigoCliente("");
+    string a("");
+    auxCliente.setCodigoCliente(a);
     string codigoModificar;
     bool bandera(false);
     string archivoInd("indexInv.txt");
@@ -366,7 +376,8 @@ void MenuClientes::deleteC()
     string nameStr, stateStr, addStr, rfcStr, typeStr;
     long int start, posInicial;
     Cliente auxCliente, clienteModificar;
-    auxCliente.setCodigoCliente("");
+    string a("");
+    auxCliente.setCodigoCliente(a);
     string codigoEliminar;
     bool bandera(false);
     string archivoInd("indexInv.txt");
@@ -506,7 +517,7 @@ void MenuClientes::mainMenu()
     {
         system("cls");
         cout << endl << "menu principal" << endl
-             << "1)agregar cliente\n2)mostrar clientes\n3)mostrar clientes por estado\n4)cargar lista\n5)Mostrar lista invertida\n6)Modificar Clientes\n7)Eliminar clientes\ns)salir"
+             << "1)agregar cliente\n2)mostrar clientes\n3)mostrar clientes por estado\n4)cargar lista\n5)Mostrar lista invertida\n6)Modificar Clientes\n7)Eliminar clientes\n8)Mostrar lista normal\ns)salir"
              << endl;
         fflush(stdin);
         cin >> opc;
@@ -560,6 +571,12 @@ void MenuClientes::mainMenu()
                 break;
             }
 
+            case '8':
+            {
+                mostrarLista();
+                break;
+            }
+
             default:
                 break;
         }
@@ -577,11 +594,6 @@ void MenuClientes::cargarLista()
     if (invertidaRAM.getAnclaEstados() != nullptr)
     {
         invertidaRAM.deleteAll(); //limpiamos las listas antes de leer del archivo
-    }
-
-    if (ListaClientesRAM.isEmpty())
-    {
-        ListaClientesRAM.deleteAll();
     }
 
     ifstream leerI(ind, ios::in);
@@ -627,11 +639,14 @@ void MenuClientes::cargarLista()
 
         ListaClientesRAM.insertData(ListaClientesRAM.getLastPos(), auxCliente);
 
+        //cout << getListaClientesRam().toString() << endl;
         if (invertidaRAM.isListaEdosEmpty())
         {
             invertidaRAM.crearEstado(estadoStr, codigoStr);
+
         }
         invertidaRAM.crearEstado(estadoStr, codigoStr);
+        cout << "insertando a lista invertida" << endl;
     }
 
     leerCliente.close();
@@ -701,7 +716,7 @@ void MenuClientes::mostrarClientesPorEdo(std::string edo)
         string tipocStr(tipoC);
 
         //crear cliente
-        auxCliente.setName(nombre);
+        auxCliente.setName(nombreStr);
         auxCliente.setCodigoCliente(codigoStr);
         auxCliente.setEstado(estadoStr);
         auxCliente.setDireccion(direccionStr);
@@ -755,7 +770,7 @@ void MenuClientes::mostrarLlistaInvertida()
     }
 }
 
-ListaClientes MenuClientes::getListaClientesRam()
+ListaClientes& MenuClientes::getListaClientesRam()
 {
     return ListaClientesRAM;
 }

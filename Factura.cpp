@@ -25,27 +25,27 @@ void Factura::setCodigoCliente(std::string codC)
 {
 codigoCliente = codC;
 
-/// buscar cliente en la lista de clientes cargada desde menu clientes
-///retrieve el cliente con el codigo == codC
-///usar setear el rfc.
-
-MenuClientes mClientes;
-mClientes.cargarLista();
-ListaClientes listClnts(mClientes.getListaClientesRam());
-///find data nos da el nodo
-///retrieve nos regresa el cliente
-///seteamos el rfc del cliente
-
-Cliente auxCliente;
-auxCliente.setCodigoCliente(codC);
-NodoCliente* auxNodo;
-auxNodo = listClnts.findData(auxCliente);
-Cliente clnt(listClnts.retrieve(auxNodo));
-
-string rfcReal;
-rfcReal = clnt.getRfc();
-
-setRFC(rfcReal);
+///// buscar cliente en la lista de clientes cargada desde menu clientes
+/////retrieve el cliente con el codigo == codC
+/////usar setear el rfc.
+//
+//MenuClientes mClientes;
+//mClientes.cargarLista();
+//ListaClientes listClnts(mClientes.getListaClientesRam());
+/////find data nos da el nodo
+/////retrieve nos regresa el cliente
+/////seteamos el rfc del cliente
+//
+//Cliente auxCliente;
+//auxCliente.setCodigoCliente(codC);
+//NodoCliente* auxNodo;
+//auxNodo = listClnts.findData(auxCliente);
+//Cliente clnt(listClnts.retrieve(auxNodo));
+//
+//string rfcReal;
+//rfcReal = clnt.getRfc();
+//
+//setRFC(rfcReal);
 }
 
 void Factura::setRFC(std::string rfc)
@@ -129,23 +129,34 @@ std::string Factura::toString()
 
 }
 
-void Factura::read() //al leer hay que preguntar cual es el codigo de factura.
+void Factura::read(string filename) //al leer hay que preguntar cual es el codigo de factura.
 {
-    string mySTR("factura");
-    mySTR += codigoFactura;
-    mySTR += ".txt";
+    if (filename == "")
+    {
+        string mySTR("factura");
+        mySTR += codigoFactura;
+        mySTR += ".txt";
 
-listaProdFactura.read(mySTR); //@nombre del archivo = "factura" + codigoFactura + ".txt"
+        listaProdFactura.read(mySTR);
+    } else
+    {
+        listaProdFactura.read(filename); //@nombre del archivo = "factura" + codigoFactura + ".txt"
+    }
 }
 
-void Factura::write()
+void Factura::write(string filename)
 {
+    if (filename == "")
+    {
+        string mySTR("factura");
+        mySTR += codigoFactura;
+        mySTR += ".txt";
+        listaProdFactura.write(mySTR);
+    } else
+    {
+        listaProdFactura.write(filename);
+    }
 
-    string mySTR("factura");
-    mySTR += codigoFactura;
-    mySTR += ".txt";
-
-listaProdFactura.write(mySTR);
 }
 
 Factura &Factura::operator=(Factura &fac)

@@ -11,8 +11,7 @@ NodoCliente::NodoCliente(Cliente &clnt) : next(nullptr), prev(nullptr)
 {
     if ((dataPtr = new Cliente(clnt)) == nullptr)
     {
-        cout << "Exepcion, memoria insuficiente, nodoCliente"
-             << endl; // si hay exepcion en realidad no se ejecuta este codigo, no?
+        cout << "Exepcion, memoria insuficiente, nodoCliente" << endl; // si hay exepcion en realidad no se ejecuta este codigo, no?
     }
 }
 
@@ -21,21 +20,20 @@ NodoCliente::~NodoCliente()
     delete dataPtr;
 }
 
-void NodoCliente::setDataPtr(Cliente *dataPtr)
+void NodoCliente::setDataPtr(Cliente* data)
 {
-    dataPtr = dataPtr;
+    dataPtr = data;
 }
 
-void NodoCliente::setNext(NodoCliente *next)
+void NodoCliente::setNext(NodoCliente* nextNode)
 {
-    next = next;
+    next = nextNode;
 }
 
-void NodoCliente::setPrev(NodoCliente *prev)
+void NodoCliente::setPrev(NodoCliente* prevNode)
 {
-    prev = prev;
+    prev = prevNode;
 }
-
 
 void NodoCliente::setData(Cliente &clnt)
 {
@@ -43,33 +41,35 @@ void NodoCliente::setData(Cliente &clnt)
     {
         if ((dataPtr = new Cliente(clnt)) == nullptr)
         {
-            cout << "Exepcion, memoria insuficiente, nodoCliente"
-                 << endl;
+            cout << "Exepcion, memoria insuficiente, nodoCliente" << endl;
         }
+    }
+    else
+    {
+        *dataPtr = clnt;
     }
 }
 
-Cliente &NodoCliente::getData()
+Cliente& NodoCliente::getData()
 {
     if (dataPtr == nullptr)
     {
-        cout << "Exepcion, memoria insuficiente, nodoCliente"
-             << endl;
+        cout << "Exepcion, memoria insuficiente, nodoCliente" << endl;
     }
     return *dataPtr;
 }
 
-Cliente *NodoCliente::getDataPtr()
+Cliente* NodoCliente::getDataPtr()
 {
     return dataPtr;
 }
 
-NodoCliente *NodoCliente::getNext()
+NodoCliente* NodoCliente::getNext()
 {
     return next;
 }
 
-NodoCliente *NodoCliente::getPrev()
+NodoCliente* NodoCliente::getPrev()
 {
     return prev;
 }

@@ -9,9 +9,9 @@ NodoFactura::NodoFactura() : next(nullptr), prev(nullptr)
 
 }
 
-NodoFactura::NodoFactura(Factura &orden) : next(nullptr), prev(nullptr)
+NodoFactura::NodoFactura(Factura &fac) : next(nullptr), prev(nullptr)
 {
-    if((dataPtr = new Factura(orden)) == nullptr)
+    if((dataPtr = new Factura(fac)) == nullptr)
     {
         cout << "Excepcion, memoria insuficiente, NodoFactura constructor" <<endl;
     }

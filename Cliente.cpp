@@ -16,57 +16,57 @@ RFC = clnt.RFC;
 tipoCliente = clnt.tipoCliente;
 }
 
-Cliente::Cliente(std::string codCliente, std::string rfcCliente) : codigoCliente(codCliente), RFC(rfcCliente)
+Cliente::Cliente(string codCliente, string rfcCliente) : codigoCliente(codCliente), RFC(rfcCliente)
 {
 
 }
 
-const string &Cliente::getName() const {
+string &Cliente::getName()  {
     return name;
 }
 
-void Cliente::setName(const string &name) {
-    Cliente::name = name;
+void Cliente::setName( string &nameClt) {
+    name = nameClt;
 }
 
-const string &Cliente::getDireccion() const {
+ string &Cliente::getDireccion()  {
     return direccion;
 }
 
-void Cliente::setDireccion(const string &direccion) {
-    Cliente::direccion = direccion;
+void Cliente::setDireccion( string &direccionClt) {
+    direccion = direccionClt;
 }
 
-const string &Cliente::getEstado() const {
+ string &Cliente::getEstado()  {
     return estado;
 }
 
-void Cliente::setEstado(const string &estado) {
-    Cliente::estado = estado;
+void Cliente::setEstado( string &estadoClt) {
+    estado = estadoClt;
 }
 
-const string &Cliente::getCodigoCliente() const {
+ string &Cliente::getCodigoCliente()  {
     return codigoCliente;
 }
 
-void Cliente::setCodigoCliente(const string &codigoCliente) {
-    Cliente::codigoCliente = codigoCliente;
+void Cliente::setCodigoCliente( string &codigoClienteClt) {
+   codigoCliente = codigoClienteClt;
 }
 
-const string &Cliente::getRfc() const {
+ string &Cliente::getRfc()  {
     return RFC;
 }
 
-void Cliente::setRfc(const string &rfc) {
+void Cliente::setRfc( string &rfc) {
     RFC = rfc;
 }
 
-const string &Cliente::getTipoCliente() const {
+ string &Cliente::getTipoCliente()  {
     return tipoCliente;
 }
 
-void Cliente::setTipoCliente(const string &tipoCliente) {
-    Cliente::tipoCliente = tipoCliente;
+void Cliente::setTipoCliente( string &tipoClienteClt) {
+    tipoCliente = tipoClienteClt;
 }
 
 
@@ -91,10 +91,10 @@ std::string Cliente::toString()
 }
 
 
-bool Cliente::operator==(const Cliente &rhs) const {
+bool Cliente::operator==( Cliente &rhs)  {
     return codigoCliente == rhs.codigoCliente;
 }
 
-bool Cliente::operator!=(const Cliente &rhs) const {
-    return !(rhs == *this);
+bool Cliente::operator!=( Cliente &rhs)  {
+    return codigoCliente != rhs.codigoCliente;
 }

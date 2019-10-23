@@ -16,15 +16,15 @@ public:
     NodoCliente(Cliente& clnt);
     ~NodoCliente();
 
-    void setDataPtr(Cliente *dataPtr);
+    void setDataPtr(Cliente* data);
     void setData(Cliente& clnt);
-    void setNext(NodoCliente *next);
-    void setPrev(NodoCliente *prev);
+    void setNext(NodoCliente* nextNode);
+    void setPrev(NodoCliente* prevNode);
 
-    Cliente *getDataPtr();
+    Cliente* getDataPtr();
     Cliente& getData();
-    NodoCliente *getNext();
-    NodoCliente *getPrev();
+    NodoCliente* getNext();
+    NodoCliente* getPrev();
 };
 
 

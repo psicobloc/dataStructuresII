@@ -24,6 +24,8 @@ file(REMOVE_RECURSE
   "CMakeFiles/entregable1.dir/MenuClientes.cpp.o"
   "CMakeFiles/entregable1.dir/Factura.cpp.o"
   "CMakeFiles/entregable1.dir/NodoFactura.cpp.o"
+  "CMakeFiles/entregable1.dir/ListaFacturas.cpp.o"
+  "CMakeFiles/entregable1.dir/MenuFacturas.cpp.o"
   "entregable1.pdb"
   "entregable1"
 )
