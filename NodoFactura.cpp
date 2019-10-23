@@ -57,7 +57,7 @@ Factura &NodoFactura::getData() {
 
     if(dataPtr == nullptr)
     {
-        cout << "excepcion, get data, nodo Orden Compra, memoria insuficiente" << endl;
+        cout << "excepcion, get data, nodo Factura, memoria insuficiente" << endl;
     }
     return *dataPtr;
 }

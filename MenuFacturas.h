@@ -14,6 +14,7 @@ class MenuFacturas
 private:
 ListaFacturas listaRam;
 ListProd listaProductos;
+//lista de clientes ram?
 
 public:
     MenuFacturas();

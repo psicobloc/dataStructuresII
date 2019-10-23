@@ -23,10 +23,10 @@ int main() {
 //        MenuEmpleados me;
 //        me.mainMenu();
 
- MenuClientes mc;
- mc.mainMenu();
+// MenuClientes mc;
+// mc.mainMenu();
 
-//MenuFacturas mf;
-//mf.mainMenu();
+MenuFacturas mf;
+mf.mainMenu();
 
 }

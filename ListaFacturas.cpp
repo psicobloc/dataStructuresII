@@ -154,12 +154,12 @@ NodoFactura *ListaFacturas::getNextPos(NodoFactura *node) {
     return node->getNext();
 }
 
-NodoFactura *ListaFacturas::findData(Factura &pedido) {
+NodoFactura *ListaFacturas::findData(Factura &data) {
     NodoFactura* aux(header->getNext());
 
     while( aux != header)
     {
-        if(aux->getData() == pedido)
+        if(aux->getData() == data)
         {
             return aux;
         }
@@ -195,7 +195,7 @@ ListaFacturas &ListaFacturas::operator=(ListaFacturas& Lst) {
     return *this;
 }
 
-void ListaFacturas::write(const std::string &filename = "listaFacturas.txt") {
+void ListaFacturas::write(const std::string &filename = "listaFacturas.bin") {
 
     char codigoFactura[15];
     char codigoCliente[15];
@@ -206,7 +206,7 @@ void ListaFacturas::write(const std::string &filename = "listaFacturas.txt") {
 
     int tamno(15);
 
-    ofstream escribir(filename, ios::binary);
+    ofstream escribir(filename, ios::trunc | ios::binary);
     NodoFactura* aux(header->getNext());
 
     while (aux != header)
@@ -253,7 +253,7 @@ void ListaFacturas::write(const std::string &filename = "listaFacturas.txt") {
     escribir.close();
 }
 
-void ListaFacturas::read(const std::string &filename = "listaFacturas.txt") {
+void ListaFacturas::read(const std::string &filename = "listaFacturas.bin") {
 
     /*
      * factura
@@ -279,7 +279,7 @@ void ListaFacturas::read(const std::string &filename = "listaFacturas.txt") {
     Factura auxFactura;
     ListProd listaProductosAux;
 
-    ifstream read(filename, ios::binary);
+    ifstream read(filename, ios::in | ios::binary);
 
     while(!read.eof())
     {
@@ -320,7 +320,7 @@ void ListaFacturas::read(const std::string &filename = "listaFacturas.txt") {
         auxFactura.setCodigoVenta(codeVentasAux);
         auxFactura.setRFC(RFCAux); //no es necesario
         auxFactura.setTotal(total);
-        auxFactura.setIva(); //no es necesario
+        //auxFactura.setIva(); //no es necesario
         auxFactura.setListaProdFactura(listaProductosAux);
 
         //agregar a la lista

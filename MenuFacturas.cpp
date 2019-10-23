@@ -104,26 +104,30 @@ void MenuFacturas::addFactura()
     getline(cin, codigoF);
     nuevaFactura.setCodigoFactura(codigoF);
 
+
     cout << "Escribe el codigo de la venta:" << endl;
     fflush(stdin);
     getline(cin, codigoV);
     nuevaFactura.setCodigoVenta(codigoV);
 
+
     cout << "Escribe el codigo del cliente de la siguiente lista:\n" << endl;
     MenuClientes mClientes;
     mClientes.cargarLista();
 
-    //mClientes.mostrarLlistaInvertida();
-//    cout << listaClnt.toString() << endl << endl;
+    mClientes.mostrarLista();
+
     fflush(stdin);
     getline(cin, codigoC);
     nuevaFactura.setCodigoCliente(codigoC); // todo verificar que el codigo exista
+
     //crear un cliente con ese codigo y buscarlo en la lista para resolver todo.
 
     cout << "Escribe el rfc del cliente:\n" << endl;
     fflush(stdin);
-    getline(cin, codigoC);
+    getline(cin, RFCstring);
     nuevaFactura.setRFC(RFCstring);
+    cout << "\n\nnuevafctura\n\n" << nuevaFactura.toString() << endl << endl;
 
     ///precio es un string.
     cout << "A continuacion debes elegir los productos que se vendieron de la siguiente lista" << endl;
@@ -163,8 +167,10 @@ void MenuFacturas::addFactura()
         amount = "";
     }
     nuevaFactura.setListaProdFactura(nuevaListaProductos);
-    cout << "Total orden: " << totalOrden << " $" << endl;
     nuevaFactura.setTotal(totalOrden);
+    cout << "Total orden: " << to_string(totalOrden) << " $" << endl;
+    cout << "Creando factura:" << endl << endl << endl ;
+    cout << nuevaFactura.toString() << endl << endl;
     listaRam.insertData(listaRam.getLastPos(), nuevaFactura);
 }
 
@@ -239,7 +245,7 @@ void MenuFacturas::deleteFactura()
     cout << "Escribe el codigo de la factura que deseas eliminar" << endl;
     fflush(stdin);
     getline(cin, codigo);
-    //getline(cin, codigo);
+    getline(cin, codigo);
     facturaEliminar.setCodigoFactura(codigo);
 
     if(listaRam.findData(facturaEliminar) == nullptr)
@@ -298,13 +304,13 @@ cout << endl << endl << listaRam.toString() << endl;
 void MenuFacturas::write()
 {
 
-listaRam.write("listaFacturas.txt");
+listaRam.write("listaFacturas.bin");
 
 }
 
 void MenuFacturas::read()
 {
 
-    listaRam.read("listaFacturas.txt");
+    listaRam.read("listaFacturas.bin");
 
 }

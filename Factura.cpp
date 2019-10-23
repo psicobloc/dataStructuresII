@@ -123,44 +123,42 @@ std::string Factura::toString()
     mystr += "\n\nLista de productos:\n";
     mystr += listaProdFactura.toString();
     mystr += "\n\nIVA:\t";
-    mystr += iva;
+    mystr += to_string(iva);
     mystr += "\tTotal:\t";
-    mystr += total;
+    mystr += to_string(total);
 
+    return mystr;
 }
 
-void Factura::read(string filename) //al leer hay que preguntar cual es el codigo de factura.
+void Factura::read(string filename) //filename = "factura" + codigo
 {
-    if (filename == "")
-    {
-        string mySTR("factura");
-        mySTR += codigoFactura;
-        mySTR += ".txt";
-
-        listaProdFactura.read(mySTR);
-    } else
-    {
-        listaProdFactura.read(filename); //@nombre del archivo = "factura" + codigoFactura + ".txt"
-    }
+        listaProdFactura.read(filename);
 }
 
-void Factura::write(string filename)
+void Factura::write(string filename)//filename = "factura" + codigo
 {
-    if (filename == "")
-    {
-        string mySTR("factura");
-        mySTR += codigoFactura;
-        mySTR += ".txt";
-        listaProdFactura.write(mySTR);
-    } else
-    {
-        listaProdFactura.write(filename);
-    }
+//    if (filename == "")
+//    {
+//        string mySTR("factura");
+//        mySTR += codigoFactura;
+//        mySTR += ".txt";
+//        listaProdFactura.write(mySTR);
+//    } else
+//    {
+listaProdFactura.write(filename);
 
 }
 
 Factura &Factura::operator=(Factura &fac)
 {
+
+codigoFactura = fac.codigoFactura;
+codigoCliente = fac.codigoCliente;
+rfcCliente = fac.rfcCliente;
+codigoVenta = fac.codigoVenta;
+listaProdFactura = fac.listaProdFactura;
+total = fac.total;
+iva = fac.iva;
 
 }
 

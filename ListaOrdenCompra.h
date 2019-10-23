@@ -1,9 +1,7 @@
 // Created by Hugo.
 
-
 #ifndef ENTREGABLE1_LISTAORDENCOMPRA_H
 #define ENTREGABLE1_LISTAORDENCOMPRA_H
-
 
 #include "NodoOrdenCompra.h"
 

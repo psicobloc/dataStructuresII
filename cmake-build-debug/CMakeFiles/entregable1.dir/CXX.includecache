@@ -12,9 +12,23 @@ MenuOrdenCompra.h
 fstream
 -
 
+/home/hugo/Documents/estructurasII/dataStructuresII/Factura.h
+listProd.h
+/home/hugo/Documents/estructurasII/dataStructuresII/listProd.h
+menuProd.h
+/home/hugo/Documents/estructurasII/dataStructuresII/menuProd.h
+ListaClientes.h
+/home/hugo/Documents/estructurasII/dataStructuresII/ListaClientes.h
+MenuClientes.h
+/home/hugo/Documents/estructurasII/dataStructuresII/MenuClientes.h
+
 /home/hugo/Documents/estructurasII/dataStructuresII/ListaClientes.h
 NodoCliente.h
 /home/hugo/Documents/estructurasII/dataStructuresII/NodoCliente.h
+
+/home/hugo/Documents/estructurasII/dataStructuresII/ListaFacturas.h
+NodoFactura.h
+/home/hugo/Documents/estructurasII/dataStructuresII/NodoFactura.h
 
 /home/hugo/Documents/estructurasII/dataStructuresII/ListaInvertida.h
 NodoInv.h
@@ -23,10 +37,6 @@ NodoInv.h
 /home/hugo/Documents/estructurasII/dataStructuresII/ListaOrdenCompra.h
 NodoOrdenCompra.h
 /home/hugo/Documents/estructurasII/dataStructuresII/NodoOrdenCompra.h
-
-/home/hugo/Documents/estructurasII/dataStructuresII/MenuClientes.cpp
-MenuClientes.h
-/home/hugo/Documents/estructurasII/dataStructuresII/MenuClientes.h
 
 /home/hugo/Documents/estructurasII/dataStructuresII/MenuClientes.h
 Cliente.h
@@ -37,6 +47,18 @@ NodoCliente.h
 /home/hugo/Documents/estructurasII/dataStructuresII/NodoCliente.h
 ListaInvertida.h
 /home/hugo/Documents/estructurasII/dataStructuresII/ListaInvertida.h
+
+/home/hugo/Documents/estructurasII/dataStructuresII/MenuFacturas.cpp
+MenuFacturas.h
+/home/hugo/Documents/estructurasII/dataStructuresII/MenuFacturas.h
+
+/home/hugo/Documents/estructurasII/dataStructuresII/MenuFacturas.h
+ListaFacturas.h
+/home/hugo/Documents/estructurasII/dataStructuresII/ListaFacturas.h
+listProd.h
+/home/hugo/Documents/estructurasII/dataStructuresII/listProd.h
+ListaClientes.h
+/home/hugo/Documents/estructurasII/dataStructuresII/ListaClientes.h
 
 /home/hugo/Documents/estructurasII/dataStructuresII/MenuOrdenCompra.h
 ListaOrdenCompra.h
@@ -49,6 +71,10 @@ listProv.h
 /home/hugo/Documents/estructurasII/dataStructuresII/NodoCliente.h
 Cliente.h
 /home/hugo/Documents/estructurasII/dataStructuresII/Cliente.h
+
+/home/hugo/Documents/estructurasII/dataStructuresII/NodoFactura.h
+Factura.h
+/home/hugo/Documents/estructurasII/dataStructuresII/Factura.h
 
 /home/hugo/Documents/estructurasII/dataStructuresII/NodoInv.h
 Cliente.h

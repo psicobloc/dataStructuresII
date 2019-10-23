@@ -27,7 +27,7 @@ public:
     NodoFactura* getLastPos();
     NodoFactura* getPrevPos(NodoFactura* node);
     NodoFactura* getNextPos(NodoFactura* node);
-    NodoFactura* findData(Factura& pedido);
+    NodoFactura* findData(Factura& data);
 
     Factura& retrieve(NodoFactura* node);
     std::string toString();
