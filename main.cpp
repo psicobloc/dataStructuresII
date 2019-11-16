@@ -5,6 +5,7 @@
 #include "MenuEmpleados.h"
 #include "MenuClientes.h"
 #include "MenuFacturas.h"
+#include "MenuVenta.h"
 
 
 int main() {
@@ -26,7 +27,10 @@ int main() {
 // MenuClientes mc;
 // mc.mainMenu();
 
-MenuFacturas mf;
-mf.mainMenu();
+//MenuFacturas mf;
+//mf.mainMenu();
+
+MenuVenta mv;
+mv.mainMenu();
 
 }

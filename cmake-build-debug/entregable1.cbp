@@ -8,28 +8,28 @@
 		<Option virtualFolders="CMake Files\;"/>
 		<Build>
 			<Target title="all">
-				<Option working_dir="/home/hugo/Documents/estructurasII/dataStructuresII/cmake-build-debug"/>
+				<Option working_dir="/media/hugo/lentuchon/Documentos/estructurasII/dataStructuresII/cmake-build-debug"/>
 				<Option type="4"/>
 				<MakeCommands>
-					<Build command="/usr/bin/make -j12 -f &quot;/home/hugo/Documents/estructurasII/dataStructuresII/cmake-build-debug/Makefile&quot;  VERBOSE=1 all"/>
-					<CompileFile command="/usr/bin/make -j12 -f &quot;/home/hugo/Documents/estructurasII/dataStructuresII/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
-					<Clean command="/usr/bin/make -j12 -f &quot;/home/hugo/Documents/estructurasII/dataStructuresII/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
-					<DistClean command="/usr/bin/make -j12 -f &quot;/home/hugo/Documents/estructurasII/dataStructuresII/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<Build command="/usr/bin/make -j12 -f &quot;/media/hugo/lentuchon/Documentos/estructurasII/dataStructuresII/cmake-build-debug/Makefile&quot;  VERBOSE=1 all"/>
+					<CompileFile command="/usr/bin/make -j12 -f &quot;/media/hugo/lentuchon/Documentos/estructurasII/dataStructuresII/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j12 -f &quot;/media/hugo/lentuchon/Documentos/estructurasII/dataStructuresII/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j12 -f &quot;/media/hugo/lentuchon/Documentos/estructurasII/dataStructuresII/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
 				</MakeCommands>
 			</Target>
 			<Target title="rebuild_cache">
-				<Option working_dir="/home/hugo/Documents/estructurasII/dataStructuresII/cmake-build-debug"/>
+				<Option working_dir="/media/hugo/lentuchon/Documentos/estructurasII/dataStructuresII/cmake-build-debug"/>
 				<Option type="4"/>
 				<MakeCommands>
-					<Build command="/usr/bin/make -j12 -f &quot;/home/hugo/Documents/estructurasII/dataStructuresII/cmake-build-debug/Makefile&quot;  VERBOSE=1 rebuild_cache"/>
-					<CompileFile command="/usr/bin/make -j12 -f &quot;/home/hugo/Documents/estructurasII/dataStructuresII/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
-					<Clean command="/usr/bin/make -j12 -f &quot;/home/hugo/Documents/estructurasII/dataStructuresII/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
-					<DistClean command="/usr/bin/make -j12 -f &quot;/home/hugo/Documents/estructurasII/dataStructuresII/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<Build command="/usr/bin/make -j12 -f &quot;/media/hugo/lentuchon/Documentos/estructurasII/dataStructuresII/cmake-build-debug/Makefile&quot;  VERBOSE=1 rebuild_cache"/>
+					<CompileFile command="/usr/bin/make -j12 -f &quot;/media/hugo/lentuchon/Documentos/estructurasII/dataStructuresII/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j12 -f &quot;/media/hugo/lentuchon/Documentos/estructurasII/dataStructuresII/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j12 -f &quot;/media/hugo/lentuchon/Documentos/estructurasII/dataStructuresII/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
 				</MakeCommands>
 			</Target>
 			<Target title="entregable1">
-				<Option output="/home/hugo/Documents/estructurasII/dataStructuresII/cmake-build-debug/entregable1" prefix_auto="0" extension_auto="0"/>
-				<Option working_dir="/home/hugo/Documents/estructurasII/dataStructuresII/cmake-build-debug"/>
+				<Option output="/media/hugo/lentuchon/Documentos/estructurasII/dataStructuresII/cmake-build-debug/entregable1" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/media/hugo/lentuchon/Documentos/estructurasII/dataStructuresII/cmake-build-debug"/>
 				<Option object_output="./"/>
 				<Option type="1"/>
 				<Option compiler="gcc"/>
@@ -44,15 +44,15 @@
 					<Add directory="/usr/include"/>
 				</Compiler>
 				<MakeCommands>
-					<Build command="/usr/bin/make -j12 -f &quot;/home/hugo/Documents/estructurasII/dataStructuresII/cmake-build-debug/Makefile&quot;  VERBOSE=1 entregable1"/>
-					<CompileFile command="/usr/bin/make -j12 -f &quot;/home/hugo/Documents/estructurasII/dataStructuresII/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
-					<Clean command="/usr/bin/make -j12 -f &quot;/home/hugo/Documents/estructurasII/dataStructuresII/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
-					<DistClean command="/usr/bin/make -j12 -f &quot;/home/hugo/Documents/estructurasII/dataStructuresII/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<Build command="/usr/bin/make -j12 -f &quot;/media/hugo/lentuchon/Documentos/estructurasII/dataStructuresII/cmake-build-debug/Makefile&quot;  VERBOSE=1 entregable1"/>
+					<CompileFile command="/usr/bin/make -j12 -f &quot;/media/hugo/lentuchon/Documentos/estructurasII/dataStructuresII/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j12 -f &quot;/media/hugo/lentuchon/Documentos/estructurasII/dataStructuresII/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j12 -f &quot;/media/hugo/lentuchon/Documentos/estructurasII/dataStructuresII/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
 				</MakeCommands>
 			</Target>
 			<Target title="entregable1/fast">
-				<Option output="/home/hugo/Documents/estructurasII/dataStructuresII/cmake-build-debug/entregable1" prefix_auto="0" extension_auto="0"/>
-				<Option working_dir="/home/hugo/Documents/estructurasII/dataStructuresII/cmake-build-debug"/>
+				<Option output="/media/hugo/lentuchon/Documentos/estructurasII/dataStructuresII/cmake-build-debug/entregable1" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/media/hugo/lentuchon/Documentos/estructurasII/dataStructuresII/cmake-build-debug"/>
 				<Option object_output="./"/>
 				<Option type="1"/>
 				<Option compiler="gcc"/>
@@ -67,183 +67,207 @@
 					<Add directory="/usr/include"/>
 				</Compiler>
 				<MakeCommands>
-					<Build command="/usr/bin/make -j12 -f &quot;/home/hugo/Documents/estructurasII/dataStructuresII/cmake-build-debug/Makefile&quot;  VERBOSE=1 entregable1/fast"/>
-					<CompileFile command="/usr/bin/make -j12 -f &quot;/home/hugo/Documents/estructurasII/dataStructuresII/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
-					<Clean command="/usr/bin/make -j12 -f &quot;/home/hugo/Documents/estructurasII/dataStructuresII/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
-					<DistClean command="/usr/bin/make -j12 -f &quot;/home/hugo/Documents/estructurasII/dataStructuresII/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<Build command="/usr/bin/make -j12 -f &quot;/media/hugo/lentuchon/Documentos/estructurasII/dataStructuresII/cmake-build-debug/Makefile&quot;  VERBOSE=1 entregable1/fast"/>
+					<CompileFile command="/usr/bin/make -j12 -f &quot;/media/hugo/lentuchon/Documentos/estructurasII/dataStructuresII/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j12 -f &quot;/media/hugo/lentuchon/Documentos/estructurasII/dataStructuresII/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j12 -f &quot;/media/hugo/lentuchon/Documentos/estructurasII/dataStructuresII/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
 				</MakeCommands>
 			</Target>
 			<Target title="edit_cache">
-				<Option working_dir="/home/hugo/Documents/estructurasII/dataStructuresII/cmake-build-debug"/>
+				<Option working_dir="/media/hugo/lentuchon/Documentos/estructurasII/dataStructuresII/cmake-build-debug"/>
 				<Option type="4"/>
 				<MakeCommands>
-					<Build command="/usr/bin/make -j12 -f &quot;/home/hugo/Documents/estructurasII/dataStructuresII/cmake-build-debug/Makefile&quot;  VERBOSE=1 edit_cache"/>
-					<CompileFile command="/usr/bin/make -j12 -f &quot;/home/hugo/Documents/estructurasII/dataStructuresII/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
-					<Clean command="/usr/bin/make -j12 -f &quot;/home/hugo/Documents/estructurasII/dataStructuresII/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
-					<DistClean command="/usr/bin/make -j12 -f &quot;/home/hugo/Documents/estructurasII/dataStructuresII/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<Build command="/usr/bin/make -j12 -f &quot;/media/hugo/lentuchon/Documentos/estructurasII/dataStructuresII/cmake-build-debug/Makefile&quot;  VERBOSE=1 edit_cache"/>
+					<CompileFile command="/usr/bin/make -j12 -f &quot;/media/hugo/lentuchon/Documentos/estructurasII/dataStructuresII/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j12 -f &quot;/media/hugo/lentuchon/Documentos/estructurasII/dataStructuresII/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j12 -f &quot;/media/hugo/lentuchon/Documentos/estructurasII/dataStructuresII/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
 				</MakeCommands>
 			</Target>
 		</Build>
-		<Unit filename="/home/hugo/Documents/estructurasII/dataStructuresII/Cliente.cpp">
+		<Unit filename="/media/hugo/lentuchon/Documentos/estructurasII/dataStructuresII/Cliente.cpp">
 			<Option target="entregable1"/>
 		</Unit>
-		<Unit filename="/home/hugo/Documents/estructurasII/dataStructuresII/Cliente.h">
+		<Unit filename="/media/hugo/lentuchon/Documentos/estructurasII/dataStructuresII/Cliente.h">
 			<Option target="entregable1"/>
 		</Unit>
-		<Unit filename="/home/hugo/Documents/estructurasII/dataStructuresII/Empleado.cpp">
+		<Unit filename="/media/hugo/lentuchon/Documentos/estructurasII/dataStructuresII/Empleado.cpp">
 			<Option target="entregable1"/>
 		</Unit>
-		<Unit filename="/home/hugo/Documents/estructurasII/dataStructuresII/Empleado.h">
+		<Unit filename="/media/hugo/lentuchon/Documentos/estructurasII/dataStructuresII/Empleado.h">
 			<Option target="entregable1"/>
 		</Unit>
-		<Unit filename="/home/hugo/Documents/estructurasII/dataStructuresII/Factura.cpp">
+		<Unit filename="/media/hugo/lentuchon/Documentos/estructurasII/dataStructuresII/Factura.cpp">
 			<Option target="entregable1"/>
 		</Unit>
-		<Unit filename="/home/hugo/Documents/estructurasII/dataStructuresII/Factura.h">
+		<Unit filename="/media/hugo/lentuchon/Documentos/estructurasII/dataStructuresII/Factura.h">
 			<Option target="entregable1"/>
 		</Unit>
-		<Unit filename="/home/hugo/Documents/estructurasII/dataStructuresII/ListaClientes.cpp">
+		<Unit filename="/media/hugo/lentuchon/Documentos/estructurasII/dataStructuresII/ListaClientes.cpp">
 			<Option target="entregable1"/>
 		</Unit>
-		<Unit filename="/home/hugo/Documents/estructurasII/dataStructuresII/ListaClientes.h">
+		<Unit filename="/media/hugo/lentuchon/Documentos/estructurasII/dataStructuresII/ListaClientes.h">
 			<Option target="entregable1"/>
 		</Unit>
-		<Unit filename="/home/hugo/Documents/estructurasII/dataStructuresII/ListaEmpleados.cpp">
+		<Unit filename="/media/hugo/lentuchon/Documentos/estructurasII/dataStructuresII/ListaEmpleados.cpp">
 			<Option target="entregable1"/>
 		</Unit>
-		<Unit filename="/home/hugo/Documents/estructurasII/dataStructuresII/ListaEmpleados.h">
+		<Unit filename="/media/hugo/lentuchon/Documentos/estructurasII/dataStructuresII/ListaEmpleados.h">
 			<Option target="entregable1"/>
 		</Unit>
-		<Unit filename="/home/hugo/Documents/estructurasII/dataStructuresII/ListaFacturas.cpp">
+		<Unit filename="/media/hugo/lentuchon/Documentos/estructurasII/dataStructuresII/ListaFacturas.cpp">
 			<Option target="entregable1"/>
 		</Unit>
-		<Unit filename="/home/hugo/Documents/estructurasII/dataStructuresII/ListaFacturas.h">
+		<Unit filename="/media/hugo/lentuchon/Documentos/estructurasII/dataStructuresII/ListaFacturas.h">
 			<Option target="entregable1"/>
 		</Unit>
-		<Unit filename="/home/hugo/Documents/estructurasII/dataStructuresII/ListaInvertida.cpp">
+		<Unit filename="/media/hugo/lentuchon/Documentos/estructurasII/dataStructuresII/ListaInvertida.cpp">
 			<Option target="entregable1"/>
 		</Unit>
-		<Unit filename="/home/hugo/Documents/estructurasII/dataStructuresII/ListaInvertida.h">
+		<Unit filename="/media/hugo/lentuchon/Documentos/estructurasII/dataStructuresII/ListaInvertida.h">
 			<Option target="entregable1"/>
 		</Unit>
-		<Unit filename="/home/hugo/Documents/estructurasII/dataStructuresII/ListaOrdenCompra.cpp">
+		<Unit filename="/media/hugo/lentuchon/Documentos/estructurasII/dataStructuresII/ListaOrdenCompra.cpp">
 			<Option target="entregable1"/>
 		</Unit>
-		<Unit filename="/home/hugo/Documents/estructurasII/dataStructuresII/ListaOrdenCompra.h">
+		<Unit filename="/media/hugo/lentuchon/Documentos/estructurasII/dataStructuresII/ListaOrdenCompra.h">
 			<Option target="entregable1"/>
 		</Unit>
-		<Unit filename="/home/hugo/Documents/estructurasII/dataStructuresII/MenuClientes.cpp">
+		<Unit filename="/media/hugo/lentuchon/Documentos/estructurasII/dataStructuresII/ListaVentas.cpp">
 			<Option target="entregable1"/>
 		</Unit>
-		<Unit filename="/home/hugo/Documents/estructurasII/dataStructuresII/MenuClientes.h">
+		<Unit filename="/media/hugo/lentuchon/Documentos/estructurasII/dataStructuresII/ListaVentas.h">
 			<Option target="entregable1"/>
 		</Unit>
-		<Unit filename="/home/hugo/Documents/estructurasII/dataStructuresII/MenuEmpleados.cpp">
+		<Unit filename="/media/hugo/lentuchon/Documentos/estructurasII/dataStructuresII/MenuClientes.cpp">
 			<Option target="entregable1"/>
 		</Unit>
-		<Unit filename="/home/hugo/Documents/estructurasII/dataStructuresII/MenuEmpleados.h">
+		<Unit filename="/media/hugo/lentuchon/Documentos/estructurasII/dataStructuresII/MenuClientes.h">
 			<Option target="entregable1"/>
 		</Unit>
-		<Unit filename="/home/hugo/Documents/estructurasII/dataStructuresII/MenuFacturas.cpp">
+		<Unit filename="/media/hugo/lentuchon/Documentos/estructurasII/dataStructuresII/MenuEmpleados.cpp">
 			<Option target="entregable1"/>
 		</Unit>
-		<Unit filename="/home/hugo/Documents/estructurasII/dataStructuresII/MenuFacturas.h">
+		<Unit filename="/media/hugo/lentuchon/Documentos/estructurasII/dataStructuresII/MenuEmpleados.h">
 			<Option target="entregable1"/>
 		</Unit>
-		<Unit filename="/home/hugo/Documents/estructurasII/dataStructuresII/MenuOrdenCompra.cpp">
+		<Unit filename="/media/hugo/lentuchon/Documentos/estructurasII/dataStructuresII/MenuFacturas.cpp">
 			<Option target="entregable1"/>
 		</Unit>
-		<Unit filename="/home/hugo/Documents/estructurasII/dataStructuresII/MenuOrdenCompra.h">
+		<Unit filename="/media/hugo/lentuchon/Documentos/estructurasII/dataStructuresII/MenuFacturas.h">
 			<Option target="entregable1"/>
 		</Unit>
-		<Unit filename="/home/hugo/Documents/estructurasII/dataStructuresII/NodoCliente.cpp">
+		<Unit filename="/media/hugo/lentuchon/Documentos/estructurasII/dataStructuresII/MenuOrdenCompra.cpp">
 			<Option target="entregable1"/>
 		</Unit>
-		<Unit filename="/home/hugo/Documents/estructurasII/dataStructuresII/NodoCliente.h">
+		<Unit filename="/media/hugo/lentuchon/Documentos/estructurasII/dataStructuresII/MenuOrdenCompra.h">
 			<Option target="entregable1"/>
 		</Unit>
-		<Unit filename="/home/hugo/Documents/estructurasII/dataStructuresII/NodoEmpleados.cpp">
+		<Unit filename="/media/hugo/lentuchon/Documentos/estructurasII/dataStructuresII/MenuVenta.cpp">
 			<Option target="entregable1"/>
 		</Unit>
-		<Unit filename="/home/hugo/Documents/estructurasII/dataStructuresII/NodoEmpleados.h">
+		<Unit filename="/media/hugo/lentuchon/Documentos/estructurasII/dataStructuresII/MenuVenta.h">
 			<Option target="entregable1"/>
 		</Unit>
-		<Unit filename="/home/hugo/Documents/estructurasII/dataStructuresII/NodoFactura.cpp">
+		<Unit filename="/media/hugo/lentuchon/Documentos/estructurasII/dataStructuresII/NodoCliente.cpp">
 			<Option target="entregable1"/>
 		</Unit>
-		<Unit filename="/home/hugo/Documents/estructurasII/dataStructuresII/NodoFactura.h">
+		<Unit filename="/media/hugo/lentuchon/Documentos/estructurasII/dataStructuresII/NodoCliente.h">
 			<Option target="entregable1"/>
 		</Unit>
-		<Unit filename="/home/hugo/Documents/estructurasII/dataStructuresII/NodoInv.cpp">
+		<Unit filename="/media/hugo/lentuchon/Documentos/estructurasII/dataStructuresII/NodoEmpleados.cpp">
 			<Option target="entregable1"/>
 		</Unit>
-		<Unit filename="/home/hugo/Documents/estructurasII/dataStructuresII/NodoInv.h">
+		<Unit filename="/media/hugo/lentuchon/Documentos/estructurasII/dataStructuresII/NodoEmpleados.h">
 			<Option target="entregable1"/>
 		</Unit>
-		<Unit filename="/home/hugo/Documents/estructurasII/dataStructuresII/NodoOrdenCompra.cpp">
+		<Unit filename="/media/hugo/lentuchon/Documentos/estructurasII/dataStructuresII/NodoFactura.cpp">
 			<Option target="entregable1"/>
 		</Unit>
-		<Unit filename="/home/hugo/Documents/estructurasII/dataStructuresII/NodoOrdenCompra.h">
+		<Unit filename="/media/hugo/lentuchon/Documentos/estructurasII/dataStructuresII/NodoFactura.h">
 			<Option target="entregable1"/>
 		</Unit>
-		<Unit filename="/home/hugo/Documents/estructurasII/dataStructuresII/OrdenCompra.cpp">
+		<Unit filename="/media/hugo/lentuchon/Documentos/estructurasII/dataStructuresII/NodoInv.cpp">
 			<Option target="entregable1"/>
 		</Unit>
-		<Unit filename="/home/hugo/Documents/estructurasII/dataStructuresII/OrdenCompra.h">
+		<Unit filename="/media/hugo/lentuchon/Documentos/estructurasII/dataStructuresII/NodoInv.h">
 			<Option target="entregable1"/>
 		</Unit>
-		<Unit filename="/home/hugo/Documents/estructurasII/dataStructuresII/listProd.cpp">
+		<Unit filename="/media/hugo/lentuchon/Documentos/estructurasII/dataStructuresII/NodoOrdenCompra.cpp">
 			<Option target="entregable1"/>
 		</Unit>
-		<Unit filename="/home/hugo/Documents/estructurasII/dataStructuresII/listProd.h">
+		<Unit filename="/media/hugo/lentuchon/Documentos/estructurasII/dataStructuresII/NodoOrdenCompra.h">
 			<Option target="entregable1"/>
 		</Unit>
-		<Unit filename="/home/hugo/Documents/estructurasII/dataStructuresII/listProv.cpp">
+		<Unit filename="/media/hugo/lentuchon/Documentos/estructurasII/dataStructuresII/NodoVenta.cpp">
 			<Option target="entregable1"/>
 		</Unit>
-		<Unit filename="/home/hugo/Documents/estructurasII/dataStructuresII/listProv.h">
+		<Unit filename="/media/hugo/lentuchon/Documentos/estructurasII/dataStructuresII/NodoVenta.h">
 			<Option target="entregable1"/>
 		</Unit>
-		<Unit filename="/home/hugo/Documents/estructurasII/dataStructuresII/main.cpp">
+		<Unit filename="/media/hugo/lentuchon/Documentos/estructurasII/dataStructuresII/OrdenCompra.cpp">
 			<Option target="entregable1"/>
 		</Unit>
-		<Unit filename="/home/hugo/Documents/estructurasII/dataStructuresII/menuProd.cpp">
+		<Unit filename="/media/hugo/lentuchon/Documentos/estructurasII/dataStructuresII/OrdenCompra.h">
 			<Option target="entregable1"/>
 		</Unit>
-		<Unit filename="/home/hugo/Documents/estructurasII/dataStructuresII/menuProd.h">
+		<Unit filename="/media/hugo/lentuchon/Documentos/estructurasII/dataStructuresII/Venta.cpp">
 			<Option target="entregable1"/>
 		</Unit>
-		<Unit filename="/home/hugo/Documents/estructurasII/dataStructuresII/menuProv.cpp">
+		<Unit filename="/media/hugo/lentuchon/Documentos/estructurasII/dataStructuresII/Venta.h">
 			<Option target="entregable1"/>
 		</Unit>
-		<Unit filename="/home/hugo/Documents/estructurasII/dataStructuresII/menuProv.h">
+		<Unit filename="/media/hugo/lentuchon/Documentos/estructurasII/dataStructuresII/listProd.cpp">
 			<Option target="entregable1"/>
 		</Unit>
-		<Unit filename="/home/hugo/Documents/estructurasII/dataStructuresII/nodeProd.cpp">
+		<Unit filename="/media/hugo/lentuchon/Documentos/estructurasII/dataStructuresII/listProd.h">
 			<Option target="entregable1"/>
 		</Unit>
-		<Unit filename="/home/hugo/Documents/estructurasII/dataStructuresII/nodeProd.h">
+		<Unit filename="/media/hugo/lentuchon/Documentos/estructurasII/dataStructuresII/listProv.cpp">
 			<Option target="entregable1"/>
 		</Unit>
-		<Unit filename="/home/hugo/Documents/estructurasII/dataStructuresII/nodoProv.cpp">
+		<Unit filename="/media/hugo/lentuchon/Documentos/estructurasII/dataStructuresII/listProv.h">
 			<Option target="entregable1"/>
 		</Unit>
-		<Unit filename="/home/hugo/Documents/estructurasII/dataStructuresII/nodoProv.h">
+		<Unit filename="/media/hugo/lentuchon/Documentos/estructurasII/dataStructuresII/main.cpp">
 			<Option target="entregable1"/>
 		</Unit>
-		<Unit filename="/home/hugo/Documents/estructurasII/dataStructuresII/producto.cpp">
+		<Unit filename="/media/hugo/lentuchon/Documentos/estructurasII/dataStructuresII/menuProd.cpp">
 			<Option target="entregable1"/>
 		</Unit>
-		<Unit filename="/home/hugo/Documents/estructurasII/dataStructuresII/producto.h">
+		<Unit filename="/media/hugo/lentuchon/Documentos/estructurasII/dataStructuresII/menuProd.h">
 			<Option target="entregable1"/>
 		</Unit>
-		<Unit filename="/home/hugo/Documents/estructurasII/dataStructuresII/proveedores.cpp">
+		<Unit filename="/media/hugo/lentuchon/Documentos/estructurasII/dataStructuresII/menuProv.cpp">
 			<Option target="entregable1"/>
 		</Unit>
-		<Unit filename="/home/hugo/Documents/estructurasII/dataStructuresII/proveedores.h">
+		<Unit filename="/media/hugo/lentuchon/Documentos/estructurasII/dataStructuresII/menuProv.h">
 			<Option target="entregable1"/>
 		</Unit>
-		<Unit filename="/home/hugo/Documents/estructurasII/dataStructuresII/CMakeLists.txt">
+		<Unit filename="/media/hugo/lentuchon/Documentos/estructurasII/dataStructuresII/nodeProd.cpp">
+			<Option target="entregable1"/>
+		</Unit>
+		<Unit filename="/media/hugo/lentuchon/Documentos/estructurasII/dataStructuresII/nodeProd.h">
+			<Option target="entregable1"/>
+		</Unit>
+		<Unit filename="/media/hugo/lentuchon/Documentos/estructurasII/dataStructuresII/nodoProv.cpp">
+			<Option target="entregable1"/>
+		</Unit>
+		<Unit filename="/media/hugo/lentuchon/Documentos/estructurasII/dataStructuresII/nodoProv.h">
+			<Option target="entregable1"/>
+		</Unit>
+		<Unit filename="/media/hugo/lentuchon/Documentos/estructurasII/dataStructuresII/producto.cpp">
+			<Option target="entregable1"/>
+		</Unit>
+		<Unit filename="/media/hugo/lentuchon/Documentos/estructurasII/dataStructuresII/producto.h">
+			<Option target="entregable1"/>
+		</Unit>
+		<Unit filename="/media/hugo/lentuchon/Documentos/estructurasII/dataStructuresII/proveedores.cpp">
+			<Option target="entregable1"/>
+		</Unit>
+		<Unit filename="/media/hugo/lentuchon/Documentos/estructurasII/dataStructuresII/proveedores.h">
+			<Option target="entregable1"/>
+		</Unit>
+		<Unit filename="/media/hugo/lentuchon/Documentos/estructurasII/dataStructuresII/CMakeLists.txt">
 			<Option virtualFolder="CMake Files\"/>
 		</Unit>
 	</Project>

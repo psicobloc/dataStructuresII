@@ -1,3 +1,3 @@
-/home/hugo/Documents/estructurasII/dataStructuresII/cmake-build-debug/CMakeFiles/rebuild_cache.dir
-/home/hugo/Documents/estructurasII/dataStructuresII/cmake-build-debug/CMakeFiles/entregable1.dir
-/home/hugo/Documents/estructurasII/dataStructuresII/cmake-build-debug/CMakeFiles/edit_cache.dir
+/media/hugo/lentuchon/Documentos/estructurasII/dataStructuresII/cmake-build-debug/CMakeFiles/rebuild_cache.dir
+/media/hugo/lentuchon/Documentos/estructurasII/dataStructuresII/cmake-build-debug/CMakeFiles/entregable1.dir
+/media/hugo/lentuchon/Documentos/estructurasII/dataStructuresII/cmake-build-debug/CMakeFiles/edit_cache.dir

@@ -214,6 +214,8 @@ void MenuFacturas::modifyFactura()
     listaRam.findData(facturaModificada)->getData().setRFC(rfc);
 ///rfc
 
+//todo modificar lista de productos
+
 //    cout << "Desea modificar la lista de productos? [s->si][n->no]" << endl;
 //    fflush(stdin);
 //    cin >> modListaProd;

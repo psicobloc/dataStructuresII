@@ -60,7 +60,7 @@ void ListaFacturas::deleteData(NodoFactura *node) {
 
     if(!isValidPos(node))
     {
-        cout << "posicion invalida, intentando eliminar , lista Orden Compra" << endl;
+        cout << "posicion invalida, intentando eliminar , lista Facturas" << endl;
     }
 
     node->getPrev()->setNext(node->getNext());
@@ -171,7 +171,7 @@ NodoFactura *ListaFacturas::findData(Factura &data) {
 Factura &ListaFacturas::retrieve(NodoFactura *node) {
     if(!isValidPos(node))
     {
-        cout << "excepcion, posicion invalida, intentando recuperar de lista de Productos" << endl;
+        cout << "excepcion, posicion invalida, intentando recuperar de lista de Facturas" << endl;
     }
     return node->getData();
 }
