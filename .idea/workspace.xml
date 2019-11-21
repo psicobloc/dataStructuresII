@@ -12,135 +12,31 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="34c1dca7-c2b7-4837-897f-da90ba37ea08" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/dictionaries/hugo.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/sqldialects.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ListaVentas.cpp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ListaVentas.h" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/MenuVenta.cpp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/MenuVenta.h" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/NodoVenta.cpp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/NodoVenta.h" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Venta.cpp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Venta.h" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/entregable1.dir/ListaVentas.cpp.o" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/entregable1.dir/MenuVenta.cpp.o" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/entregable1.dir/NodoVenta.cpp.o" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/entregable1.dir/Venta.cpp.o" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/codeStyles/codeStyleConfig.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/codeStyles/codeStyleConfig.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/vcs.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ListaUsuarios.cpp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ListaUsuarios.h" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/NodoUsuario.cpp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/NodoUsuario.h" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Usuario.cpp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Usuario.h" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/CMakeLists.txt" beforeDir="false" afterPath="$PROJECT_DIR$/CMakeLists.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Cliente.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/Cliente.cpp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Cliente.h" beforeDir="false" afterPath="$PROJECT_DIR$/Cliente.h" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Empleado.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/Empleado.cpp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Empleado.h" beforeDir="false" afterPath="$PROJECT_DIR$/Empleado.h" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Factura.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/Factura.cpp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Factura.h" beforeDir="false" afterPath="$PROJECT_DIR$/Factura.h" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/LICENSE" beforeDir="false" afterPath="$PROJECT_DIR$/LICENSE" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ListaClientes.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/ListaClientes.cpp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ListaClientes.h" beforeDir="false" afterPath="$PROJECT_DIR$/ListaClientes.h" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ListaEmpleados.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/ListaEmpleados.cpp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ListaEmpleados.h" beforeDir="false" afterPath="$PROJECT_DIR$/ListaEmpleados.h" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ListaFacturas.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/ListaFacturas.cpp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ListaFacturas.h" beforeDir="false" afterPath="$PROJECT_DIR$/ListaFacturas.h" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ListaInvertida.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/ListaInvertida.cpp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ListaInvertida.h" beforeDir="false" afterPath="$PROJECT_DIR$/ListaInvertida.h" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ListaOrdenCompra.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/ListaOrdenCompra.cpp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ListaOrdenCompra.h" beforeDir="false" afterPath="$PROJECT_DIR$/ListaOrdenCompra.h" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/MenuClientes.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/MenuClientes.cpp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/MenuClientes.h" beforeDir="false" afterPath="$PROJECT_DIR$/MenuClientes.h" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/MenuEmpleados.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/MenuEmpleados.cpp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/MenuEmpleados.h" beforeDir="false" afterPath="$PROJECT_DIR$/MenuEmpleados.h" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/MenuFacturas.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/MenuFacturas.cpp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/MenuFacturas.h" beforeDir="false" afterPath="$PROJECT_DIR$/MenuFacturas.h" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/MenuOrdenCompra.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/MenuOrdenCompra.cpp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/MenuOrdenCompra.h" beforeDir="false" afterPath="$PROJECT_DIR$/MenuOrdenCompra.h" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/NodoCliente.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/NodoCliente.cpp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/NodoCliente.h" beforeDir="false" afterPath="$PROJECT_DIR$/NodoCliente.h" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/NodoEmpleados.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/NodoEmpleados.cpp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/NodoEmpleados.h" beforeDir="false" afterPath="$PROJECT_DIR$/NodoEmpleados.h" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/NodoFactura.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/NodoFactura.cpp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/NodoFactura.h" beforeDir="false" afterPath="$PROJECT_DIR$/NodoFactura.h" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/NodoInv.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/NodoInv.cpp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/NodoInv.h" beforeDir="false" afterPath="$PROJECT_DIR$/NodoInv.h" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/NodoOrdenCompra.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/NodoOrdenCompra.cpp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/NodoOrdenCompra.h" beforeDir="false" afterPath="$PROJECT_DIR$/NodoOrdenCompra.h" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/OrdenCompra.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/OrdenCompra.cpp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/OrdenCompra.h" beforeDir="false" afterPath="$PROJECT_DIR$/OrdenCompra.h" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeCache.txt" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeCache.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/3.14.5/CMakeCCompiler.cmake" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/3.15.3/CMakeCCompiler.cmake" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/3.14.5/CMakeCXXCompiler.cmake" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/3.15.3/CMakeCXXCompiler.cmake" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/3.14.5/CMakeDetermineCompilerABI_C.bin" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/3.15.3/CMakeDetermineCompilerABI_C.bin" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/3.14.5/CMakeDetermineCompilerABI_CXX.bin" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/3.15.3/CMakeDetermineCompilerABI_CXX.bin" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/3.14.5/CMakeSystem.cmake" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/3.15.3/CMakeSystem.cmake" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/3.14.5/CompilerIdC/CMakeCCompilerId.c" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/3.15.3/CompilerIdC/CMakeCCompilerId.c" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/3.14.5/CompilerIdC/a.out" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/3.15.3/CompilerIdC/a.out" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/3.14.5/CompilerIdCXX/CMakeCXXCompilerId.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/3.15.3/CompilerIdCXX/CMakeCXXCompilerId.cpp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/3.14.5/CompilerIdCXX/a.out" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/3.15.3/CompilerIdCXX/a.out" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/CMakeDirectoryInformation.cmake" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/CMakeDirectoryInformation.cmake" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/CMakeOutput.log" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/CMakeOutput.log" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/Makefile.cmake" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/Makefile.cmake" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ListaVentas.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/ListaVentas.cpp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/NodoVenta.h" beforeDir="false" afterPath="$PROJECT_DIR$/NodoVenta.h" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/Makefile2" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/Makefile2" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/TargetDirectories.txt" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/TargetDirectories.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/clion-log.txt" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/clion-log.txt" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/entregable1.dir/CXX.includecache" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/entregable1.dir/CXX.includecache" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/entregable1.dir/Cliente.cpp.o" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/entregable1.dir/Cliente.cpp.o" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/entregable1.dir/DependInfo.cmake" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/entregable1.dir/DependInfo.cmake" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/entregable1.dir/Empleado.cpp.o" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/entregable1.dir/Empleado.cpp.o" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/entregable1.dir/Factura.cpp.o" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/entregable1.dir/Factura.cpp.o" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/entregable1.dir/ListaClientes.cpp.o" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/entregable1.dir/ListaClientes.cpp.o" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/entregable1.dir/ListaEmpleados.cpp.o" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/entregable1.dir/ListaEmpleados.cpp.o" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/entregable1.dir/ListaFacturas.cpp.o" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/entregable1.dir/ListaFacturas.cpp.o" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/entregable1.dir/ListaInvertida.cpp.o" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/entregable1.dir/ListaInvertida.cpp.o" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/entregable1.dir/ListaOrdenCompra.cpp.o" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/entregable1.dir/ListaOrdenCompra.cpp.o" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/entregable1.dir/MenuClientes.cpp.o" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/entregable1.dir/MenuClientes.cpp.o" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/entregable1.dir/MenuEmpleados.cpp.o" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/entregable1.dir/MenuEmpleados.cpp.o" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/entregable1.dir/MenuFacturas.cpp.o" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/entregable1.dir/MenuFacturas.cpp.o" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/entregable1.dir/MenuOrdenCompra.cpp.o" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/entregable1.dir/MenuOrdenCompra.cpp.o" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/entregable1.dir/NodoCliente.cpp.o" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/entregable1.dir/NodoCliente.cpp.o" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/entregable1.dir/NodoEmpleados.cpp.o" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/entregable1.dir/NodoEmpleados.cpp.o" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/entregable1.dir/NodoFactura.cpp.o" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/entregable1.dir/NodoFactura.cpp.o" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/entregable1.dir/NodoInv.cpp.o" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/entregable1.dir/NodoInv.cpp.o" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/entregable1.dir/NodoOrdenCompra.cpp.o" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/entregable1.dir/NodoOrdenCompra.cpp.o" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/entregable1.dir/OrdenCompra.cpp.o" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/entregable1.dir/OrdenCompra.cpp.o" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/entregable1.dir/MenuVenta.cpp.o" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/entregable1.dir/MenuVenta.cpp.o" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/entregable1.dir/Venta.cpp.o" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/entregable1.dir/Venta.cpp.o" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/entregable1.dir/build.make" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/entregable1.dir/build.make" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/entregable1.dir/cmake_clean.cmake" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/entregable1.dir/cmake_clean.cmake" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/entregable1.dir/depend.internal" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/entregable1.dir/depend.internal" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/entregable1.dir/depend.make" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/entregable1.dir/depend.make" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/entregable1.dir/flags.make" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/entregable1.dir/flags.make" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/entregable1.dir/link.txt" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/entregable1.dir/link.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/entregable1.dir/listProd.cpp.o" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/entregable1.dir/listProd.cpp.o" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/entregable1.dir/listProv.cpp.o" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/entregable1.dir/listProv.cpp.o" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/entregable1.dir/main.cpp.o" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/entregable1.dir/main.cpp.o" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/entregable1.dir/menuProd.cpp.o" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/entregable1.dir/menuProd.cpp.o" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/entregable1.dir/menuProv.cpp.o" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/entregable1.dir/menuProv.cpp.o" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/entregable1.dir/nodeProd.cpp.o" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/entregable1.dir/nodeProd.cpp.o" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/entregable1.dir/nodoProv.cpp.o" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/entregable1.dir/nodoProv.cpp.o" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/entregable1.dir/producto.cpp.o" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/entregable1.dir/producto.cpp.o" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/entregable1.dir/progress.make" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/entregable1.dir/progress.make" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/entregable1.dir/proveedores.cpp.o" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/entregable1.dir/proveedores.cpp.o" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/feature_tests.bin" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/feature_tests.c" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/feature_tests.cxx" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/progress.marks" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/progress.marks" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/cmake-build-debug/Makefile" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/Makefile" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/clientes.txt" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/clientes.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/cmake_install.cmake" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/cmake_install.cmake" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/codorden" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/codorden" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/empleados.txt" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/empleados.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/entregable1" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/entregable1" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/entregable1" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/cmake-build-debug/entregable1.cbp" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/entregable1.cbp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/facturacodFa.txt" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/facturacodFa.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/facturafactura1.txt" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/facturafactura1.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/indexInv.txt" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/indexInv.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/indiceEmpleados.txt" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/indiceEmpleados.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/listaFacturas.bin" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/listaFacturas.bin" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/listaFacturas.txt" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/listaFacturas.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/listaOrdenesCompra.txt" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/listaOrdenesCompra.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/dependencias.txt" beforeDir="false" afterPath="$PROJECT_DIR$/dependencias.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/img/uml1.jpeg" beforeDir="false" afterPath="$PROJECT_DIR$/img/uml1.jpeg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/main.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/main.cpp" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -175,7 +71,7 @@
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="nodejs_package_manager_path" value="npm" />
     <property name="run.code.analysis.last.selected.profile" value="pProject Default" />
-    <property name="settings.editor.selected.configurable" value="configurable.group.appearance" />
+    <property name="settings.editor.selected.configurable" value="preferences.sourceCode.C/C++" />
   </component>
   <component name="RunDashboard">
     <option name="ruleStates">
@@ -239,6 +135,8 @@
       <workItem from="1573793020235" duration="72000" />
       <workItem from="1573796352306" duration="1701000" />
       <workItem from="1573902450407" duration="4047000" />
+      <workItem from="1574174814311" duration="2436000" />
+      <workItem from="1574278034156" duration="3806000" />
     </task>
     <servers />
   </component>

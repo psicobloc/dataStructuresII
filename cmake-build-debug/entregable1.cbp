@@ -132,6 +132,12 @@
 		<Unit filename="/media/hugo/lentuchon/Documentos/estructurasII/dataStructuresII/ListaOrdenCompra.h">
 			<Option target="entregable1"/>
 		</Unit>
+		<Unit filename="/media/hugo/lentuchon/Documentos/estructurasII/dataStructuresII/ListaUsuarios.cpp">
+			<Option target="entregable1"/>
+		</Unit>
+		<Unit filename="/media/hugo/lentuchon/Documentos/estructurasII/dataStructuresII/ListaUsuarios.h">
+			<Option target="entregable1"/>
+		</Unit>
 		<Unit filename="/media/hugo/lentuchon/Documentos/estructurasII/dataStructuresII/ListaVentas.cpp">
 			<Option target="entregable1"/>
 		</Unit>
@@ -198,6 +204,12 @@
 		<Unit filename="/media/hugo/lentuchon/Documentos/estructurasII/dataStructuresII/NodoOrdenCompra.h">
 			<Option target="entregable1"/>
 		</Unit>
+		<Unit filename="/media/hugo/lentuchon/Documentos/estructurasII/dataStructuresII/NodoUsuario.cpp">
+			<Option target="entregable1"/>
+		</Unit>
+		<Unit filename="/media/hugo/lentuchon/Documentos/estructurasII/dataStructuresII/NodoUsuario.h">
+			<Option target="entregable1"/>
+		</Unit>
 		<Unit filename="/media/hugo/lentuchon/Documentos/estructurasII/dataStructuresII/NodoVenta.cpp">
 			<Option target="entregable1"/>
 		</Unit>
@@ -208,6 +220,12 @@
 			<Option target="entregable1"/>
 		</Unit>
 		<Unit filename="/media/hugo/lentuchon/Documentos/estructurasII/dataStructuresII/OrdenCompra.h">
+			<Option target="entregable1"/>
+		</Unit>
+		<Unit filename="/media/hugo/lentuchon/Documentos/estructurasII/dataStructuresII/Usuario.cpp">
+			<Option target="entregable1"/>
+		</Unit>
+		<Unit filename="/media/hugo/lentuchon/Documentos/estructurasII/dataStructuresII/Usuario.h">
 			<Option target="entregable1"/>
 		</Unit>
 		<Unit filename="/media/hugo/lentuchon/Documentos/estructurasII/dataStructuresII/Venta.cpp">

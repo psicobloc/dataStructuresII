@@ -5,7 +5,8 @@
 
 class NodoVenta
 {
-private:    Venta*  dataPtr;
+private:
+    Venta*  dataPtr;
     NodoVenta* next;
     NodoVenta* prev;
 

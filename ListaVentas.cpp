@@ -58,6 +58,7 @@ void ListaVentas::deleteData(NodoVenta *node)
     if(!isValidPos(node))
     {
         cout << "posicion invalida, intentando eliminar , lista Venta" << endl;
+        return;
     }
 
     node->getPrev()->setNext(node->getNext());

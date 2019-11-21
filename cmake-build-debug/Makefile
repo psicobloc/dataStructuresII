@@ -339,6 +339,33 @@ ListaOrdenCompra.cpp.s:
 	$(MAKE) -f CMakeFiles/entregable1.dir/build.make CMakeFiles/entregable1.dir/ListaOrdenCompra.cpp.s
 .PHONY : ListaOrdenCompra.cpp.s
 
+ListaUsuarios.o: ListaUsuarios.cpp.o
+
+.PHONY : ListaUsuarios.o
+
+# target to build an object file
+ListaUsuarios.cpp.o:
+	$(MAKE) -f CMakeFiles/entregable1.dir/build.make CMakeFiles/entregable1.dir/ListaUsuarios.cpp.o
+.PHONY : ListaUsuarios.cpp.o
+
+ListaUsuarios.i: ListaUsuarios.cpp.i
+
+.PHONY : ListaUsuarios.i
+
+# target to preprocess a source file
+ListaUsuarios.cpp.i:
+	$(MAKE) -f CMakeFiles/entregable1.dir/build.make CMakeFiles/entregable1.dir/ListaUsuarios.cpp.i
+.PHONY : ListaUsuarios.cpp.i
+
+ListaUsuarios.s: ListaUsuarios.cpp.s
+
+.PHONY : ListaUsuarios.s
+
+# target to generate assembly for a file
+ListaUsuarios.cpp.s:
+	$(MAKE) -f CMakeFiles/entregable1.dir/build.make CMakeFiles/entregable1.dir/ListaUsuarios.cpp.s
+.PHONY : ListaUsuarios.cpp.s
+
 ListaVentas.o: ListaVentas.cpp.o
 
 .PHONY : ListaVentas.o
@@ -636,6 +663,33 @@ NodoOrdenCompra.cpp.s:
 	$(MAKE) -f CMakeFiles/entregable1.dir/build.make CMakeFiles/entregable1.dir/NodoOrdenCompra.cpp.s
 .PHONY : NodoOrdenCompra.cpp.s
 
+NodoUsuario.o: NodoUsuario.cpp.o
+
+.PHONY : NodoUsuario.o
+
+# target to build an object file
+NodoUsuario.cpp.o:
+	$(MAKE) -f CMakeFiles/entregable1.dir/build.make CMakeFiles/entregable1.dir/NodoUsuario.cpp.o
+.PHONY : NodoUsuario.cpp.o
+
+NodoUsuario.i: NodoUsuario.cpp.i
+
+.PHONY : NodoUsuario.i
+
+# target to preprocess a source file
+NodoUsuario.cpp.i:
+	$(MAKE) -f CMakeFiles/entregable1.dir/build.make CMakeFiles/entregable1.dir/NodoUsuario.cpp.i
+.PHONY : NodoUsuario.cpp.i
+
+NodoUsuario.s: NodoUsuario.cpp.s
+
+.PHONY : NodoUsuario.s
+
+# target to generate assembly for a file
+NodoUsuario.cpp.s:
+	$(MAKE) -f CMakeFiles/entregable1.dir/build.make CMakeFiles/entregable1.dir/NodoUsuario.cpp.s
+.PHONY : NodoUsuario.cpp.s
+
 NodoVenta.o: NodoVenta.cpp.o
 
 .PHONY : NodoVenta.o
@@ -689,6 +743,33 @@ OrdenCompra.s: OrdenCompra.cpp.s
 OrdenCompra.cpp.s:
 	$(MAKE) -f CMakeFiles/entregable1.dir/build.make CMakeFiles/entregable1.dir/OrdenCompra.cpp.s
 .PHONY : OrdenCompra.cpp.s
+
+Usuario.o: Usuario.cpp.o
+
+.PHONY : Usuario.o
+
+# target to build an object file
+Usuario.cpp.o:
+	$(MAKE) -f CMakeFiles/entregable1.dir/build.make CMakeFiles/entregable1.dir/Usuario.cpp.o
+.PHONY : Usuario.cpp.o
+
+Usuario.i: Usuario.cpp.i
+
+.PHONY : Usuario.i
+
+# target to preprocess a source file
+Usuario.cpp.i:
+	$(MAKE) -f CMakeFiles/entregable1.dir/build.make CMakeFiles/entregable1.dir/Usuario.cpp.i
+.PHONY : Usuario.cpp.i
+
+Usuario.s: Usuario.cpp.s
+
+.PHONY : Usuario.s
+
+# target to generate assembly for a file
+Usuario.cpp.s:
+	$(MAKE) -f CMakeFiles/entregable1.dir/build.make CMakeFiles/entregable1.dir/Usuario.cpp.s
+.PHONY : Usuario.cpp.s
 
 Venta.o: Venta.cpp.o
 
@@ -993,6 +1074,9 @@ help:
 	@echo "... ListaOrdenCompra.o"
 	@echo "... ListaOrdenCompra.i"
 	@echo "... ListaOrdenCompra.s"
+	@echo "... ListaUsuarios.o"
+	@echo "... ListaUsuarios.i"
+	@echo "... ListaUsuarios.s"
 	@echo "... ListaVentas.o"
 	@echo "... ListaVentas.i"
 	@echo "... ListaVentas.s"
@@ -1026,12 +1110,18 @@ help:
 	@echo "... NodoOrdenCompra.o"
 	@echo "... NodoOrdenCompra.i"
 	@echo "... NodoOrdenCompra.s"
+	@echo "... NodoUsuario.o"
+	@echo "... NodoUsuario.i"
+	@echo "... NodoUsuario.s"
 	@echo "... NodoVenta.o"
 	@echo "... NodoVenta.i"
 	@echo "... NodoVenta.s"
 	@echo "... OrdenCompra.o"
 	@echo "... OrdenCompra.i"
 	@echo "... OrdenCompra.s"
+	@echo "... Usuario.o"
+	@echo "... Usuario.i"
+	@echo "... Usuario.s"
 	@echo "... Venta.o"
 	@echo "... Venta.i"
 	@echo "... Venta.s"
