@@ -2,6 +2,7 @@
 #define ENTREGABLE1_USUARIO_H
 
 #include "MenuVenta.h" //para heredar los includes nadamas
+#include "listProd.h"
 #include <string.h>
 #include <stdio.h>
 #include <openssl/sha.h> // sha 256

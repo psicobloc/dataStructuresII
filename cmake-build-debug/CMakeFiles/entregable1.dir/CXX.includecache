@@ -28,6 +28,18 @@ NodoInv.h
 NodoOrdenCompra.h
 /media/hugo/lentuchon/Documentos/estructurasII/dataStructuresII/NodoOrdenCompra.h
 
+/media/hugo/lentuchon/Documentos/estructurasII/dataStructuresII/ListaUsuarios.cpp
+ListaUsuarios.h
+/media/hugo/lentuchon/Documentos/estructurasII/dataStructuresII/ListaUsuarios.h
+
+/media/hugo/lentuchon/Documentos/estructurasII/dataStructuresII/ListaUsuarios.h
+NodoUsuario.h
+/media/hugo/lentuchon/Documentos/estructurasII/dataStructuresII/NodoUsuario.h
+
+/media/hugo/lentuchon/Documentos/estructurasII/dataStructuresII/ListaVentas.cpp
+ListaVentas.h
+/media/hugo/lentuchon/Documentos/estructurasII/dataStructuresII/ListaVentas.h
+
 /media/hugo/lentuchon/Documentos/estructurasII/dataStructuresII/ListaVentas.h
 NodoVenta.h
 /media/hugo/lentuchon/Documentos/estructurasII/dataStructuresII/NodoVenta.h
@@ -74,6 +86,14 @@ Cliente.h
 OrdenCompra.h
 /media/hugo/lentuchon/Documentos/estructurasII/dataStructuresII/OrdenCompra.h
 
+/media/hugo/lentuchon/Documentos/estructurasII/dataStructuresII/NodoUsuario.cpp
+NodoUsuario.h
+/media/hugo/lentuchon/Documentos/estructurasII/dataStructuresII/NodoUsuario.h
+
+/media/hugo/lentuchon/Documentos/estructurasII/dataStructuresII/NodoUsuario.h
+Usuario.h
+/media/hugo/lentuchon/Documentos/estructurasII/dataStructuresII/Usuario.h
+
 /media/hugo/lentuchon/Documentos/estructurasII/dataStructuresII/NodoVenta.h
 Venta.h
 /media/hugo/lentuchon/Documentos/estructurasII/dataStructuresII/Venta.h
@@ -95,6 +115,8 @@ Usuario.h
 /media/hugo/lentuchon/Documentos/estructurasII/dataStructuresII/Usuario.h
 MenuVenta.h
 /media/hugo/lentuchon/Documentos/estructurasII/dataStructuresII/MenuVenta.h
+listProd.h
+/media/hugo/lentuchon/Documentos/estructurasII/dataStructuresII/listProd.h
 string.h
 -
 stdio.h
