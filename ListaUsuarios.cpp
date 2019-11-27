@@ -145,6 +145,24 @@ NodoUsuario *ListaUsuarios::findData(Usuario &u)
     return nullptr;
 }
 
+NodoUsuario *ListaUsuarios::validateUser(Usuario &u)
+{
+
+    NodoUsuario* auxNode(header->getNext());
+
+    while (auxNode != header)
+    {
+        if (auxNode->getData().getName() == u.getName() && auxNode->getData().getPassword() == u.getPassword())
+        {
+            return auxNode;
+        }
+
+        auxNode = auxNode->getNext();
+    }
+
+    return nullptr;
+}
+
 Usuario &ListaUsuarios::retrieve(NodoUsuario *node)
 {
 

@@ -18,6 +18,7 @@ public:
     void write();
     void read();
     void showAllUsers();
+    std::string findUser(std::string name, std::string pass);
 
     void mainMenu();
 };

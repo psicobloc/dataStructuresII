@@ -41,6 +41,7 @@ public:
     void menuOrdenCompraBase();
     void menuProductosBase();
     void menuProveedoresBase();
+    void menuBase();
 
 
 };

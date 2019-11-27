@@ -118,6 +118,28 @@ cout << "Lista de usuarios" << endl<< endl<< endl;
 cout << listaRam.toString() << endl;
 }
 
+std::string MenuUsuarios::findUser(std::string name, std::string pass)
+{
+
+    Usuario auxUser;
+    auxUser.setNombre(name);
+    auxUser.setPassword(pass);
+
+    NodoUsuario* auxNodo;
+
+   auxNodo = listaRam.validateUser(auxUser);
+
+    if (auxNodo != nullptr)
+    {
+        string tipoUsuario;
+        tipoUsuario = auxNodo->getData().getTipoUsuario();
+        return tipoUsuario;
+    } else
+    {
+        return "invalido";
+    }
+}
+
 void MenuUsuarios::mainMenu()
 {
 char opc('X');

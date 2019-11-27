@@ -25,6 +25,8 @@ public:
 
     NodoUsuario* getLastPos();
     NodoUsuario* findData(Usuario& u);
+    NodoUsuario* validateUser(Usuario& u);
+
 
     Usuario& retrieve(NodoUsuario* node);
     std::string toString();

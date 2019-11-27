@@ -15,6 +15,13 @@ ListaOrdenCompra listaRam;
 ListProd listaProductos;   //Productos.txt
 ListaProv listaProvedores; //proveedores.txt
 
+
+
+public:
+
+    MenuOrdenCompra();
+
+    void mainMenu();
     void addOrden();
     void modifyOrden();
     void deleteOrden();
@@ -23,11 +30,6 @@ ListaProv listaProvedores; //proveedores.txt
     void write();
     void read();
 
-public:
-
-    MenuOrdenCompra();
-
-    void mainMenu();
 
 };
 #endif //ENTREGABLE1_MENUORDENCOMPRA_H

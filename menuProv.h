@@ -10,6 +10,12 @@ class MenuProv
 private:
     ListaProv listaRAM;
 
+
+
+public:
+
+    MenuProv();
+    void mainMenu();
     void addProv();
     void modifyProv();
     void deleteProv();
@@ -17,11 +23,6 @@ private:
     void showAllProv();
     void write();
     void read();
-
-public:
-
-    MenuProv();
-    void mainMenu();
 
 };
 

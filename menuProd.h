@@ -9,13 +9,7 @@ class MenuProd {
 private:
     ListProd listaRAM;
 
-    void addProd();
 
-    void deleteProd();
-    void searchProd();
-
-    void write();
-    void read();
 
 public:
 
@@ -24,6 +18,15 @@ public:
     void setList(ListProd& lista);
     void modifyProd();
     void showAllProd();
+    void searchProd();
+    void read();
+    void addProd();
+
+    void deleteProd();
+
+
+    void write();
+
 
 };
 

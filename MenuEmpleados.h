@@ -8,9 +8,13 @@
 
 class MenuEmpleados {
 private:
-
-    long int searchIndex(std::string codigoEmpleado); //recibe un codigo de empleado, busca en index y regresa el empleado recuperado de empleados.txt
     /// searchIndex busca en el index y en empleados.txt
+
+public:
+    MenuEmpleados();
+
+
+    void mainMenu();
 
     void agregarNuevoEmpleado();
     void mostrarEmpleado(std::string codigoEmpleado);
@@ -18,11 +22,9 @@ private:
     void eliminarEmpleado(std::string codigoEmpleado);
     void modificarEmpleado(std::string codigoEmpleado);
 
-public:
-    MenuEmpleados();
+    long int searchIndex(std::string codigoEmpleado); //recibe un codigo de empleado, busca en index y regresa el empleado recuperado de empleados.txt
 
 
-    void mainMenu();
 
 };
 

@@ -576,6 +576,7 @@ CMakeFiles/entregable1.dir/main.cpp.o: ../MenuClientes.h
 CMakeFiles/entregable1.dir/main.cpp.o: ../MenuEmpleados.h
 CMakeFiles/entregable1.dir/main.cpp.o: ../MenuFacturas.h
 CMakeFiles/entregable1.dir/main.cpp.o: ../MenuOrdenCompra.h
+CMakeFiles/entregable1.dir/main.cpp.o: ../MenuPrincipal.h
 CMakeFiles/entregable1.dir/main.cpp.o: ../MenuUsuarios.h
 CMakeFiles/entregable1.dir/main.cpp.o: ../MenuVenta.h
 CMakeFiles/entregable1.dir/main.cpp.o: ../NodoCliente.h
