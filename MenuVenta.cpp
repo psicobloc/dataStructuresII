@@ -25,8 +25,8 @@ void MenuVenta::mainMenu()
         cout << "3) Buscar una venta" << endl; //todo hacer la busqueda con dispersion, no leer toda la lista!!
         cout << "4) Eliminar una venta" << endl;
         cout << "5) Mostrar todas las ventas" << endl;
-        //cout << "1) Escribir lista de ventas" << endl;
-        //cout << "1) Leer lista de ventas" << endl;
+        //cout << "1) Escribir lista de ventas" << endl; todo escibir ventas
+        //cout << "1) Leer lista de ventas" << endl; todo leer ventas
         cout << "s) Salir." << endl;
 
         cin >> opc;

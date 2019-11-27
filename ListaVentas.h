@@ -29,9 +29,17 @@ public:
 
     ListaVentas& operator = (ListaVentas& lst);
 
+    void read(); ///listaVentas.txt
+    void write();
+
+
     ///la listaProductosVenta se guarda desde cada Venta
 
     //read & write, tal vez en el menuVenta mejor? por la dispersión.
+
+    //filename = "venta" + codigoVenta
+
+
 };
 
 #endif //ENTREGABLE1_LISTAVENTAS_H

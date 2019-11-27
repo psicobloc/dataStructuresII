@@ -12,9 +12,10 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="34c1dca7-c2b7-4837-897f-da90ba37ea08" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/entregable1.dir/CXX.includecache" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/entregable1.dir/CXX.includecache" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/entregable1.dir/MenuPrincipal.cpp.o" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/entregable1.dir/MenuPrincipal.cpp.o" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/entregable1" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/entregable1" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ListaVentas.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/ListaVentas.cpp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ListaVentas.h" beforeDir="false" afterPath="$PROJECT_DIR$/ListaVentas.h" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/MenuVenta.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/MenuVenta.cpp" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -118,7 +119,7 @@
       <workItem from="1574278034156" duration="3806000" />
       <workItem from="1574348415028" duration="73000" />
       <workItem from="1574684445310" duration="1905000" />
-      <workItem from="1574818950061" duration="6891000" />
+      <workItem from="1574818950061" duration="10037000" />
     </task>
     <servers />
   </component>
