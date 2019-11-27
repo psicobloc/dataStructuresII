@@ -13,20 +13,32 @@
   <component name="ChangeListManager">
     <list default="true" id="34c1dca7-c2b7-4837-897f-da90ba37ea08" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ListaUsuarios.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/ListaUsuarios.cpp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ListaUsuarios.h" beforeDir="false" afterPath="$PROJECT_DIR$/ListaUsuarios.h" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/MenuEmpleados.h" beforeDir="false" afterPath="$PROJECT_DIR$/MenuEmpleados.h" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/MenuOrdenCompra.h" beforeDir="false" afterPath="$PROJECT_DIR$/MenuOrdenCompra.h" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/MenuClientes.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/MenuClientes.cpp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/MenuEmpleados.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/MenuEmpleados.cpp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/MenuFacturas.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/MenuFacturas.cpp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/MenuOrdenCompra.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/MenuOrdenCompra.cpp" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/MenuPrincipal.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/MenuPrincipal.cpp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/MenuPrincipal.h" beforeDir="false" afterPath="$PROJECT_DIR$/MenuPrincipal.h" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/MenuUsuarios.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/MenuUsuarios.cpp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/MenuUsuarios.h" beforeDir="false" afterPath="$PROJECT_DIR$/MenuUsuarios.h" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/MenuVenta.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/MenuVenta.cpp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/entregable1.dir/CXX.includecache" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/entregable1.dir/CXX.includecache" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/entregable1.dir/MenuClientes.cpp.o" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/entregable1.dir/MenuClientes.cpp.o" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/entregable1.dir/MenuEmpleados.cpp.o" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/entregable1.dir/MenuEmpleados.cpp.o" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/entregable1.dir/main.cpp.o" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/entregable1.dir/main.cpp.o" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/entregable1.dir/MenuFacturas.cpp.o" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/entregable1.dir/MenuFacturas.cpp.o" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/entregable1.dir/MenuOrdenCompra.cpp.o" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/entregable1.dir/MenuOrdenCompra.cpp.o" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/entregable1.dir/MenuPrincipal.cpp.o" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/entregable1.dir/MenuPrincipal.cpp.o" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/entregable1.dir/MenuVenta.cpp.o" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/entregable1.dir/MenuVenta.cpp.o" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/entregable1.dir/menuProd.cpp.o" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/entregable1.dir/menuProd.cpp.o" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/entregable1.dir/menuProv.cpp.o" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/entregable1.dir/menuProv.cpp.o" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/Productos.txt" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/Productos.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/clientes.txt" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/clientes.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/empleados.txt" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/empleados.txt" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/cmake-build-debug/entregable1" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/entregable1" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/main.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/main.cpp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/menuProd.h" beforeDir="false" afterPath="$PROJECT_DIR$/menuProd.h" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/menuProv.h" beforeDir="false" afterPath="$PROJECT_DIR$/menuProv.h" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/indexInv.txt" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/indexInv.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/indiceEmpleados.txt" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/indiceEmpleados.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/listaFacturas.bin" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/listaFacturas.bin" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/listaOrdenesCompra.txt" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/listaOrdenesCompra.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/proveedores.txt" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/proveedores.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/menuProd.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/menuProd.cpp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/menuProv.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/menuProv.cpp" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -131,7 +143,11 @@
       <workItem from="1574348415028" duration="73000" />
       <workItem from="1574684445310" duration="1905000" />
       <workItem from="1574818950061" duration="11009000" />
-      <workItem from="1574845927954" duration="6193000" />
+      <workItem from="1574845927954" duration="6299000" />
+      <workItem from="1574874119809" duration="1803000" />
+      <workItem from="1574876957350" duration="814000" />
+      <workItem from="1574886285944" duration="1470000" />
+      <workItem from="1574888292055" duration="1682000" />
     </task>
     <servers />
   </component>
@@ -155,19 +171,19 @@
     <breakpoint-manager>
       <breakpoints>
         <line-breakpoint enabled="true" type="com.jetbrains.cidr.execution.debugger.OCBreakpointType">
-          <url>file://$PROJECT_DIR$/listProv.cpp</url>
-          <line>246</line>
-          <option name="timeStamp" value="4" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" type="com.jetbrains.cidr.execution.debugger.OCBreakpointType">
           <url>file://$PROJECT_DIR$/ListaInvertida.cpp</url>
           <line>132</line>
           <option name="timeStamp" value="6" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="com.jetbrains.cidr.execution.debugger.OCBreakpointType">
-          <url>file://$PROJECT_DIR$/ListaUsuarios.cpp</url>
-          <line>29</line>
-          <option name="timeStamp" value="8" />
+          <url>file://$PROJECT_DIR$/MenuOrdenCompra.cpp</url>
+          <line>78</line>
+          <option name="timeStamp" value="9" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="com.jetbrains.cidr.execution.debugger.OCBreakpointType">
+          <url>file://$PROJECT_DIR$/MenuClientes.cpp</url>
+          <line>257</line>
+          <option name="timeStamp" value="10" />
         </line-breakpoint>
       </breakpoints>
     </breakpoint-manager>

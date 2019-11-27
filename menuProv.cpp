@@ -43,6 +43,7 @@ void MenuProv::modifyProv() { ///se necesitan nombre y codigo para buscar con fi
     cout << "\n\n\nEscribe el codigo del proveedor que deseas modificar:\t";
     fflush(stdin);
     getline(cin, code);
+    getline(cin, code);
     cout << "\n\n\nEscribe el nombre del proveedor que deseas modificar:\t";
     fflush(stdin);
     getline(cin, name);
@@ -69,6 +70,7 @@ void MenuProv::modifyProv() { ///se necesitan nombre y codigo para buscar con fi
 
         cout << "Escribe el nuevo nombre del proveedor\t Actual:" << auxNode->getData().getName() << endl;
         fflush(stdin);
+        getline(cin,name);
         getline(cin,name);
 
         cout << "Escribe el nuevo telefono del proveedor\t Actual:" << auxNode->getData().getPhone() << endl;
@@ -146,6 +148,7 @@ void MenuProv::searchProv() {
     cout << listaRAM.toString() << endl;
     cout << "\n\n\nEscribe el codigo del proveedor que deseas eliminar:\t";
     fflush(stdin);
+    getline(cin, code);
     getline(cin, code);
     cout << "\n\n\nEscribe el nombre del proveedor que deseas eliminar:\t";
     fflush(stdin);

@@ -125,6 +125,7 @@ void MenuVenta::addVenta()
         cout << "escribe el codigo del producto que deseas:\t";
         fflush(stdin);
         getline(cin, codigoProd);
+        getline(cin, codigoProd);
         nuevoProducto.setCode(codigoProd);
 
         if(listaProductos.findData(nuevoProducto) == nullptr)

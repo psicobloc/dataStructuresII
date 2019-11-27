@@ -12,10 +12,6 @@ MenuOrdenCompra.h
 fstream
 -
 
-/media/hugo/lentuchon/Documentos/estructurasII/dataStructuresII/Empleado.h
-MenuOrdenCompra.h
-/media/hugo/lentuchon/Documentos/estructurasII/dataStructuresII/MenuOrdenCompra.h
-
 /media/hugo/lentuchon/Documentos/estructurasII/dataStructuresII/Factura.h
 listProd.h
 /media/hugo/lentuchon/Documentos/estructurasII/dataStructuresII/listProd.h
@@ -42,14 +38,6 @@ NodoInv.h
 NodoOrdenCompra.h
 /media/hugo/lentuchon/Documentos/estructurasII/dataStructuresII/NodoOrdenCompra.h
 
-/media/hugo/lentuchon/Documentos/estructurasII/dataStructuresII/ListaUsuarios.h
-NodoUsuario.h
-/media/hugo/lentuchon/Documentos/estructurasII/dataStructuresII/NodoUsuario.h
-
-/media/hugo/lentuchon/Documentos/estructurasII/dataStructuresII/ListaVentas.h
-NodoVenta.h
-/media/hugo/lentuchon/Documentos/estructurasII/dataStructuresII/NodoVenta.h
-
 /media/hugo/lentuchon/Documentos/estructurasII/dataStructuresII/MenuClientes.h
 Cliente.h
 /media/hugo/lentuchon/Documentos/estructurasII/dataStructuresII/Cliente.h
@@ -60,11 +48,9 @@ NodoCliente.h
 ListaInvertida.h
 /media/hugo/lentuchon/Documentos/estructurasII/dataStructuresII/ListaInvertida.h
 
-/media/hugo/lentuchon/Documentos/estructurasII/dataStructuresII/MenuEmpleados.h
-Empleado.h
-/media/hugo/lentuchon/Documentos/estructurasII/dataStructuresII/Empleado.h
-MenuOrdenCompra.h
-/media/hugo/lentuchon/Documentos/estructurasII/dataStructuresII/MenuOrdenCompra.h
+/media/hugo/lentuchon/Documentos/estructurasII/dataStructuresII/MenuFacturas.cpp
+MenuFacturas.h
+/media/hugo/lentuchon/Documentos/estructurasII/dataStructuresII/MenuFacturas.h
 
 /media/hugo/lentuchon/Documentos/estructurasII/dataStructuresII/MenuFacturas.h
 ListaFacturas.h
@@ -82,38 +68,6 @@ listProd.h
 listProv.h
 /media/hugo/lentuchon/Documentos/estructurasII/dataStructuresII/listProv.h
 
-/media/hugo/lentuchon/Documentos/estructurasII/dataStructuresII/MenuPrincipal.cpp
-MenuPrincipal.h
-/media/hugo/lentuchon/Documentos/estructurasII/dataStructuresII/MenuPrincipal.h
-
-/media/hugo/lentuchon/Documentos/estructurasII/dataStructuresII/MenuPrincipal.h
-menuProd.h
-/media/hugo/lentuchon/Documentos/estructurasII/dataStructuresII/menuProd.h
-menuProv.h
-/media/hugo/lentuchon/Documentos/estructurasII/dataStructuresII/menuProv.h
-MenuUsuarios.h
-/media/hugo/lentuchon/Documentos/estructurasII/dataStructuresII/MenuUsuarios.h
-MenuVenta.h
-/media/hugo/lentuchon/Documentos/estructurasII/dataStructuresII/MenuVenta.h
-MenuClientes.h
-/media/hugo/lentuchon/Documentos/estructurasII/dataStructuresII/MenuClientes.h
-MenuEmpleados.h
-/media/hugo/lentuchon/Documentos/estructurasII/dataStructuresII/MenuEmpleados.h
-MenuFacturas.h
-/media/hugo/lentuchon/Documentos/estructurasII/dataStructuresII/MenuFacturas.h
-MenuOrdenCompra.h
-/media/hugo/lentuchon/Documentos/estructurasII/dataStructuresII/MenuOrdenCompra.h
-
-/media/hugo/lentuchon/Documentos/estructurasII/dataStructuresII/MenuUsuarios.h
-ListaUsuarios.h
-/media/hugo/lentuchon/Documentos/estructurasII/dataStructuresII/ListaUsuarios.h
-
-/media/hugo/lentuchon/Documentos/estructurasII/dataStructuresII/MenuVenta.h
-ListaVentas.h
-/media/hugo/lentuchon/Documentos/estructurasII/dataStructuresII/ListaVentas.h
-MenuClientes.h
-/media/hugo/lentuchon/Documentos/estructurasII/dataStructuresII/MenuClientes.h
-
 /media/hugo/lentuchon/Documentos/estructurasII/dataStructuresII/NodoCliente.h
 Cliente.h
 /media/hugo/lentuchon/Documentos/estructurasII/dataStructuresII/Cliente.h
@@ -130,14 +84,6 @@ Cliente.h
 OrdenCompra.h
 /media/hugo/lentuchon/Documentos/estructurasII/dataStructuresII/OrdenCompra.h
 
-/media/hugo/lentuchon/Documentos/estructurasII/dataStructuresII/NodoUsuario.h
-Usuario.h
-/media/hugo/lentuchon/Documentos/estructurasII/dataStructuresII/Usuario.h
-
-/media/hugo/lentuchon/Documentos/estructurasII/dataStructuresII/NodoVenta.h
-Venta.h
-/media/hugo/lentuchon/Documentos/estructurasII/dataStructuresII/Venta.h
-
 /media/hugo/lentuchon/Documentos/estructurasII/dataStructuresII/OrdenCompra.h
 listProd.h
 /media/hugo/lentuchon/Documentos/estructurasII/dataStructuresII/listProd.h
@@ -147,26 +93,6 @@ menuProv.h
 /media/hugo/lentuchon/Documentos/estructurasII/dataStructuresII/menuProv.h
 listProv.h
 /media/hugo/lentuchon/Documentos/estructurasII/dataStructuresII/listProv.h
-
-/media/hugo/lentuchon/Documentos/estructurasII/dataStructuresII/Usuario.h
-MenuVenta.h
-/media/hugo/lentuchon/Documentos/estructurasII/dataStructuresII/MenuVenta.h
-listProd.h
-/media/hugo/lentuchon/Documentos/estructurasII/dataStructuresII/listProd.h
-string.h
--
-stdio.h
--
-openssl/sha.h
--
-
-/media/hugo/lentuchon/Documentos/estructurasII/dataStructuresII/Venta.h
-MenuClientes.h
-/media/hugo/lentuchon/Documentos/estructurasII/dataStructuresII/MenuClientes.h
-MenuEmpleados.h
-/media/hugo/lentuchon/Documentos/estructurasII/dataStructuresII/MenuEmpleados.h
-menuProd.h
-/media/hugo/lentuchon/Documentos/estructurasII/dataStructuresII/menuProd.h
 
 /media/hugo/lentuchon/Documentos/estructurasII/dataStructuresII/listProd.h
 fstream

@@ -265,8 +265,8 @@ void MenuClientes::update()
     while (!leerInd.eof())
     {
         //leer indice
-        leerIndex.read((char *) &codigo, sizeof codigo);
-        leerIndex.read((char *) &start, sizeof start);
+        leerInd.read((char *) &codigo, sizeof codigo);
+        leerInd.read((char *) &start, sizeof start);
 
         //leer de clientes.txt
         leerClientes.seekg(start);
@@ -306,7 +306,7 @@ void MenuClientes::update()
         escrindexTemp.write((char *) &codigo, sizeof codigo);
         escrindexTemp.write((char *) &posInicial, sizeof posInicial);
 
-        if (codigoModificar != codigo) //copiar del archivo
+        if (codigoMod != codigoStr) //copiar del archivo
         {
             escribirClientesTemp.write((char *) &codigo, sizeof codigo);
 
@@ -423,8 +423,8 @@ leerIndex.close();
     while (!leerInd.eof())
     {
         //leer indice
-        leerIndex.read((char *) &codigo, sizeof codigo);
-        leerIndex.read((char *) &start, sizeof start);
+        leerInd.read((char *) &codigo, sizeof codigo);
+        leerInd.read((char *) &start, sizeof start);
 
         //leer de clientes.txt
         leerClientes.seekg(start);
@@ -515,7 +515,7 @@ void MenuClientes::mainMenu()
 
     while (opc != 's')
     {
-        system("cls");
+        //system("cls");
         cout << endl << "menu principal" << endl
              << "1)agregar cliente\n2)mostrar clientes\n3)mostrar clientes por estado\n4)cargar lista\n5)Mostrar lista invertida\n6)Modificar Clientes\n7)Eliminar clientes\n8)Mostrar lista normal\ns)salir"
              << endl;

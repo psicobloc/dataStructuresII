@@ -13,8 +13,8 @@ void MenuPrincipal::menuAdministradores()
 
     while (opc != 's')
     {
-        system("cls");
-        system("cls");
+        //system("cls");
+        //system("cls");
         cout << "Menu de administradores" << endl;
         cout << "Escribe la opcion que deseas:" << endl;
         cout << "1) Menu de productos [campos de dimension]" << endl;
@@ -94,8 +94,8 @@ void MenuPrincipal::menuBase() //menu de usuarios base
 
     while (opc != 's')
     {
-        system("cls");
-        system("cls");
+        //system("cls");
+        //system("cls");
         cout << "Menu de usuarios sin privilegios" << endl;
         cout << "Escribe la opcion que deseas:" << endl;
         cout << "1) Menu de productos [campos de dimension]" << endl;
@@ -105,7 +105,7 @@ void MenuPrincipal::menuBase() //menu de usuarios base
         cout << "5) Menu de empleados [Indices]" << endl;
         cout << "6) Menu de facturacion [serializacion]" << endl;
         cout << "7) Menu de ordenes de compra [Longitud fija]" << endl;
-        
+
         cout << "\n\ns) salir" << endl;
         fflush(stdin);
         cin >> opc;
@@ -240,7 +240,7 @@ void MenuPrincipal::menuClientesBase()
 
     while (opc != 's')
     {
-        system("cls");
+        //system("cls");
         cout << endl << "menu principal" << endl
              << "1)mostrar clientes\n2)mostrar clientes por estado\n3)cargar lista\n4)Mostrar lista invertida\n5)Mostrar lista normal\ns)salir"
              << endl;
@@ -299,8 +299,8 @@ void MenuPrincipal::menuEmpleadosBase()
 
     while (opc != 's')
     {
-        system("cls");
-        system("cls");
+        //system("cls");
+        //system("cls");
         cout << "Elija la opcion que desea:\n1) mostrar empleados\n2) buscar empleado\ns) salir"<<endl<<endl;
         fflush(stdin);
         cin>>opc;

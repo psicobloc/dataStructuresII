@@ -334,7 +334,7 @@ void MenuEmpleados::modificarEmpleado(string codigoEmpleado) {
             escribirI_temp.write((char*)& codigo, sizeof(codigo));
             escribirI_temp.write((char*)& direccion, sizeof(direccion));
 
-            ///escribir empleados
+            ///escribir empleados modificados
             strcpy(codigoMod, codigoNuevo.c_str());
             strcpy(nombreMod, nombreEmpleadoModificado.c_str());
             strcpy(puestoMod, puestoEmpleadoModificado.c_str());
@@ -370,8 +370,8 @@ void MenuEmpleados::mainMenu() {
 
     while (opc != 's')
     {
-        system("cls");
-        system("cls");
+        //system("cls");
+        //system("cls");
         cout << "Elija la opcion que desea:\n1) crear empleado\n2) eliminar empleado\n3) modificar empleado\n4) mostrar empleados\n5) buscar empleado\ns) salir"<<endl<<endl;
         fflush(stdin);
         cin>>opc;

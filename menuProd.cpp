@@ -49,6 +49,7 @@ void MenuProd::modifyProd() { ///se necesitan nombre y codigo para buscar con fi
     cout << "\n\n\nEscribe el codigo del Producto que deseas modificar:\t";
     fflush(stdin);
     getline(cin, code);
+    getline(cin, code);
     cout << "\n\n\nEscribe el nombre del Producto que deseas modificar:\t";
     fflush(stdin);
     getline(cin, name);
@@ -74,6 +75,7 @@ void MenuProd::modifyProd() { ///se necesitan nombre y codigo para buscar con fi
     {
         cout << "Escribe el nuevo nombre del producto\t Actual: " << auxNode->getData().getName() << endl;
         fflush(stdin);
+        getline(cin, name);
         getline(cin, name);
 
         cout << "Escribe el nuevo precio del producto\t Actual: " << auxNode->getData().getPrice() << endl;
@@ -107,6 +109,7 @@ void MenuProd::deleteProd() {
     cout << listaRAM.toString() << endl;
     cout << "\n\n\nEscribe el codigo del Producto que deseas eliminar:\t";
     fflush(stdin);
+    getline(cin, code);
     getline(cin, code);
     cout << "\n\n\nEscribe el nombre del Producto que deseas eliminar:\t";
     fflush(stdin);

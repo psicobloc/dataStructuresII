@@ -136,6 +136,7 @@ void MenuFacturas::addFactura()
         cout << "escribe el codigo del producto que deseas:\t";
         fflush(stdin);
         getline(cin, codigoProducto);
+        getline(cin, codigoProducto);
         nuevoProducto.setCode(codigoProducto);
 
         if(listaProductos.findData(nuevoProducto) == nullptr)
@@ -186,7 +187,7 @@ void MenuFacturas::modifyFactura()
     cout << "Escribe el codigo de la factura que deseas modificar" << endl;
     fflush(stdin);
     getline(cin, codigoF);
-    //getline(cin, codigoF);
+    getline(cin, codigoF);
 
     facturaModificada.setCodigoFactura(codigoF);
 
@@ -280,7 +281,7 @@ void MenuFacturas::searchFactura()
     cout << "Escribe el codigo de la factura que deseas buscar" << endl;
     fflush(stdin);
     getline(cin, codigo);
-    //getline(cin, codigo);
+    getline(cin, codigo);
     facturaBuscar.setCodigoFactura(codigo);
 
     if(listaRam.findData(facturaBuscar) == nullptr)

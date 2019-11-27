@@ -42,6 +42,7 @@ void MenuOrdenCompra::addOrden() { // todo validar que todos los codigo existan
         cout << "escribe el codigo del producto que deseas:\t";
         fflush(stdin);
         getline(cin, codigoProducto);
+        getline(cin, codigoProducto);
         nuevoProducto.setCode(codigoProducto);
 
         if(listaProductos.findData(nuevoProducto) == nullptr)
@@ -90,7 +91,7 @@ void MenuOrdenCompra::modifyOrden() {
     cout << "Escribe el codigo de la orden de compra que deseas modificar" << endl;
     fflush(stdin);
     getline(cin, codigo);
-    //getline(cin, codigo);
+    getline(cin, codigo);
     ordenModificada.setCode(codigo);
 
     if(listaRam.findData(ordenModificada) == nullptr)
