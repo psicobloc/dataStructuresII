@@ -21,10 +21,8 @@ public:
     void deleteVenta();
     void searchVenta();
     void showAllVenta();
-
-    ///@note dispersion
-    //write
-    //read
+    void write();
+    void read();
 
 };
 

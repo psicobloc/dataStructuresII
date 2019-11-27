@@ -25,8 +25,8 @@ void MenuVenta::mainMenu()
         cout << "3) Buscar una venta" << endl; //todo hacer la busqueda con dispersion, no leer toda la lista!!
         cout << "4) Eliminar una venta" << endl;
         cout << "5) Mostrar todas las ventas" << endl;
-        //cout << "1) Escribir lista de ventas" << endl; todo escibir ventas
-        //cout << "1) Leer lista de ventas" << endl; todo leer ventas
+        cout << "6) Escribir lista de ventas" << endl;
+        cout << "7) Leer lista de ventas" << endl;
         cout << "s) Salir." << endl;
 
         cin >> opc;
@@ -61,6 +61,18 @@ void MenuVenta::mainMenu()
             case '5':
             {
                 showAllVenta();
+                break;
+            }
+
+            case '6':
+            {
+                write();
+                break;
+            }
+
+            case '7':
+            {
+                read();
                 break;
             }
 
@@ -259,4 +271,14 @@ void MenuVenta::showAllVenta()
     cout << "Lista de ventas" << endl << endl << endl;
     cout << listaRam.toString() << endl;
 
+}
+
+void MenuVenta::write()
+{
+listaRam.write();
+}
+
+void MenuVenta::read()
+{
+listaRam.read();
 }
