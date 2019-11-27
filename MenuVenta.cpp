@@ -196,7 +196,7 @@ void MenuVenta::modifyVenta()
 //        M.modifyProd();
 //        M.showAllProd();
 //    }
-
+/// filename de lista productos = "venta" + codigoVenta
 }
 
 void MenuVenta::deleteVenta()

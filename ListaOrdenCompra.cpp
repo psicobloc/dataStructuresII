@@ -219,7 +219,7 @@ while (aux != header)
     strncpy(codigoUsuario, aux->getData().getUserCode().c_str(), l2);
     strncpy(codigoProv, aux->getData().getProvCode().c_str(), l3);
 
-    // agregar '\0' al final todo checar si es en l1 o l1+1
+    // agregar '\0' al final
     codigo[l1] = '\0';
     codigoUsuario[l2] = '\0';
     codigoProv[l3] = '\0';

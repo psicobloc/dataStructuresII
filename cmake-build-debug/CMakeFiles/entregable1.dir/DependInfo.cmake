@@ -18,6 +18,7 @@ set(CMAKE_DEPENDS_CHECK_CXX
   "/media/hugo/lentuchon/Documentos/estructurasII/dataStructuresII/MenuEmpleados.cpp" "/media/hugo/lentuchon/Documentos/estructurasII/dataStructuresII/cmake-build-debug/CMakeFiles/entregable1.dir/MenuEmpleados.cpp.o"
   "/media/hugo/lentuchon/Documentos/estructurasII/dataStructuresII/MenuFacturas.cpp" "/media/hugo/lentuchon/Documentos/estructurasII/dataStructuresII/cmake-build-debug/CMakeFiles/entregable1.dir/MenuFacturas.cpp.o"
   "/media/hugo/lentuchon/Documentos/estructurasII/dataStructuresII/MenuOrdenCompra.cpp" "/media/hugo/lentuchon/Documentos/estructurasII/dataStructuresII/cmake-build-debug/CMakeFiles/entregable1.dir/MenuOrdenCompra.cpp.o"
+  "/media/hugo/lentuchon/Documentos/estructurasII/dataStructuresII/MenuPrincipal.cpp" "/media/hugo/lentuchon/Documentos/estructurasII/dataStructuresII/cmake-build-debug/CMakeFiles/entregable1.dir/MenuPrincipal.cpp.o"
   "/media/hugo/lentuchon/Documentos/estructurasII/dataStructuresII/MenuUsuarios.cpp" "/media/hugo/lentuchon/Documentos/estructurasII/dataStructuresII/cmake-build-debug/CMakeFiles/entregable1.dir/MenuUsuarios.cpp.o"
   "/media/hugo/lentuchon/Documentos/estructurasII/dataStructuresII/MenuVenta.cpp" "/media/hugo/lentuchon/Documentos/estructurasII/dataStructuresII/cmake-build-debug/CMakeFiles/entregable1.dir/MenuVenta.cpp.o"
   "/media/hugo/lentuchon/Documentos/estructurasII/dataStructuresII/NodoCliente.cpp" "/media/hugo/lentuchon/Documentos/estructurasII/dataStructuresII/cmake-build-debug/CMakeFiles/entregable1.dir/NodoCliente.cpp.o"

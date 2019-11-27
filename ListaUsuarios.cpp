@@ -3,8 +3,16 @@
 
 using namespace std;
 
-ListaUsuarios::ListaUsuarios() : header(nullptr)
-{}
+ListaUsuarios::ListaUsuarios()
+{
+    if ((header = new NodoUsuario) == nullptr)
+    {
+        //throw exeption
+    }
+
+    header->setNext(header);
+    header->setPrev(header);
+}
 
 ListaUsuarios::~ListaUsuarios()
 {
@@ -73,7 +81,7 @@ NodoUsuario* aux(nullptr);
 
 bool ListaUsuarios::isValidPos(NodoUsuario *node)
 {
-    NodoUsuario* aux(nullptr);
+    NodoUsuario* aux(header->getNext());
 
     while (aux != header)
     {

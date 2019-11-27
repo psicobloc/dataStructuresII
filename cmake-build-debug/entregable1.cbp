@@ -168,6 +168,12 @@
 		<Unit filename="/media/hugo/lentuchon/Documentos/estructurasII/dataStructuresII/MenuOrdenCompra.h">
 			<Option target="entregable1"/>
 		</Unit>
+		<Unit filename="/media/hugo/lentuchon/Documentos/estructurasII/dataStructuresII/MenuPrincipal.cpp">
+			<Option target="entregable1"/>
+		</Unit>
+		<Unit filename="/media/hugo/lentuchon/Documentos/estructurasII/dataStructuresII/MenuPrincipal.h">
+			<Option target="entregable1"/>
+		</Unit>
 		<Unit filename="/media/hugo/lentuchon/Documentos/estructurasII/dataStructuresII/MenuUsuarios.cpp">
 			<Option target="entregable1"/>
 		</Unit>

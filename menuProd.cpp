@@ -70,7 +70,7 @@ void MenuProd::modifyProd() { ///se necesitan nombre y codigo para buscar con fi
     fflush(stdin);
     cin >> opc;
 
-    if (opc == 's' || opc == 'S') // todo modificar
+    if (opc == 's' || opc == 'S')
     {
         cout << "Escribe el nuevo nombre del producto\t Actual: " << auxNode->getData().getName() << endl;
         fflush(stdin);

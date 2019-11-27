@@ -30,13 +30,22 @@ void MenuUsuarios::addUser()
     fflush(stdin);
     cin >> tipo;
 
-    tipo == 1 ? type = "admin" : type = "base"; //validar
+    if ( tipo == 1)
+    {
+        type = "admin";
+    }
+    else
+    {
+        type = "base";
+    }
+
     nuevoUser.setTipoUsuario(type);
 
     while (password1 != password2)
     {
         cout << "Escribe tu contraseña:\t";
         fflush(stdin);
+        getline(cin, password1);
         getline(cin, password1);
 
         cout << "Escribe tu contraseña de nuevo:\t";
@@ -48,7 +57,7 @@ void MenuUsuarios::addUser()
 
     listaRam.insertData(listaRam.getLastPos(), nuevoUser);
 
-    cout << "Usuario creado con exito" << endl  << listaRam.findData(nuevoUser)->getData().toString() << endl;
+    cout << "Usuario creado con exito" << endl  << listaRam.toString() << endl;
 
 }
 
@@ -93,23 +102,71 @@ void MenuUsuarios::deleteUser()
 void MenuUsuarios::write()
 {
 
+    cout << "escribiendo lista de usuarios" << endl;
+    listaRam.write();
 }
 
 void MenuUsuarios::read()
 {
-
+    cout << "Leyendo lista de usuarios" << endl;
+    listaRam.read();
 }
 
 void MenuUsuarios::showAllUsers()
 {
-
+cout << "Lista de usuarios" << endl<< endl<< endl;
+cout << listaRam.toString() << endl;
 }
 
 void MenuUsuarios::mainMenu()
 {
+char opc('X');
 
+    while (opc != 's')
+    {
+        cout << "Menu de usuarios" << endl;
+        cout << "\n1) Agregar nuevo usuario\n2) Eliminar usuario\n3) Mostrar usuarios\n4) Leer del disco\n5) Escribir nueva lista en el disco\n\ns) salir." << endl;
+        cout << "Elige la opcion que deseas:\t";
+        fflush(stdin);
+        cin >> opc;
 
-    cout << "Menu de usuarios" << endl;
-    cout << "\n1) Agregar nuevo usuario\n2) Eliminar usuario\n3) Mostrar usuarios\n4) Leer del disco\n5) Escribir nueva lista en el disco" << endl;
+        switch (opc)
+        {
+            case '1':
+            {
+                addUser();
+                break;
+            }
 
+            case '2':
+            {
+                deleteUser();
+                break;
+            }
+
+            case '3':
+            {
+                showAllUsers();
+                break;
+            }
+
+            case '4':
+            {
+                read();
+                break;
+            }
+
+            case '5':
+            {
+                write();
+                break;
+            }
+
+            default:
+            {
+                cout << "opcion invalida" << endl;
+                break;
+            }
+        }
+    }
 }

@@ -116,13 +116,13 @@ void MenuOrdenCompra::modifyOrden() {
 
     //todo  modificar!!
 
-    if (modListaProd == 's')
-    {
-        MenuProd M;
-        M.setList(listaProductos);
-        M.modifyProd();
-        M.showAllProd();
-    }
+//    if (modListaProd == 's')
+//    {
+//        MenuProd M;
+//        M.setList(listaProductos);
+//        M.modifyProd();
+//        M.showAllProd();
+//    }
 
 }
 

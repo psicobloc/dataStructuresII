@@ -267,6 +267,71 @@ CMakeFiles/entregable1.dir/MenuOrdenCompra.cpp.o
  /media/hugo/lentuchon/Documentos/estructurasII/dataStructuresII/nodoProv.h
  /media/hugo/lentuchon/Documentos/estructurasII/dataStructuresII/producto.h
  /media/hugo/lentuchon/Documentos/estructurasII/dataStructuresII/proveedores.h
+CMakeFiles/entregable1.dir/MenuPrincipal.cpp.o
+ /media/hugo/lentuchon/Documentos/estructurasII/dataStructuresII/Cliente.h
+ /media/hugo/lentuchon/Documentos/estructurasII/dataStructuresII/Empleado.h
+ /media/hugo/lentuchon/Documentos/estructurasII/dataStructuresII/Factura.h
+ /media/hugo/lentuchon/Documentos/estructurasII/dataStructuresII/ListaClientes.h
+ /media/hugo/lentuchon/Documentos/estructurasII/dataStructuresII/ListaFacturas.h
+ /media/hugo/lentuchon/Documentos/estructurasII/dataStructuresII/ListaInvertida.h
+ /media/hugo/lentuchon/Documentos/estructurasII/dataStructuresII/ListaOrdenCompra.h
+ /media/hugo/lentuchon/Documentos/estructurasII/dataStructuresII/ListaUsuarios.h
+ /media/hugo/lentuchon/Documentos/estructurasII/dataStructuresII/ListaVentas.h
+ /media/hugo/lentuchon/Documentos/estructurasII/dataStructuresII/MenuClientes.h
+ /media/hugo/lentuchon/Documentos/estructurasII/dataStructuresII/MenuEmpleados.h
+ /media/hugo/lentuchon/Documentos/estructurasII/dataStructuresII/MenuFacturas.h
+ /media/hugo/lentuchon/Documentos/estructurasII/dataStructuresII/MenuOrdenCompra.h
+ /media/hugo/lentuchon/Documentos/estructurasII/dataStructuresII/MenuPrincipal.cpp
+ /media/hugo/lentuchon/Documentos/estructurasII/dataStructuresII/MenuPrincipal.h
+ /media/hugo/lentuchon/Documentos/estructurasII/dataStructuresII/MenuUsuarios.h
+ /media/hugo/lentuchon/Documentos/estructurasII/dataStructuresII/MenuVenta.h
+ /media/hugo/lentuchon/Documentos/estructurasII/dataStructuresII/NodoCliente.h
+ /media/hugo/lentuchon/Documentos/estructurasII/dataStructuresII/NodoFactura.h
+ /media/hugo/lentuchon/Documentos/estructurasII/dataStructuresII/NodoInv.h
+ /media/hugo/lentuchon/Documentos/estructurasII/dataStructuresII/NodoOrdenCompra.h
+ /media/hugo/lentuchon/Documentos/estructurasII/dataStructuresII/NodoUsuario.h
+ /media/hugo/lentuchon/Documentos/estructurasII/dataStructuresII/NodoVenta.h
+ /media/hugo/lentuchon/Documentos/estructurasII/dataStructuresII/OrdenCompra.h
+ /media/hugo/lentuchon/Documentos/estructurasII/dataStructuresII/Usuario.h
+ /media/hugo/lentuchon/Documentos/estructurasII/dataStructuresII/Venta.h
+ /media/hugo/lentuchon/Documentos/estructurasII/dataStructuresII/listProd.h
+ /media/hugo/lentuchon/Documentos/estructurasII/dataStructuresII/listProv.h
+ /media/hugo/lentuchon/Documentos/estructurasII/dataStructuresII/menuProd.h
+ /media/hugo/lentuchon/Documentos/estructurasII/dataStructuresII/menuProv.h
+ /media/hugo/lentuchon/Documentos/estructurasII/dataStructuresII/nodeProd.h
+ /media/hugo/lentuchon/Documentos/estructurasII/dataStructuresII/nodoProv.h
+ /media/hugo/lentuchon/Documentos/estructurasII/dataStructuresII/producto.h
+ /media/hugo/lentuchon/Documentos/estructurasII/dataStructuresII/proveedores.h
+CMakeFiles/entregable1.dir/MenuUsuarios.cpp.o
+ /media/hugo/lentuchon/Documentos/estructurasII/dataStructuresII/Cliente.h
+ /media/hugo/lentuchon/Documentos/estructurasII/dataStructuresII/Empleado.h
+ /media/hugo/lentuchon/Documentos/estructurasII/dataStructuresII/ListaClientes.h
+ /media/hugo/lentuchon/Documentos/estructurasII/dataStructuresII/ListaInvertida.h
+ /media/hugo/lentuchon/Documentos/estructurasII/dataStructuresII/ListaOrdenCompra.h
+ /media/hugo/lentuchon/Documentos/estructurasII/dataStructuresII/ListaUsuarios.h
+ /media/hugo/lentuchon/Documentos/estructurasII/dataStructuresII/ListaVentas.h
+ /media/hugo/lentuchon/Documentos/estructurasII/dataStructuresII/MenuClientes.h
+ /media/hugo/lentuchon/Documentos/estructurasII/dataStructuresII/MenuEmpleados.h
+ /media/hugo/lentuchon/Documentos/estructurasII/dataStructuresII/MenuOrdenCompra.h
+ /media/hugo/lentuchon/Documentos/estructurasII/dataStructuresII/MenuUsuarios.cpp
+ /media/hugo/lentuchon/Documentos/estructurasII/dataStructuresII/MenuUsuarios.h
+ /media/hugo/lentuchon/Documentos/estructurasII/dataStructuresII/MenuVenta.h
+ /media/hugo/lentuchon/Documentos/estructurasII/dataStructuresII/NodoCliente.h
+ /media/hugo/lentuchon/Documentos/estructurasII/dataStructuresII/NodoInv.h
+ /media/hugo/lentuchon/Documentos/estructurasII/dataStructuresII/NodoOrdenCompra.h
+ /media/hugo/lentuchon/Documentos/estructurasII/dataStructuresII/NodoUsuario.h
+ /media/hugo/lentuchon/Documentos/estructurasII/dataStructuresII/NodoVenta.h
+ /media/hugo/lentuchon/Documentos/estructurasII/dataStructuresII/OrdenCompra.h
+ /media/hugo/lentuchon/Documentos/estructurasII/dataStructuresII/Usuario.h
+ /media/hugo/lentuchon/Documentos/estructurasII/dataStructuresII/Venta.h
+ /media/hugo/lentuchon/Documentos/estructurasII/dataStructuresII/listProd.h
+ /media/hugo/lentuchon/Documentos/estructurasII/dataStructuresII/listProv.h
+ /media/hugo/lentuchon/Documentos/estructurasII/dataStructuresII/menuProd.h
+ /media/hugo/lentuchon/Documentos/estructurasII/dataStructuresII/menuProv.h
+ /media/hugo/lentuchon/Documentos/estructurasII/dataStructuresII/nodeProd.h
+ /media/hugo/lentuchon/Documentos/estructurasII/dataStructuresII/nodoProv.h
+ /media/hugo/lentuchon/Documentos/estructurasII/dataStructuresII/producto.h
+ /media/hugo/lentuchon/Documentos/estructurasII/dataStructuresII/proveedores.h
 CMakeFiles/entregable1.dir/MenuVenta.cpp.o
  /media/hugo/lentuchon/Documentos/estructurasII/dataStructuresII/Cliente.h
  /media/hugo/lentuchon/Documentos/estructurasII/dataStructuresII/Empleado.h
@@ -506,18 +571,22 @@ CMakeFiles/entregable1.dir/main.cpp.o
  /media/hugo/lentuchon/Documentos/estructurasII/dataStructuresII/ListaFacturas.h
  /media/hugo/lentuchon/Documentos/estructurasII/dataStructuresII/ListaInvertida.h
  /media/hugo/lentuchon/Documentos/estructurasII/dataStructuresII/ListaOrdenCompra.h
+ /media/hugo/lentuchon/Documentos/estructurasII/dataStructuresII/ListaUsuarios.h
  /media/hugo/lentuchon/Documentos/estructurasII/dataStructuresII/ListaVentas.h
  /media/hugo/lentuchon/Documentos/estructurasII/dataStructuresII/MenuClientes.h
  /media/hugo/lentuchon/Documentos/estructurasII/dataStructuresII/MenuEmpleados.h
  /media/hugo/lentuchon/Documentos/estructurasII/dataStructuresII/MenuFacturas.h
  /media/hugo/lentuchon/Documentos/estructurasII/dataStructuresII/MenuOrdenCompra.h
+ /media/hugo/lentuchon/Documentos/estructurasII/dataStructuresII/MenuUsuarios.h
  /media/hugo/lentuchon/Documentos/estructurasII/dataStructuresII/MenuVenta.h
  /media/hugo/lentuchon/Documentos/estructurasII/dataStructuresII/NodoCliente.h
  /media/hugo/lentuchon/Documentos/estructurasII/dataStructuresII/NodoFactura.h
  /media/hugo/lentuchon/Documentos/estructurasII/dataStructuresII/NodoInv.h
  /media/hugo/lentuchon/Documentos/estructurasII/dataStructuresII/NodoOrdenCompra.h
+ /media/hugo/lentuchon/Documentos/estructurasII/dataStructuresII/NodoUsuario.h
  /media/hugo/lentuchon/Documentos/estructurasII/dataStructuresII/NodoVenta.h
  /media/hugo/lentuchon/Documentos/estructurasII/dataStructuresII/OrdenCompra.h
+ /media/hugo/lentuchon/Documentos/estructurasII/dataStructuresII/Usuario.h
  /media/hugo/lentuchon/Documentos/estructurasII/dataStructuresII/Venta.h
  /media/hugo/lentuchon/Documentos/estructurasII/dataStructuresII/listProd.h
  /media/hugo/lentuchon/Documentos/estructurasII/dataStructuresII/listProv.h
