@@ -13,6 +13,7 @@ file(REMOVE_RECURSE
   "CMakeFiles/entregable1.dir/MenuEmpleados.cpp.o"
   "CMakeFiles/entregable1.dir/MenuFacturas.cpp.o"
   "CMakeFiles/entregable1.dir/MenuOrdenCompra.cpp.o"
+  "CMakeFiles/entregable1.dir/MenuUsuarios.cpp.o"
   "CMakeFiles/entregable1.dir/MenuVenta.cpp.o"
   "CMakeFiles/entregable1.dir/NodoCliente.cpp.o"
   "CMakeFiles/entregable1.dir/NodoEmpleados.cpp.o"

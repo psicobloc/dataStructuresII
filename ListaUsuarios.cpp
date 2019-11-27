@@ -126,7 +126,7 @@ NodoUsuario *ListaUsuarios::findData(Usuario &u)
 
     while (auxNode != header)
     {
-        if (auxNode->getData().getName() == u.getName() and auxNode->getData().getTipoUsuario() == u.getTipoUsuario())
+        if (auxNode->getData().getName() == u.getName())
         {
             return auxNode;
         }
@@ -134,7 +134,7 @@ NodoUsuario *ListaUsuarios::findData(Usuario &u)
         auxNode = auxNode->getNext();
     }
 
-    return nullptr;//**cuando llegue al final, cuando regrese a header, podriamos hacerlo con do_while
+    return nullptr;
 }
 
 Usuario &ListaUsuarios::retrieve(NodoUsuario *node)
